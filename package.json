@@ -1,0 +1,28 @@
+{
+  "name": "mgnlq_er",
+  "version": "0.0.1",
+  "description": "sample mongoose mock data",
+  "main": "js/index.js",
+  "typings": "js/index",
+  "scripts": {
+    "build": "gulp && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfseb/mgnlq_testmodel_replay.git"
+  },
+  "keywords": [
+    "mongoose_record_replay",
+    "mgnlq_testmodel"
+  ],
+  "author": "jfsebpublic@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jfseb/mgnlq_testmodel_replay/issues"
+  },
+  "homepage": "https://github.com/jfseb/mgnlq_testmodel_replay#readme",
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}

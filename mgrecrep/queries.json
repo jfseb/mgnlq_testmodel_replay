@@ -1,0 +1,3377 @@
+{
+  "a5f707501274e5729c7b0c33b062e4fe": {
+    "op": "distinct",
+    "name": "mongonlq_eschema",
+    "digest": "a5f707501274e5729c7b0c33b062e4fe",
+    "query": "modelname",
+    "res": [
+      "metamodels",
+      "iupacs",
+      "philoelements",
+      "cosmos",
+      "r3trans",
+      "fioriapps",
+      "sobj_tables",
+      "fioribecatalogs"
+    ]
+  },
+  "5acf1b3cf98cbf4d7c244406291f97ce": {
+    "op": "find",
+    "name": "mongonlq_eschema",
+    "digest": "5acf1b3cf98cbf4d7c244406291f97ce",
+    "query": {
+      "modelname": "metamodels"
+    },
+    "res": [
+      {
+        "_id": "5925e323d3f66454a8cb6dff",
+        "modelname": "metamodels",
+        "__v": 0,
+        "domain": "metamodel",
+        "mongoosemodelname": "metamodel",
+        "collectionname": "metamodels",
+        "props": {
+          "_categories": [
+            {
+              "QBEColumnProps": {
+                "LUNRIndex": {
+                  "_m_category": "LUNRIndex",
+                  "type": "Boolean"
+                },
+                "QBEInclude": {
+                  "_m_category": "QBEInclude",
+                  "type": "Boolean"
+                },
+                "QBE": {
+                  "_m_category": "QBE",
+                  "type": "Boolean"
+                },
+                "defaultWidth": {
+                  "_m_category": "defaultWidth",
+                  "type": "Number"
+                }
+              },
+              "category_synonyms": [
+                {
+                  "_m_category": "category synonyms",
+                  "trim": true,
+                  "type": "String"
+                }
+              ],
+              "hidden": {
+                "_m_category": "hidden",
+                "type": "Boolean"
+              },
+              "exactmatch": {
+                "_m_category": "exactmatch",
+                "type": "Boolean"
+              },
+              "wordindex": {
+                "_m_category": "wordindex",
+                "type": "Boolean"
+              },
+              "category_description": {
+                "_m_category": "category description",
+                "trim": true,
+                "type": "String"
+              },
+              "category": {
+                "_m_category": "category",
+                "trim": true,
+                "type": "String"
+              }
+            }
+          ],
+          "columns": [
+            {
+              "_m_category": "columns",
+              "trim": true,
+              "type": "String"
+            }
+          ],
+          "domain_synonyms": [
+            {
+              "_m_category": "domain synonyms",
+              "trim": true,
+              "type": "String"
+            }
+          ],
+          "domain_description": {
+            "index": true,
+            "_m_category": "domain description",
+            "required": true,
+            "trim": true,
+            "type": "String"
+          },
+          "uri": {
+            "_m_category": "uri",
+            "trim": true,
+            "type": "String"
+          },
+          "domain": {
+            "_m_category": "domain",
+            "trim": true,
+            "type": "String"
+          },
+          "collectionname": {
+            "_m_category": "collectionname",
+            "trim": true,
+            "type": "String"
+          },
+          "mongoosemodelname": {
+            "_m_category": "mongoosemodelname",
+            "trim": true,
+            "type": "String"
+          },
+          "modelname": {
+            "_m_category": "modelname",
+            "required": true,
+            "trim": true,
+            "type": "String"
+          }
+        },
+        "index": {
+          "category": "text",
+          "domain": "text",
+          "domain_description": "text",
+          "domain_synonyms": "text",
+          "category_synonym": "text"
+        }
+      }
+    ]
+  },
+  "b0d0ab7f70f8306bc9e9888123cecef0": {
+    "op": "find",
+    "name": "mongonlq_eschema",
+    "digest": "b0d0ab7f70f8306bc9e9888123cecef0",
+    "query": {
+      "modelname": "cosmos"
+    },
+    "res": [
+      {
+        "_id": "59289d80d3f66454a8cb6f58",
+        "modelname": "cosmos",
+        "__v": 0,
+        "domain": "Cosmos",
+        "mongoosemodelname": "cosmo",
+        "collectionname": "cosmos",
+        "props": {
+          "albedo": {
+            "_m_category": "albedo",
+            "trim": true,
+            "type": "String"
+          },
+          "_synonyms": [
+            {
+              "synonyms": [
+                {
+                  "trim": true,
+                  "type": "String"
+                }
+              ],
+              "fact": {
+                "trim": true,
+                "type": "String"
+              },
+              "category": {
+                "trim": true,
+                "type": "String"
+              }
+            }
+          ],
+          "orbital_period": {
+            "_m_category": "orbital period",
+            "trim": true,
+            "type": "String"
+          },
+          "eccentricity": {
+            "_m_category": "eccentricity",
+            "trim": true,
+            "type": "String"
+          },
+          "orbit_radius": {
+            "_m_category": "orbit radius",
+            "trim": true,
+            "type": "String"
+          },
+          "_url": {
+            "_m_category": "_url",
+            "trim": true,
+            "type": "String"
+          },
+          "distance": {
+            "_m_category": "distance",
+            "trim": true,
+            "type": "String"
+          },
+          "orbits": {
+            "index": true,
+            "_m_category": "orbits",
+            "trim": true,
+            "type": "String"
+          },
+          "object_type": {
+            "index": true,
+            "_m_category": "object type",
+            "trim": true,
+            "type": "String"
+          },
+          "radius": {
+            "_m_category": "radius",
+            "trim": true,
+            "type": "String"
+          },
+          "mass": {
+            "_m_category": "mass",
+            "trim": true,
+            "type": "String"
+          },
+          "visual_luminosity": {
+            "_m_category": "visual luminosity",
+            "trim": true,
+            "type": "String"
+          },
+          "visual_magnitude": {
+            "_m_category": "visual magnitude",
+            "trim": true,
+            "type": "String"
+          },
+          "object_name": {
+            "index": true,
+            "_m_category": "object name",
+            "trim": true,
+            "type": "String"
+          }
+        },
+        "index": {
+          "orbits": "text",
+          "object_type": "text",
+          "object_name": "text"
+        }
+      }
+    ]
+  },
+  "cc9c441c8e8844731a474237e1a3ff27": {
+    "op": "find",
+    "name": "mongonlq_eschema",
+    "digest": "cc9c441c8e8844731a474237e1a3ff27",
+    "query": {
+      "modelname": "r3trans"
+    },
+    "res": [
+      {
+        "_id": "59289d80d3f66454a8cb6f59",
+        "modelname": "r3trans",
+        "__v": 0,
+        "domain": "SAP Transaction Codes",
+        "mongoosemodelname": "r3tran",
+        "collectionname": "r3trans",
+        "props": {
+          "transaction_description": {
+            "index": true,
+            "_m_category": "transaction description",
+            "trim": true,
+            "type": "String"
+          },
+          "client": {
+            "_m_category": "client",
+            "trim": true,
+            "type": "String"
+          },
+          "systemId": {
+            "_m_category": "systemId",
+            "trim": true,
+            "type": "String"
+          },
+          "devclass": {
+            "index": true,
+            "_m_category": "devclass",
+            "trim": true,
+            "type": "String"
+          },
+          "tcode": {
+            "index": true,
+            "_m_category": "tcode",
+            "trim": true,
+            "type": "String"
+          }
+        },
+        "index": {
+          "devclass": "text",
+          "tcode": "text",
+          "transaction_description": "text"
+        }
+      }
+    ]
+  },
+  "492f30d4126b3812302a4a06be3e23bc": {
+    "op": "find",
+    "name": "mongonlq_eschema",
+    "digest": "492f30d4126b3812302a4a06be3e23bc",
+    "query": {
+      "modelname": "fioriapps"
+    },
+    "res": [
+      {
+        "_id": "59289d80d3f66454a8cb6f5a",
+        "modelname": "fioriapps",
+        "__v": 0,
+        "domain": "FioriBOM",
+        "mongoosemodelname": "fioriapp",
+        "collectionname": "fioriapps",
+        "props": {
+          "ExternalReleaseName": {
+            "index": true,
+            "_m_category": "ExternalReleaseName",
+            "trim": true,
+            "type": "String"
+          },
+          "PrimaryODataPFCGRole": {
+            "index": true,
+            "_m_category": "PrimaryODataPFCGRole",
+            "trim": true,
+            "type": "String"
+          },
+          "LPDCustInstance": {
+            "index": true,
+            "_m_category": "LPDCustInstance",
+            "trim": true,
+            "type": "String"
+          },
+          "URLParameters": {
+            "_m_category": "URLParameters",
+            "trim": true,
+            "type": "String"
+          },
+          "TransactionCode": {
+            "index": true,
+            "_m_category": "TransactionCode",
+            "trim": true,
+            "type": "String"
+          },
+          "FrontendSoftwareComponent": {
+            "index": true,
+            "_m_category": "FrontendSoftwareComponent",
+            "trim": true,
+            "type": "String"
+          },
+          "SemanticAction": {
+            "index": true,
+            "_m_category": "SemanticAction",
+            "trim": true,
+            "type": "String"
+          },
+          "SemanticObject": {
+            "index": true,
+            "_m_category": "SemanticObject",
+            "trim": true,
+            "type": "String"
+          },
+          "PrimaryODataServiceName": {
+            "index": true,
+            "_m_category": "PrimaryODataServiceName",
+            "trim": true,
+            "type": "String"
+          },
+          "BusinessGroupDescription": {
+            "index": true,
+            "_m_category": "BusinessGroupDescription",
+            "trim": true,
+            "type": "String"
+          },
+          "BusinessGroupName": {
+            "index": true,
+            "_m_category": "BusinessGroupName",
+            "trim": true,
+            "type": "String"
+          },
+          "BusinessRoleName": {
+            "index": true,
+            "_m_category": "BusinessRoleName",
+            "trim": true,
+            "type": "String"
+          },
+          "AppDocumentationLinkKW": {
+            "_m_category": "AppDocumentationLinkKW",
+            "trim": true,
+            "type": "String"
+          },
+          "BSPPackage": {
+            "index": true,
+            "_m_category": "BSPPackage",
+            "trim": true,
+            "type": "String"
+          },
+          "isPublished": {
+            "_m_category": "isPublished",
+            "trim": true,
+            "type": "String"
+          },
+          "detailsurl": {
+            "_m_category": "detailsurl",
+            "trim": true,
+            "type": "String"
+          },
+          "TechnicalCatalog": {
+            "index": true,
+            "_m_category": "TechnicalCatalog",
+            "trim": true,
+            "type": "String"
+          },
+          "BusinessCatalog": {
+            "index": true,
+            "_m_category": "BusinessCatalog",
+            "trim": true,
+            "type": "String"
+          },
+          "releaseId": {
+            "index": true,
+            "_m_category": "releaseId",
+            "trim": true,
+            "type": "String"
+          },
+          "releaseName": {
+            "index": true,
+            "_m_category": "releaseName",
+            "trim": true,
+            "type": "String"
+          },
+          "BSPApplicationURL": {
+            "index": true,
+            "_m_category": "BSPApplicationURL",
+            "trim": true,
+            "type": "String"
+          },
+          "BSPName": {
+            "index": true,
+            "_m_category": "BSPName",
+            "trim": true,
+            "type": "String"
+          },
+          "ApplicationType": {
+            "index": true,
+            "_m_category": "ApplicationType",
+            "trim": true,
+            "type": "String"
+          },
+          "RoleName": {
+            "index": true,
+            "_m_category": "RoleName",
+            "trim": true,
+            "type": "String"
+          },
+          "ApplicationComponent": {
+            "index": true,
+            "_m_category": "ApplicationComponent",
+            "trim": true,
+            "type": "String"
+          },
+          "AppName": {
+            "index": true,
+            "_m_category": "AppName",
+            "trim": true,
+            "type": "String"
+          },
+          "UITechnology": {
+            "index": true,
+            "_m_category": "UITechnology",
+            "trim": true,
+            "type": "String"
+          },
+          "fiori_intent": {
+            "index": true,
+            "_m_category": "fiori intent",
+            "trim": true,
+            "type": "String"
+          },
+          "appId": {
+            "index": true,
+            "_m_category": "appId",
+            "trim": true,
+            "type": "String"
+          },
+          "ArtifactId": {
+            "index": true,
+            "_m_category": "ArtifactId",
+            "trim": true,
+            "type": "String"
+          },
+          "AppKey": {
+            "index": true,
+            "_m_category": "AppKey",
+            "trim": true,
+            "type": "String"
+          },
+          "uri": {
+            "_m_category": "uri",
+            "trim": true,
+            "type": "String"
+          }
+        },
+        "index": {
+          "SemanticAction": "text",
+          "SemanticObject": "text",
+          "BusinessGroupDescription": "text",
+          "BSPApplicationURL": "text",
+          "AppName": "text",
+          "fiori_intent": "text",
+          "ArtifactId": "text"
+        }
+      }
+    ]
+  },
+  "925ae09be2c3a6e2475626f6f38ab58d": {
+    "op": "find",
+    "name": "mongonlq_eschema",
+    "digest": "925ae09be2c3a6e2475626f6f38ab58d",
+    "query": {
+      "modelname": "sobj_tables"
+    },
+    "res": [
+      {
+        "_id": "59289d80d3f66454a8cb6f5b",
+        "modelname": "sobj_tables",
+        "__v": 0,
+        "domain": "SOBJ Tables",
+        "mongoosemodelname": "sobj_table",
+        "collectionname": "sobj_tables",
+        "props": {
+          "_tables": [
+            {
+              "PrimaryTable": {
+                "index": true,
+                "_m_category": "PrimaryTable",
+                "trim": true,
+                "type": "Boolean"
+              },
+              "TableTransportKeySpec": {
+                "_m_category": "TableTransportKeySpec",
+                "trim": true,
+                "type": "String"
+              },
+              "Table": {
+                "index": true,
+                "_m_category": "Table",
+                "trim": true,
+                "required": true,
+                "type": "String"
+              }
+            }
+          ],
+          "Type": {
+            "_m_category": "Type",
+            "trim": true,
+            "type": "String"
+          },
+          "TranslationRelevant": {
+            "index": true,
+            "_m_category": "TranslationRelevant",
+            "trim": true,
+            "type": "Boolean"
+          },
+          "Category": {
+            "_m_category": "Category",
+            "trim": true,
+            "type": "String"
+          },
+          "Object_name_length": {
+            "_m_category": "Object name length",
+            "trim": true,
+            "type": "Number"
+          },
+          "clientSpecific": {
+            "index": true,
+            "_m_category": "clientSpecific",
+            "trim": true,
+            "type": "Boolean"
+          },
+          "Shorttext": {
+            "_m_category": "Shorttext",
+            "trim": true,
+            "type": "String"
+          },
+          "TransportObject": {
+            "index": true,
+            "_m_category": "TransportObject",
+            "required": true,
+            "trim": true,
+            "type": "String"
+          },
+          "recordKey": {
+            "_m_category": "recordKey",
+            "trim": true,
+            "type": "String"
+          }
+        },
+        "index": {}
+      }
+    ]
+  },
+  "713215d535de1c60c453af054572f544": {
+    "op": "find",
+    "name": "mongonlq_eschema",
+    "digest": "713215d535de1c60c453af054572f544",
+    "query": {
+      "modelname": "iupacs"
+    },
+    "res": [
+      {
+        "_id": "59289d80d3f66454a8cb6f56",
+        "modelname": "iupacs",
+        "__v": 0,
+        "domain": "IUPAC",
+        "mongoosemodelname": "iupac",
+        "collectionname": "iupacs",
+        "props": {
+          "_synonyms": [
+            {
+              "synonyms": [
+                {
+                  "index": false,
+                  "trim": true,
+                  "type": "String"
+                }
+              ],
+              "fact": {
+                "index": false,
+                "trim": true,
+                "type": "String"
+              },
+              "category": {
+                "index": false,
+                "trim": true,
+                "type": "String"
+              }
+            }
+          ],
+          "element_number": {
+            "index": true,
+            "_m_category": "element number",
+            "trim": true,
+            "type": "String"
+          },
+          "atomic_weight": {
+            "_m_category": "atomic weight",
+            "trim": true,
+            "type": "String"
+          },
+          "element_symbol": {
+            "index": true,
+            "_m_category": "element symbol",
+            "trim": true,
+            "type": "String"
+          },
+          "element_name": {
+            "index": true,
+            "_m_category": "element name",
+            "trim": true,
+            "type": "String"
+          }
+        },
+        "index": {
+          "element_number": "text",
+          "element_name": "text"
+        }
+      }
+    ]
+  },
+  "a8a59b0b9d96b1ad648b8a64f6d54095": {
+    "op": "find",
+    "name": "mongonlq_eschema",
+    "digest": "a8a59b0b9d96b1ad648b8a64f6d54095",
+    "query": {
+      "modelname": "philoelements"
+    },
+    "res": [
+      {
+        "_id": "59289d80d3f66454a8cb6f57",
+        "modelname": "philoelements",
+        "__v": 0,
+        "domain": "Philosophers elements",
+        "mongoosemodelname": "philoelement",
+        "collectionname": "philoelements",
+        "props": {
+          "element_properties": {
+            "_m_category": "element properties",
+            "trim": true,
+            "type": "String"
+          },
+          "element_name": {
+            "index": true,
+            "_m_category": "element name",
+            "trim": true,
+            "type": "String"
+          }
+        },
+        "index": {
+          "element_name": "text"
+        }
+      }
+    ]
+  },
+  "e8b46dba68d40eeefa7f645f113ea244": {
+    "op": "find",
+    "name": "mongonlq_eschema",
+    "digest": "e8b46dba68d40eeefa7f645f113ea244",
+    "query": {
+      "modelname": "fioribecatalogs"
+    },
+    "res": [
+      {
+        "_id": "59289d80d3f66454a8cb6f5c",
+        "modelname": "fioribecatalogs",
+        "__v": 0,
+        "domain": "Fiori Backend Catalogs",
+        "mongoosemodelname": "fioribecatalog",
+        "collectionname": "fioribecatalogs",
+        "props": {
+          "TransactionCode": {
+            "index": true,
+            "_m_category": "TransactionCode",
+            "trim": true,
+            "type": "String"
+          },
+          "SoftwareComponent": {
+            "_m_category": "SoftwareComponent",
+            "trim": true,
+            "type": "String"
+          },
+          "Title": {
+            "index": false,
+            "_m_category": "Title",
+            "trim": true,
+            "type": "String"
+          },
+          "objectkey": {
+            "index": false,
+            "_m_category": "objectkey",
+            "trim": true,
+            "type": "String"
+          },
+          "Tile_keywords": {
+            "index": false,
+            "_m_category": "Tile keywords",
+            "trim": true,
+            "type": "String"
+          },
+          "SemanticAction": {
+            "index": true,
+            "_m_category": "SemanticAction",
+            "trim": true,
+            "type": "String"
+          },
+          "SemanticObject": {
+            "index": true,
+            "_m_category": "SemanticObject",
+            "trim": true,
+            "type": "String"
+          },
+          "BusinessCatalog": {
+            "_m_category": "BusinessCatalog",
+            "trim": true,
+            "type": "String"
+          },
+          "TechnicalCatalogSystemAlias": {
+            "_m_category": "TechnicalCatalogSystemAlias",
+            "trim": true,
+            "type": "String"
+          },
+          "BackendCatalogId": {
+            "index": true,
+            "_m_category": "BackendCatalogId",
+            "trim": true,
+            "type": "String"
+          },
+          "devclass": {
+            "index": true,
+            "_m_category": "devclass",
+            "trim": true,
+            "type": "String"
+          },
+          "WebDynproApplication": {
+            "index": true,
+            "_m_category": "WebDynproApplication",
+            "trim": true,
+            "type": "String"
+          },
+          "ApplicationComponent": {
+            "index": true,
+            "_m_category": "ApplicationComponent",
+            "trim": true,
+            "type": "String"
+          },
+          "fiori_intent": {
+            "index": true,
+            "_m_category": "fiori intent",
+            "trim": true,
+            "type": "String"
+          }
+        },
+        "index": {
+          "BackendCatalogId": "text",
+          "ApplicationComponent": "text",
+          "fiori_intent": "text",
+          "SemanticAction": "text",
+          "SemanticObject": "text",
+          "WebDynproApplication": "text"
+        }
+      }
+    ]
+  },
+  "728c7c6bdb68907102237fc5a6ddff44": {
+    "op": "find",
+    "name": "metamodel",
+    "digest": "728c7c6bdb68907102237fc5a6ddff44",
+    "query": {
+      "modelname": "philoelements"
+    },
+    "res": [
+      {
+        "_id": "5925e323d3f66454a8cb6e03",
+        "modelname": "philoelements",
+        "__v": 0,
+        "domain": "Philosophers elements",
+        "domain_description": "Philosophical elements, a trivial model to create some ambiguities, notably \"earth\", which is also a key of the domain cosmos",
+        "_categories": [
+          {
+            "wordindex": true,
+            "category_description": "name of the philosophical element",
+            "category": "element name",
+            "_id": "59289d809f1ae34670303e7b",
+            "category_synonyms": [
+              "name"
+            ]
+          },
+          {
+            "category": "element properties",
+            "_id": "59289d809f1ae34670303e7a",
+            "category_synonyms": []
+          }
+        ],
+        "columns": []
+      }
+    ]
+  },
+  "1b98b7ff2defc4ea8f774c308773f222": {
+    "op": "find",
+    "name": "metamodel",
+    "digest": "1b98b7ff2defc4ea8f774c308773f222",
+    "query": {
+      "modelname": "fioriapps"
+    },
+    "res": [
+      {
+        "_id": "5925e323d3f66454a8cb6e0a",
+        "modelname": "fioriapps",
+        "__v": 0,
+        "domain": "FioriBOM",
+        "domain_description": "Information about Fiori apps with links to the Fiori Reference apps library",
+        "_categories": [
+          {
+            "category_description": "link to fiori app reference library",
+            "category": "uri",
+            "_id": "59289d809f1ae34670303eac",
+            "QBEColumnProps": {
+              "QBEInclude": true
+            },
+            "category_synonyms": []
+          },
+          {
+            "exactmatch": true,
+            "category_description": "a technical key, combination of appId and releaseId",
+            "category": "AppKey",
+            "_id": "59289d809f1ae34670303eab",
+            "QBEColumnProps": {
+              "QBE": true
+            },
+            "category_synonyms": []
+          },
+          {
+            "wordindex": true,
+            "category_description": "for UI5 based applications, name of the UI5 Component, e.g. \"ui.s2p.mm.supconf.monitors1\".",
+            "category": "ArtifactId",
+            "_id": "59289d809f1ae34670303eaa",
+            "QBEColumnProps": {
+              "LUNRIndex": true,
+              "QBE": true
+            },
+            "category_synonyms": [
+              "component name",
+              "ui5 component name",
+              "library name",
+              "javascript name",
+              "javascript id",
+              "manifest id",
+              "appdescriptor id"
+            ]
+          },
+          {
+            "wordindex": true,
+            "category_description": "the Fiori appId, note that multiple records exists, as the same ID may change over time with verions",
+            "category": "appId",
+            "_id": "59289d809f1ae34670303ea9",
+            "QBEColumnProps": {
+              "LUNRIndex": true,
+              "QBE": true,
+              "defaultWidth": 80
+            },
+            "category_synonyms": []
+          },
+          {
+            "wordindex": true,
+            "category_description": "A combination of \"#\" <SemanticObject> - <Semanticaction> which appears in the URL of the Fiori Launchpad when addressing the application",
+            "category": "fiori intent",
+            "_id": "59289d809f1ae34670303ea8",
+            "QBEColumnProps": {
+              "LUNRIndex": true,
+              "QBE": true,
+              "defaultWidth": 180
+            },
+            "category_synonyms": [
+              "fiori intents",
+              "intents",
+              "intent"
+            ]
+          },
+          {
+            "wordindex": true,
+            "category_description": "Human legible Application name",
+            "category": "AppName",
+            "_id": "59289d809f1ae34670303ea7",
+            "QBEColumnProps": {
+              "LUNRIndex": true,
+              "QBE": true,
+              "defaultWidth": 200
+            },
+            "category_synonyms": [
+              "Fiori App"
+            ]
+          },
+          {
+            "exactmatch": true,
+            "wordindex": true,
+            "category_description": "Support component for the Frontend application, typically",
+            "category": "ApplicationComponent",
+            "_id": "59289d809f1ae34670303ea6",
+            "QBEColumnProps": {
+              "LUNRIndex": true,
+              "QBE": true,
+              "defaultWidth": 100
+            },
+            "category_synonyms": [
+              "Application Component",
+              "Application components",
+              "ApplicationComponents",
+              "Support Component",
+              "Component"
+            ]
+          },
+          {
+            "exactmatch": true,
+            "wordindex": true,
+            "category_description": "A business role name, e.g. \"Purchaser\", for a technical role (PFCG), try BusinessRoleName",
+            "category": "RoleName",
+            "_id": "59289d809f1ae34670303ea5",
+            "QBEColumnProps": {
+              "LUNRIndex": true,
+              "QBE": true
+            },
+            "category_synonyms": [
+              "Role Name",
+              "PFCG Role"
+            ]
+          },
+          {
+            "exactmatch": true,
+            "wordindex": true,
+            "category_description": "Whether the application is classical or not",
+            "category": "ApplicationType",
+            "_id": "59289d809f1ae34670303ea4",
+            "QBEColumnProps": {
+              "LUNRIndex": true,
+              "QBE": true,
+              "defaultWidth": 100
+            },
+            "category_synonyms": []
+          },
+          {
+            "exactmatch": true,
+            "wordindex": true,
+            "category_description": "Name of the Business Server Page",
+            "category": "BSPName",
+            "_id": "59289d809f1ae34670303ea3",
+            "QBEColumnProps": {
+              "LUNRIndex": true,
+              "QBE": true
+            },
+            "category_synonyms": [
+              "BSP",
+              "BSP Name",
+              "BSP repository"
+            ]
+          },
+          {
+            "wordindex": true,
+            "category_description": "url of the BSP application in an ABAP system, see BSP name for the technical storage  /sab/bc/ui5_ui5/..",
+            "category": "BSPApplicationURL",
+            "_id": "59289d809f1ae34670303ea2",
+            "QBEColumnProps": {
+              "LUNRIndex": true,
+              "QBE": true
+            },
+            "category_synonyms": [
+              "BSP Path",
+              "BSP Url",
+              "BSP Urls",
+              "Resource Path"
+            ]
+          },
+          {
+            "exactmatch": true,
+            "wordindex": true,
+            "category_description": "release name",
+            "category": "releaseName",
+            "_id": "59289d809f1ae34670303ea1",
+            "QBEColumnProps": {
+              "LUNRIndex": true,
+              "QBE": true
+            },
+            "category_synonyms": []
+          },
+          {
+            "exactmatch": true,
+            "wordindex": true,
+            "category": "releaseId",
+            "_id": "59289d809f1ae34670303ea0",
+            "category_synonyms": []
+          },
+          {
+            "exactmatch": true,
+            "wordindex": true,
+            "category_description": "The SAP Business catalog which references the application in a \"TechnicalCatalog\" or \"BackendCatalog\" (for GUI/WDA transactions",
+            "category": "BusinessCatalog",
+            "_id": "59289d809f1ae34670303e9f",
+            "QBEColumnProps": {
+              "LUNRIndex": true
+            },
+            "category_synonyms": []
+          },
+          {
+            "exactmatch": true,
+            "wordindex": true,
+            "category_description": "Technical catalog, basic definition of \"TargetMapping\" and \"Tile\" for fiori (UI5) Applications",
+            "category": "TechnicalCatalog",
+            "_id": "59289d809f1ae34670303e9e",
+            "QBEColumnProps": {
+              "LUNRIndex": true
+            },
+            "category_synonyms": []
+          },
+          {
+            "hidden": true,
+            "category": "detailsurl",
+            "_id": "59289d809f1ae34670303e9d",
+            "category_synonyms": []
+          },
+          {
+            "category": "isPublished",
+            "_id": "59289d809f1ae34670303e9c",
+            "category_synonyms": []
+          },
+          {
+            "exactmatch": true,
+            "wordindex": true,
+            "category_description": "Package (DevClass) of the BSP Application",
+            "category": "BSPPackage",
+            "_id": "59289d809f1ae34670303e9b",
+            "QBEColumnProps": {
+              "LUNRIndex": true,
+              "QBE": true
+            },
+            "category_synonyms": []
+          },
+          {
+            "category": "AppDocumentationLinkKW",
+            "_id": "59289d809f1ae34670303e9a",
+            "category_synonyms": []
+          },
+          {
+            "exactmatch": true,
+            "wordindex": true,
+            "category_description": "Package (DevClass) of the BSP Application",
+            "category": "BusinessRoleName",
+            "_id": "59289d809f1ae34670303e99",
+            "QBEColumnProps": {
+              "LUNRIndex": true,
+              "QBE": true
+            },
+            "category_synonyms": [
+              "Business Role Name",
+              "Backend PFCG Role"
+            ]
+          },
+          {
+            "exactmatch": true,
+            "wordindex": true,
+            "category_description": "Package (DevClass) of the BSP Application",
+            "category": "BusinessGroupName",
+            "_id": "59289d809f1ae34670303e98",
+            "QBEColumnProps": {
+              "LUNRIndex": true,
+              "QBE": true
+            },
+            "category_synonyms": []
+          },
+          {
+            "wordindex": true,
+            "category": "BusinessGroupDescription",
+            "_id": "59289d809f1ae34670303e97",
+            "category_synonyms": []
+          },
+          {
+            "exactmatch": true,
+            "wordindex": true,
+            "category_description": "OData service : Technical name of the OData Service operating on a Gateway server (and implemented in the R/3 Backend) serving data for UI5 based Fiori Apps",
+            "category": "PrimaryODataServiceName",
+            "_id": "59289d809f1ae34670303e96",
+            "QBEColumnProps": {
+              "LUNRIndex": true,
+              "QBE": true
+            },
+            "category_synonyms": [
+              "ODataService",
+              "Primary OData Service",
+              "OData Service Name",
+              "OData Service"
+            ]
+          },
+          {
+            "wordindex": true,
+            "category_description": "The first part of the \"fiori intent\", identifying the Business entity, e.g. \"SalesOrder\",\"GLAcount\" used for generic navigation",
+            "category": "SemanticObject",
+            "_id": "59289d809f1ae34670303e95",
+            "QBEColumnProps": {
+              "LUNRIndex": true,
+              "QBE": true,
+              "defaultWidth": 100
+            },
+            "category_synonyms": [
+              "Semantic Object"
+            ]
+          },
+          {
+            "wordindex": true,
+            "category_description": "The second part of the \"fiori intent\", identifying the action, e.g. \"maintain\", \"create\"",
+            "category": "SemanticAction",
+            "_id": "59289d809f1ae34670303e94",
+            "QBEColumnProps": {
+              "LUNRIndex": true,
+              "QBE": true
+            },
+            "category_synonyms": [
+              "Semantic Action"
+            ]
+          },
+          {
+            "exactmatch": true,
+            "wordindex": true,
+            "category_description": "Frontend Software Component",
+            "category": "FrontendSoftwareComponent",
+            "_id": "59289d809f1ae34670303e93",
+            "QBEColumnProps": {
+              "LUNRIndex": true,
+              "QBE": true
+            },
+            "category_synonyms": []
+          },
+          {
+            "exactmatch": true,
+            "wordindex": true,
+            "category_description": "For GUI based transaction, the transaciton code behind intent, a classical R/3 SAPGUi transaction",
+            "category": "TransactionCode",
+            "_id": "59289d809f1ae34670303e92",
+            "QBEColumnProps": {
+              "LUNRIndex": true,
+              "QBE": true,
+              "defaultWidth": 80
+            },
+            "category_synonyms": [
+              "Transactions",
+              "TransactionCode",
+              "TransactionCodes"
+            ]
+          },
+          {
+            "category": "URLParameters",
+            "_id": "59289d809f1ae34670303e91",
+            "category_synonyms": []
+          },
+          {
+            "exactmatch": true,
+            "wordindex": true,
+            "category": "LPDCustInstance",
+            "_id": "59289d809f1ae34670303e90",
+            "category_synonyms": []
+          },
+          {
+            "exactmatch": true,
+            "wordindex": true,
+            "category": "PrimaryODataPFCGRole",
+            "_id": "59289d809f1ae34670303e8f",
+            "category_synonyms": []
+          },
+          {
+            "exactmatch": true,
+            "wordindex": true,
+            "category_description": "External Release name",
+            "category": "ExternalReleaseName",
+            "_id": "59289d809f1ae34670303e8e",
+            "QBEColumnProps": {
+              "LUNRIndex": true,
+              "QBE": true
+            },
+            "category_synonyms": []
+          }
+        ],
+        "columns": [
+          "AppKey",
+          "ArtifactId",
+          "appId",
+          "fiori intent",
+          "AppName",
+          "ApplicationComponent",
+          "RoleName",
+          "ApplicationType",
+          "BSPName",
+          "BSPApplicationURL",
+          "releaseName",
+          "BSPPackage",
+          "BusinessRoleName",
+          "BusinessGroupName",
+          "PrimaryODataServiceName",
+          "SemanticObject",
+          "SemanticAction",
+          "FrontendSoftwareComponent",
+          "TransactionCode",
+          "ExternalReleaseName",
+          "BusinessCatalog",
+          "TechnicalCatalog"
+        ],
+        "domain_synonyms": [
+          "fiori bom"
+        ]
+      }
+    ]
+  },
+  "ff10cfa8b98d1feddd2322872ad8f4c2": {
+    "op": "find",
+    "name": "metamodel",
+    "digest": "ff10cfa8b98d1feddd2322872ad8f4c2",
+    "query": {
+      "modelname": "metamodels"
+    },
+    "res": [
+      {
+        "_id": "5925e323d3f66454a8cb6e00",
+        "modelname": "metamodels",
+        "__v": 0,
+        "collectionname": "metamodels",
+        "mongoosemodelname": "metamodel",
+        "domain": "metamodel",
+        "domain_description": "metamodel",
+        "_categories": [
+          {
+            "exactmatch": false,
+            "wordindex": false,
+            "category_description": "link to domain description",
+            "category": "uri",
+            "_id": "59289d7f9f1ae34670303e75",
+            "QBEColumnProps": {
+              "QBE": true
+            },
+            "category_synonyms": []
+          },
+          {
+            "exactmatch": false,
+            "wordindex": true,
+            "category_description": "a technical key, combination of appId and releaseId",
+            "category": "domain",
+            "_id": "59289d7f9f1ae34670303e74",
+            "QBEColumnProps": {
+              "LUNRIndex": true,
+              "QBE": true
+            },
+            "category_synonyms": []
+          },
+          {
+            "exactmatch": true,
+            "category_description": "a technical key, combination of appId and releaseId",
+            "category": "domain description",
+            "_id": "59289d7f9f1ae34670303e73",
+            "QBEColumnProps": {
+              "QBE": true
+            },
+            "category_synonyms": []
+          },
+          {
+            "wordindex": true,
+            "category_description": "Object property",
+            "category": "category",
+            "_id": "59289d7f9f1ae34670303e72",
+            "QBEColumnProps": {
+              "LUNRIndex": true,
+              "QBE": true
+            },
+            "category_synonyms": []
+          },
+          {
+            "category_description": "Description of the category",
+            "category": "category description",
+            "_id": "59289d7f9f1ae34670303e71",
+            "category_synonyms": []
+          },
+          {
+            "category_description": "whether to include the category in QBE tables",
+            "category": "QBE",
+            "_id": "59289d7f9f1ae34670303e70",
+            "category_synonyms": []
+          },
+          {
+            "category_description": "whether to include the category in a LUNR Index",
+            "category": "LUNRIndex",
+            "_id": "59289d7f9f1ae34670303e6f",
+            "category_synonyms": []
+          },
+          {
+            "category_description": "whether to include the category in a LUNR Index",
+            "category": "wordindex",
+            "_id": "59289d7f9f1ae34670303e6e",
+            "category_synonyms": []
+          },
+          {
+            "category_description": "whether a match on a given value has to be precise",
+            "category": "exactmatch",
+            "_id": "59289d7f9f1ae34670303e6d",
+            "category_synonyms": []
+          },
+          {
+            "category_description": "synonyms for the category",
+            "category": "category synonyms",
+            "_id": "59289d7f9f1ae34670303e6c",
+            "category_synonyms": []
+          },
+          {
+            "category_description": "the columns in order which are shon in a table",
+            "category": "columns",
+            "_id": "59289d7f9f1ae34670303e6b",
+            "category_synonyms": []
+          }
+        ],
+        "columns": [
+          "domain",
+          "category",
+          "exactmatch",
+          "domain description",
+          "category description"
+        ],
+        "domain_synonyms": [
+          "meta model"
+        ]
+      }
+    ]
+  },
+  "71211dac5f73e87e54077af95c2427c7": {
+    "op": "find",
+    "name": "metamodel",
+    "digest": "71211dac5f73e87e54077af95c2427c7",
+    "query": {
+      "modelname": "iupacs"
+    },
+    "res": [
+      {
+        "_id": "5925e323d3f66454a8cb6e01",
+        "modelname": "iupacs",
+        "__v": 0,
+        "domain": "IUPAC",
+        "_categories": [
+          {
+            "wordindex": true,
+            "category_description": "element name",
+            "category": "element name",
+            "_id": "59289d809f1ae34670303e79",
+            "QBEColumnProps": {
+              "LUNRIndex": true,
+              "QBE": true,
+              "defaultWidth": 120
+            },
+            "category_synonyms": [
+              "name"
+            ]
+          },
+          {
+            "wordindex": true,
+            "category_description": "element symbol",
+            "category": "element symbol",
+            "_id": "59289d809f1ae34670303e78",
+            "QBEColumnProps": {
+              "LUNRIndex": true,
+              "QBE": true,
+              "defaultWidth": 60
+            },
+            "category_synonyms": [
+              "symbol"
+            ]
+          },
+          {
+            "category_description": "weigth of the element",
+            "category": "atomic weight",
+            "_id": "59289d809f1ae34670303e77",
+            "QBEColumnProps": {
+              "QBE": true,
+              "defaultWidth": 80
+            },
+            "category_synonyms": [
+              "element weight"
+            ]
+          },
+          {
+            "wordindex": true,
+            "category_description": "weigth of the element",
+            "category": "element number",
+            "_id": "59289d809f1ae34670303e76",
+            "QBEColumnProps": {
+              "LUNRIndex": true,
+              "QBE": true,
+              "defaultWidth": 60
+            },
+            "category_synonyms": []
+          }
+        ],
+        "columns": [
+          "element symbol",
+          "element number",
+          "element name"
+        ]
+      }
+    ]
+  },
+  "e53749fddd8a55eb88e73d7314b58550": {
+    "op": "find",
+    "name": "metamodel",
+    "digest": "e53749fddd8a55eb88e73d7314b58550",
+    "query": {
+      "modelname": "fioribecatalogs"
+    },
+    "res": [
+      {
+        "_id": "5925e323d3f66454a8cb6e0e",
+        "modelname": "fioribecatalogs",
+        "__v": 0,
+        "domain": "Fiori Backend Catalogs",
+        "domain_description": "R/3 Backend catalogs as modelled in table SUI_TM_MM_APPS. \nThis delivery is used to model technical catalogs which are imported (replicated) into the ABAP Frontend Server.\n It maps existing GUI and WebDynpro Transactions into the Fiori World by specifying Intent and potentially tile information for them. Note that there is an overlap with the FioriBOM domain. Note also, that the ApplicationComponetn here is the Application Component of the Backend Catalog Definition in SUI_TM_MM_APPS (the UIAD transport object)",
+        "_categories": [
+          {
+            "wordindex": true,
+            "category_description": "A combination of \"#\" <SemanticObject> - <Semanticaction> which appears in the URL of the Fiori Launchpad when addressing the application",
+            "category": "fiori intent",
+            "_id": "59289d809f1ae34670303ec2",
+            "category_synonyms": []
+          },
+          {
+            "wordindex": true,
+            "category_description": "Support component for the Backend catalog entry, (the Package associated with the UIAD Transport record containing the Catalog Definition (SUI_TM_MM_APPS table). This is the component repsonsible for the Catalog, (not necessarily for the legacy application!)",
+            "category": "ApplicationComponent",
+            "_id": "59289d809f1ae34670303ec1",
+            "category_synonyms": []
+          },
+          {
+            "wordindex": true,
+            "category_description": "Name of the web dynpro application",
+            "category": "WebDynproApplication",
+            "_id": "59289d809f1ae34670303ec0",
+            "category_synonyms": []
+          },
+          {
+            "wordindex": true,
+            "category_description": "devclass ( Package) of the backend catalog record (not necessarily the transaction",
+            "category": "devclass",
+            "_id": "59289d809f1ae34670303ebf",
+            "category_synonyms": []
+          },
+          {
+            "wordindex": true,
+            "category_description": "Name of the technical catalog (_TC_..._BE_), (same as FioriBOM Technical Catalog) (identical to entry in /UI2/SYSALIASCAT), \n(in /UI2/PB_C_CHIP.REFERENCEID  *ADCAT*...)",
+            "category": "BackendCatalogId",
+            "_id": "59289d809f1ae34670303ebe",
+            "category_synonyms": [
+              "Fiori Backend Catalog",
+              "Backend Catalog"
+            ]
+          },
+          {
+            "category_description": "Name of the System alias associated with this Technical catalog (entry delivered in /UI2/SYSALIASCAT)",
+            "category": "TechnicalCatalogSystemAlias",
+            "_id": "59289d809f1ae34670303ebd",
+            "category_synonyms": []
+          },
+          {
+            "category_description": "Name of the Business Catalog referencing this catalog (in /UI2/PB_C_CACHE.ID *CATALOGPAGE:*  _BC_ ..",
+            "category": "BusinessCatalog",
+            "_id": "59289d809f1ae34670303ebc",
+            "category_synonyms": []
+          },
+          {
+            "wordindex": true,
+            "category_description": "The first part of the \"fiori intent\", identifying the Business entity, e.g. \"SalesOrder\",\"GLAcount\" used for generic navigation",
+            "category": "SemanticObject",
+            "_id": "59289d809f1ae34670303ebb",
+            "category_synonyms": []
+          },
+          {
+            "wordindex": true,
+            "category_description": "The second part of the \"fiori intent\", identifying the action, e.g. \"maintain\", \"create\"",
+            "category": "SemanticAction",
+            "_id": "59289d809f1ae34670303eba",
+            "category_synonyms": []
+          },
+          {
+            "exactmatch": true,
+            "category_description": "Software component containing the Backend catalog",
+            "category": "SoftwareComponent",
+            "_id": "59289d809f1ae34670303eb9",
+            "category_synonyms": []
+          },
+          {
+            "exactmatch": true,
+            "category_description": "For GUI based transaction, the transaction code behind intent, a classical R/3 SAPGUi transaction",
+            "category": "TransactionCode",
+            "_id": "59289d809f1ae34670303eb8",
+            "category_synonyms": [
+              "Transactions",
+              "TransactionCode",
+              "TransactionCodes"
+            ]
+          }
+        ],
+        "columns": []
+      }
+    ]
+  },
+  "8c0c62cc7d41846ce95027e18eea3d99": {
+    "op": "find",
+    "name": "metamodel",
+    "digest": "8c0c62cc7d41846ce95027e18eea3d99",
+    "query": {
+      "modelname": "r3trans"
+    },
+    "res": [
+      {
+        "_id": "5925e323d3f66454a8cb6e08",
+        "modelname": "r3trans",
+        "__v": 0,
+        "domain": "SAP Transaction Codes",
+        "domain_description": "An extract of SAP Basis transactions",
+        "_categories": [
+          {
+            "wordindex": true,
+            "category_description": "SAP Transaction code",
+            "category": "tcode",
+            "_id": "59289d809f1ae34670303e8d",
+            "category_synonyms": []
+          },
+          {
+            "wordindex": true,
+            "category_description": "Development class (Package) in system",
+            "category": "devclass",
+            "_id": "59289d809f1ae34670303e8c",
+            "category_synonyms": []
+          },
+          {
+            "category": "systemId",
+            "_id": "59289d809f1ae34670303e8b",
+            "category_synonyms": []
+          },
+          {
+            "category": "client",
+            "_id": "59289d809f1ae34670303e8a",
+            "category_synonyms": []
+          },
+          {
+            "category_description": "English text of the transaction",
+            "category": "transaction description",
+            "_id": "59289d809f1ae34670303e89",
+            "category_synonyms": []
+          }
+        ],
+        "columns": []
+      }
+    ]
+  },
+  "69abee2d69c8c55c46e521de33790dde": {
+    "op": "find",
+    "name": "metamodel",
+    "digest": "69abee2d69c8c55c46e521de33790dde",
+    "query": {
+      "modelname": "sobj_tables"
+    },
+    "res": [
+      {
+        "_id": "5925e323d3f66454a8cb6e0c",
+        "modelname": "sobj_tables",
+        "__v": 0,
+        "domain": "SOBJ Tables",
+        "domain_description": "R/3 Transport objects and associated tables. This domains allows to quickly lookup up if and in what transport object a given table content is transported, e.g. \"What is the Transport Object, Primary Table for /UIF/LREPDCONT\" ",
+        "_categories": [
+          {
+            "category": "recordKey",
+            "_id": "59289d809f1ae34670303eb7",
+            "category_synonyms": []
+          },
+          {
+            "category_description": "The transport object key (SOBJ)",
+            "category": "TransportObject",
+            "_id": "59289d809f1ae34670303eb6",
+            "category_synonyms": [
+              "SOBJ",
+              "Transport Key"
+            ]
+          },
+          {
+            "category_description": "Short text of transport object",
+            "category": "Shorttext",
+            "_id": "59289d809f1ae34670303eb5",
+            "category_synonyms": []
+          },
+          {
+            "exactmatch": true,
+            "wordindex": true,
+            "category_description": "The DDIC Table",
+            "category": "Table",
+            "_id": "59289d809f1ae34670303eb4",
+            "category_synonyms": [
+              "Tables",
+              "Database Table",
+              "Transport Table"
+            ]
+          },
+          {
+            "exactmatch": true,
+            "category_description": "Key specification for the table",
+            "category": "TableTransportKeySpec",
+            "_id": "59289d809f1ae34670303eb3",
+            "category_synonyms": []
+          },
+          {
+            "exactmatch": true,
+            "wordindex": true,
+            "category_description": "Primary table of transport object, if existing",
+            "category": "PrimaryTable",
+            "_id": "59289d809f1ae34670303eb2",
+            "category_synonyms": [
+              "Primary Table"
+            ]
+          },
+          {
+            "exactmatch": true,
+            "wordindex": true,
+            "category_description": "Whether the object is client specific",
+            "category": "clientSpecific",
+            "_id": "59289d809f1ae34670303eb1",
+            "category_synonyms": []
+          },
+          {
+            "exactmatch": true,
+            "category_description": "Length of transport key",
+            "category": "Object name length",
+            "_id": "59289d809f1ae34670303eb0",
+            "category_synonyms": []
+          },
+          {
+            "exactmatch": true,
+            "category_description": "Category of the transport",
+            "category": "Category",
+            "_id": "59289d809f1ae34670303eaf",
+            "category_synonyms": []
+          },
+          {
+            "exactmatch": true,
+            "wordindex": true,
+            "category_description": "Boolean (\"true\",\"false\") whether object is translation relevant",
+            "category": "TranslationRelevant",
+            "_id": "59289d809f1ae34670303eae",
+            "category_synonyms": []
+          },
+          {
+            "exactmatch": true,
+            "category": "Type",
+            "_id": "59289d809f1ae34670303ead",
+            "category_synonyms": []
+          }
+        ],
+        "columns": []
+      }
+    ]
+  },
+  "1a451c64ce00303dd817ae17c93bbf26": {
+    "op": "find",
+    "name": "metamodel",
+    "digest": "1a451c64ce00303dd817ae17c93bbf26",
+    "query": {
+      "modelname": "cosmos"
+    },
+    "res": [
+      {
+        "_id": "5925e323d3f66454a8cb6e06",
+        "modelname": "cosmos",
+        "__v": 0,
+        "domain": "Cosmos",
+        "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a differnt model",
+        "_categories": [
+          {
+            "wordindex": true,
+            "category_description": "name of the comsmological object, e.g. star, start system, galaxy or planet",
+            "category": "object name",
+            "_id": "59289d809f1ae34670303e88",
+            "category_synonyms": []
+          },
+          {
+            "wordindex": true,
+            "category": "visual magnitude",
+            "_id": "59289d809f1ae34670303e87",
+            "category_synonyms": []
+          },
+          {
+            "category": "visual luminosity",
+            "_id": "59289d809f1ae34670303e86",
+            "category_synonyms": []
+          },
+          {
+            "category_description": "mass of an object",
+            "category": "mass",
+            "_id": "59289d809f1ae34670303e85",
+            "category_synonyms": []
+          },
+          {
+            "category": "radius",
+            "_id": "59289d809f1ae34670303e84",
+            "category_synonyms": []
+          },
+          {
+            "wordindex": true,
+            "category_description": "type of object, e.g. \"star\", \"planet\".",
+            "category": "object type",
+            "_id": "59289d809f1ae34670303e83",
+            "category_synonyms": []
+          },
+          {
+            "wordindex": true,
+            "category_description": "for planets, name of the central entity",
+            "category": "orbits",
+            "_id": "59289d809f1ae34670303e82",
+            "category_synonyms": []
+          },
+          {
+            "category_description": "distance from earth",
+            "category": "distance",
+            "_id": "59289d809f1ae34670303e81",
+            "category_synonyms": []
+          },
+          {
+            "category": "_url",
+            "_id": "59289d809f1ae34670303e80",
+            "category_synonyms": []
+          },
+          {
+            "category": "orbit radius",
+            "_id": "59289d809f1ae34670303e7f",
+            "category_synonyms": []
+          },
+          {
+            "category": "eccentricity",
+            "_id": "59289d809f1ae34670303e7e",
+            "category_synonyms": []
+          },
+          {
+            "category": "orbital period",
+            "_id": "59289d809f1ae34670303e7d",
+            "category_synonyms": []
+          },
+          {
+            "category": "albedo",
+            "_id": "59289d809f1ae34670303e7c",
+            "category_synonyms": []
+          }
+        ],
+        "columns": []
+      }
+    ]
+  },
+  "31c75371ef4ef0681d8080ac9ac559b7": {
+    "op": "distinct",
+    "name": "cosmo",
+    "digest": "31c75371ef4ef0681d8080ac9ac559b7",
+    "query": "object_name",
+    "res": [
+      "Alpha Centauri A",
+      "Alpha Centauri B",
+      "Alpha Centauri C",
+      "Mars",
+      "Proxima Centauri b",
+      "Sun",
+      "earth"
+    ]
+  },
+  "853b80615fae86c3ef7197e9c3190a27": {
+    "op": "distinct",
+    "name": "cosmo",
+    "digest": "853b80615fae86c3ef7197e9c3190a27",
+    "query": "object_type",
+    "res": [
+      null,
+      "planet",
+      "star",
+      "star, red dwarf"
+    ]
+  },
+  "310f3dc8fe4d3d7992faf01b80eab80b": {
+    "op": "distinct",
+    "name": "fioriapp",
+    "digest": "310f3dc8fe4d3d7992faf01b80eab80b",
+    "query": "appId",
+    "res": [
+      "/AIF/CUST",
+      "/AIF/EDCHANGES",
+      "/SAPAPO/MAT1",
+      "CBGLWB",
+      "F0731",
+      "F1638",
+      "F2311",
+      "F2315",
+      "F2316",
+      "GRM3",
+      "S_ALR_87012394",
+      "W0052",
+      "XK99"
+    ]
+  },
+  "b18f6fa07a186067e7447bdd3144fedb": {
+    "op": "distinct",
+    "name": "fioriapp",
+    "digest": "b18f6fa07a186067e7447bdd3144fedb",
+    "query": "AppName",
+    "res": [
+      "AIF Configuration",
+      "Assign WBS Elements Using List",
+      "Error Handling Changes Log",
+      "Maintain Product",
+      "Manage Alerts",
+      "Manage G/L Account Master Data",
+      "Manage Labels",
+      "Mass maintenance, Supplier Master",
+      "PrepareTax Report",
+      "Project Profitability",
+      "Scheduling Block Suppliers",
+      "Stock Champion",
+      "UI5 Library for Project Engagement Apps"
+    ]
+  },
+  "20d78d6604f0bab54a44bcf0c8429d61": {
+    "op": "distinct",
+    "name": "fioriapp",
+    "digest": "20d78d6604f0bab54a44bcf0c8429d61",
+    "query": "ApplicationType",
+    "res": [
+      "Analytical",
+      "Analytical, FPM/WebDynpro, Design Studio",
+      "FPM/WebDynpro",
+      "GUI",
+      "Reuse Component",
+      "Transactional"
+    ]
+  },
+  "39636e63b4f89475e6f1144919297a44": {
+    "op": "distinct",
+    "name": "fioriapp",
+    "digest": "39636e63b4f89475e6f1144919297a44",
+    "query": "BSPApplicationURL",
+    "res": [
+      null,
+      "/sap/bc/ui5_ui5/sap/cpm_reuse_ms1",
+      "/sap/bc/ui5_ui5/sap/fra_alert_man",
+      "/sap/bc/ui5_ui5/sap/nw_aps_apj",
+      "/sap/bc/ui5_ui5/sap/stkchmp_mons1",
+      "n/a"
+    ]
+  },
+  "6a3f9d7a940685b992f5b09ab9b041c8": {
+    "op": "distinct",
+    "name": "fioriapp",
+    "digest": "6a3f9d7a940685b992f5b09ab9b041c8",
+    "query": "BusinessCatalog",
+    "res": [
+      "SAP_ACS_BC_MANAGE_ALERTS, SAP_ACS_BC_MANAGE_ALERTS, SAP_ACS_BC_MANAGE_ALERTS, SAP_ACS_BC_MANAGE_ALERTS, SAP_ACS_BC_MANAGE_ALERTS, SAP_ACS_BC_MANAGE_ALERTS",
+      "SAP_CA_BC_COM",
+      "SAP_CMD_BC_SUPPLIER_MAINT",
+      "SAP_FIN_BC_GL_REPORTING_CA,SAP_SFIN_BC_GL_REP_US",
+      "SAP_PSP_BC_CUST_PROJ_MANAGE",
+      "SAP_PSS_BC_GLM",
+      "SAP_SCM_BC_STK_CHMP_PC",
+      "SAP_SFIN_BC_GLACCOUNTANT",
+      "Without Catalog Assignment",
+      "n/a"
+    ]
+  },
+  "638dd6179f3b738c7a08931d186ee9ca": {
+    "op": "distinct",
+    "name": "fioriapp",
+    "digest": "638dd6179f3b738c7a08931d186ee9ca",
+    "query": "BSPPackage",
+    "res": [
+      null,
+      "CONTENT_CPM_REUSE_COMMON",
+      "FRA_UI_ALERT_APP",
+      "RS_BASIS_APS_UX_APJ",
+      "UI_SCM_SC_STKCHMP",
+      "n/a"
+    ]
+  },
+  "60e07b265a57a0772b6d78005be5a011": {
+    "op": "distinct",
+    "name": "fioriapp",
+    "digest": "60e07b265a57a0772b6d78005be5a011",
+    "query": "BusinessGroupDescription",
+    "res": [
+      null,
+      "Alert investigation, Investigate Alerts, , , ,",
+      "Batch Management - Stock Champion",
+      "G/L Accountant",
+      "Global Label Management",
+      "Master Data - Supplier Master",
+      "Reporting United States,General Ledger - Reporting Canada",
+      "n/a"
+    ]
+  },
+  "d0735fede504e1bb3024e21694abdf5c": {
+    "op": "distinct",
+    "name": "fioriapp",
+    "digest": "d0735fede504e1bb3024e21694abdf5c",
+    "query": "SemanticObject",
+    "res": [
+      null,
+      "",
+      "ApplicationJob",
+      "ComplianceAlerts",
+      "EWMProduct",
+      "GLAccount",
+      "MRPMaterial",
+      "ProductLabel",
+      "Project",
+      "Supplier",
+      "TaxReport",
+      "WBSElement"
+    ]
+  },
+  "4e81cd5453b1ad58875b3e7204b1d6ff": {
+    "op": "distinct",
+    "name": "fioriapp",
+    "digest": "4e81cd5453b1ad58875b3e7204b1d6ff",
+    "query": "TransactionCode",
+    "res": [
+      null,
+      "/SAPAPO/MAT1",
+      "CBGLWB",
+      "FSP0, FSS0, KA01, KA02, KA03, KA04, KA05, KA06",
+      "GRM3",
+      "S_ALR_87012394",
+      "XK99",
+      "n/a"
+    ]
+  },
+  "4dfe15447548d862fd12f28b220b7729": {
+    "op": "distinct",
+    "name": "fioriapp",
+    "digest": "4dfe15447548d862fd12f28b220b7729",
+    "query": "PrimaryODataPFCGRole",
+    "res": [
+      null,
+      "SAP_BCR_SCM_MRPRUN",
+      "SAP_BPCM_CE,SAP_BPCM_CM,SAP_FRA_BUSINESS_ANALYST,SAP_FRA_CHIEF_RISK_OFFICER,SAP_FRA_FRAUD_INVESTIGATOR,SAP_FRA_FRAUD_MANAGER",
+      "n/a"
+    ]
+  },
+  "843d02516e1561436b4ecefc9adfdc3f": {
+    "op": "distinct",
+    "name": "cosmo",
+    "digest": "843d02516e1561436b4ecefc9adfdc3f",
+    "query": "visual_magnitude",
+    "res": [
+      "-27",
+      "n/a",
+      "+1.6 to -3.0",
+      "-0.27"
+    ]
+  },
+  "b69fdc8307539ba1f3b5e13a99ad2da5": {
+    "op": "distinct",
+    "name": "cosmo",
+    "digest": "b69fdc8307539ba1f3b5e13a99ad2da5",
+    "query": "orbits",
+    "res": [
+      null,
+      "Alpha Centauri C",
+      "Sun",
+      "n/a"
+    ]
+  },
+  "fb24ac5d1f4d736fd0a6dde5af30074c": {
+    "op": "distinct",
+    "name": "fioriapp",
+    "digest": "fb24ac5d1f4d736fd0a6dde5af30074c",
+    "query": "fiori_intent",
+    "res": [
+      "#ApplicationJob-show",
+      "#ComplianceAlerts-manage",
+      "#EWMProduct-maintain",
+      "#GLAccount-manage",
+      "#MRPMaterial-analyzeStockIssues",
+      "#ProductLabel-manage",
+      "#Project-analyzeProjectProfitability",
+      "#Supplier-massMaintSuppliers",
+      "#TaxReport-prepareSalesUseTaxesReportUSA",
+      "#WBSElement-assignToGroupingWBSElementCollectively",
+      "n/a"
+    ]
+  },
+  "39545b842b64459437963c722f37e78b": {
+    "op": "distinct",
+    "name": "fioriapp",
+    "digest": "39545b842b64459437963c722f37e78b",
+    "query": "ApplicationComponent",
+    "res": [
+      "AP-MD-BP",
+      "CA",
+      "CA-CPD-SS",
+      "CA-GTF-AIF",
+      "CO-FIO",
+      "EHS-SAF",
+      "FI-FIO-GL",
+      "GRC-FRA",
+      "LO-MD-BP-VM",
+      "PP-FIO-SC",
+      "PS-MAT",
+      "SCM-BAS-MD-PR"
+    ]
+  },
+  "ece0ffd30d8c853294c9d48b2de28770": {
+    "op": "distinct",
+    "name": "fioriapp",
+    "digest": "ece0ffd30d8c853294c9d48b2de28770",
+    "query": "BSPName",
+    "res": [
+      null,
+      "CPM_REUSE_MS1",
+      "FRA_ALERT_MAN",
+      "NW_APS_APJ",
+      "STKCHMP_MONS1",
+      "n/a"
+    ]
+  },
+  "efb651972a660f80988917f5da32af57": {
+    "op": "distinct",
+    "name": "fioriapp",
+    "digest": "efb651972a660f80988917f5da32af57",
+    "query": "releaseName",
+    "res": [
+      "Delivery Q2/2015",
+      "S/4HANA 1610",
+      "SAP S/4HANA Cloud 1611",
+      "Wave 14"
+    ]
+  },
+  "510163bbb4e45149d706642c4c4088b3": {
+    "op": "distinct",
+    "name": "fioriapp",
+    "digest": "510163bbb4e45149d706642c4c4088b3",
+    "query": "TechnicalCatalog",
+    "res": [
+      "SAP_SFIN_TC_T_FI",
+      "SAP_TC_ACS_COMMON",
+      "SAP_TC_CA_AIF_BE_APPS:S4CA",
+      "SAP_TC_CA_BP_BE_APPS:S4CMD",
+      "SAP_TC_COMMON",
+      "SAP_TC_CPM_COMMON",
+      "SAP_TC_FIN_ACC_BE_APPS:S4FIN",
+      "SAP_TC_FIN_CO_COMMON",
+      "SAP_TC_PSS_GLM_BE_APPS:S4PSS",
+      "SAP_TC_PS_BE_APPS:S4PS",
+      "SAP_TC_SCM_EWM_BE_APPS:S4SCM",
+      "SAP_TC_SCM_PP_COMMON"
+    ]
+  },
+  "2675ba311459506f868b11f54b000182": {
+    "op": "distinct",
+    "name": "fioriapp",
+    "digest": "2675ba311459506f868b11f54b000182",
+    "query": "BusinessRoleName",
+    "res": [
+      null,
+      "SAP_BCR_PSP_CUST_PROJ_MANAGE",
+      "SAP_BR_ACS_CE, SAP_BR_ACS_CM, SAP_BR_ACS_BA, SAP_BR_ACS_CRO, SAP_BR_ACS_INVESTIGATOR, SAP_BR_ACS_MANAGER",
+      "SAP_BR_BUPA_MASTER_SPECIALIST",
+      "SAP_BR_GL_ACCOUNTANT_CA, SAP_BR_GL_ACCOUNTANT",
+      "SAP_BR_INVENTORY_ANALYST",
+      "SAP_BR_PROD_STWRDSHP_SPECLST",
+      "SAP_SFIN_BCR_GLACCOUNTANT",
+      "n/a"
+    ]
+  },
+  "d588fbb5f16c39bf02820b06bcb25040": {
+    "op": "distinct",
+    "name": "fioriapp",
+    "digest": "d588fbb5f16c39bf02820b06bcb25040",
+    "query": "PrimaryODataServiceName",
+    "res": [
+      null,
+      "APJ_JOB_MANAGEMENT",
+      "FRA_MANAGE_ALERTS_SRV",
+      "PP_STOCKCHAMPION_SRV",
+      "n/a"
+    ]
+  },
+  "4d1829f933e8adcc13feb33f3fe6b601": {
+    "op": "distinct",
+    "name": "fioriapp",
+    "digest": "4d1829f933e8adcc13feb33f3fe6b601",
+    "query": "SemanticAction",
+    "res": [
+      null,
+      "",
+      "analyzeProjectProfitability",
+      "analyzeStockIssues",
+      "assignToGroupingWBSElementCollectively",
+      "maintain",
+      "manage",
+      "massMaintSuppliers",
+      "prepareSalesUseTaxesReportUSA",
+      "show"
+    ]
+  },
+  "5709ccd9e3e3d08d6ca9f5c9f6e81d33": {
+    "op": "distinct",
+    "name": "fioriapp",
+    "digest": "5709ccd9e3e3d08d6ca9f5c9f6e81d33",
+    "query": "LPDCustInstance",
+    "res": [
+      null,
+      "TRANSACTIONAL_FI",
+      "n/a"
+    ]
+  },
+  "3f63839596a37208697e2184d467dbbe": {
+    "op": "distinct",
+    "name": "fioriapp",
+    "digest": "3f63839596a37208697e2184d467dbbe",
+    "query": "ExternalReleaseName",
+    "res": [
+      null,
+      "Delivery Q2/2015",
+      "Delivery Q4/2016",
+      "SAP S/4HANA Cloud 1611",
+      "n/a"
+    ]
+  },
+  "7f15686814ec2cb4c9018b557480e1c3": {
+    "op": "distinct",
+    "name": "fioribecatalog",
+    "digest": "7f15686814ec2cb4c9018b557480e1c3",
+    "query": "WebDynproApplication",
+    "res": [
+      "",
+      "ILM_AUDIT_AREA",
+      "IRM_POLICIES"
+    ]
+  },
+  "dd033794d0d39c2a326eed4a8743d1ff": {
+    "op": "distinct",
+    "name": "fioribecatalog",
+    "digest": "dd033794d0d39c2a326eed4a8743d1ff",
+    "query": "BackendCatalogId",
+    "res": [
+      "SAP_BASIS_TCR_BE_APPS",
+      "SAP_NW_BE_APPS",
+      "SAP_TC_FIN_ACC_BE_APPS",
+      "SAP_TC_FIN_GLO_AC_BE_APPS",
+      "SAP_TC_LE_DSD_BE_APPS",
+      "SAP_TC_PS_BE_APPS",
+      "SAP_TC_SD_EM_BE_APPS"
+    ]
+  },
+  "30449af4d9c22f03698c961db8f6f09c": {
+    "op": "distinct",
+    "name": "iupac",
+    "digest": "30449af4d9c22f03698c961db8f6f09c",
+    "query": "element_name",
+    "res": [
+      "actinium",
+      "aluminium",
+      "americium",
+      "antimony",
+      "argon",
+      "arsenic",
+      "astatine",
+      "barium",
+      "berkelium",
+      "beryllium",
+      "bismuth",
+      "bohrium",
+      "boron",
+      "bromine",
+      "cadmium",
+      "caesium",
+      "calcium",
+      "californium",
+      "carbon",
+      "cerium",
+      "chlorine",
+      "chromium",
+      "cobalt",
+      "copernicium",
+      "copper",
+      "curium",
+      "darmstadtium",
+      "dubnium",
+      "dysprosium",
+      "einsteinium",
+      "erbium",
+      "europium",
+      "fermium",
+      "flerovium",
+      "fluorine",
+      "francium",
+      "gadolinium",
+      "gallium",
+      "germanium",
+      "gold",
+      "hafnium",
+      "hassium",
+      "helium",
+      "holmium",
+      "hydrogen",
+      "indium",
+      "iodine",
+      "iridium",
+      "iron",
+      "krypton",
+      "lanthanum",
+      "lawrencium",
+      "lead",
+      "lithium",
+      "livermorium",
+      "lutetium",
+      "magnesium",
+      "manganese",
+      "meitnerium",
+      "mendelevium",
+      "mercury",
+      "molybdenum",
+      "moscovium",
+      "neodymium",
+      "neon",
+      "neptunium",
+      "nickel",
+      "nihonium",
+      "niobium",
+      "nitrogen",
+      "nobelium",
+      "oganesson",
+      "osmium",
+      "oxygen",
+      "palladium",
+      "phosphorus",
+      "platinum",
+      "plutonium",
+      "polonium",
+      "potassium",
+      "praseodymium",
+      "promethium",
+      "protactinium",
+      "radium",
+      "radon",
+      "rhenium",
+      "rhodium",
+      "roentgenium",
+      "rubidium",
+      "ruthenium",
+      "rutherfordium",
+      "samarium",
+      "scandium",
+      "seaborgium",
+      "selenium",
+      "silicon",
+      "silver",
+      "sodium",
+      "strontium",
+      "sulfur",
+      "tantalum",
+      "technetium",
+      "tellurium",
+      "tennesine",
+      "terbium",
+      "thallium",
+      "thorium",
+      "thulium",
+      "tin",
+      "titanium",
+      "tungsten",
+      "uranium",
+      "vanadium",
+      "xenon",
+      "ytterbium",
+      "yttrium",
+      "zinc",
+      "zirconium"
+    ]
+  },
+  "83b1594b15cf74f6b987f29fa430958b": {
+    "op": "distinct",
+    "name": "iupac",
+    "digest": "83b1594b15cf74f6b987f29fa430958b",
+    "query": "element_number",
+    "res": [
+      "1",
+      "10",
+      "100",
+      "101",
+      "102",
+      "103",
+      "104",
+      "105",
+      "106",
+      "107",
+      "108",
+      "109",
+      "11",
+      "110",
+      "111",
+      "112",
+      "113",
+      "114",
+      "115",
+      "116",
+      "117",
+      "118",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "2",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "3",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "4",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "5",
+      "50",
+      "51",
+      "52",
+      "53",
+      "54",
+      "55",
+      "56",
+      "57",
+      "58",
+      "59",
+      "6",
+      "60",
+      "61",
+      "62",
+      "63",
+      "64",
+      "65",
+      "66",
+      "67",
+      "68",
+      "69",
+      "7",
+      "70",
+      "71",
+      "72",
+      "73",
+      "74",
+      "75",
+      "76",
+      "77",
+      "78",
+      "79",
+      "8",
+      "80",
+      "81",
+      "82",
+      "83",
+      "84",
+      "85",
+      "86",
+      "87",
+      "88",
+      "89",
+      "9",
+      "90",
+      "91",
+      "92",
+      "93",
+      "94",
+      "95",
+      "96",
+      "97",
+      "98",
+      "99"
+    ]
+  },
+  "39363061dd68c9b0585d37fc019731d1": {
+    "op": "distinct",
+    "name": "philoelement",
+    "digest": "39363061dd68c9b0585d37fc019731d1",
+    "query": "element_name",
+    "res": [
+      "earth",
+      "fire",
+      "water",
+      "wind"
+    ]
+  },
+  "c78fefaac50aa9e41f1e2fce1aacc25c": {
+    "op": "distinct",
+    "name": "r3tran",
+    "digest": "c78fefaac50aa9e41f1e2fce1aacc25c",
+    "query": "devclass",
+    "res": [
+      "SCTS_OBJ",
+      "SLIM",
+      "SOBL",
+      "S_ME_MESSAGES"
+    ]
+  },
+  "849c08132b18973e8b28459f0f6a2b1e": {
+    "op": "distinct",
+    "name": "sobj_table",
+    "digest": "849c08132b18973e8b28459f0f6a2b1e",
+    "query": "clientSpecific",
+    "res": [
+      false,
+      true
+    ]
+  },
+  "7fc3105f8b57b5640eafc427d006a123": {
+    "op": "distinct",
+    "name": "fioriapp",
+    "digest": "7fc3105f8b57b5640eafc427d006a123",
+    "query": "ArtifactId",
+    "res": [
+      null,
+      "cus.cpm.lib.projectengagement",
+      "grc.acs.fraud.alertworklist",
+      "i2d.pp.stockchampions1",
+      "n/a",
+      "nw.core.appjobs"
+    ]
+  },
+  "b11e10f10b2e819fedcdfe8dc8a6d267": {
+    "op": "distinct",
+    "name": "fioriapp",
+    "digest": "b11e10f10b2e819fedcdfe8dc8a6d267",
+    "query": "RoleName",
+    "res": [
+      "Administrator - Data Aging and Archiving",
+      "Cost Accountant - Sales",
+      "Data Privacy Specialist",
+      "Fraud Investigator",
+      "General Ledger Accountant",
+      "General Ledger Accountant, General Ledger Accountant for Canada",
+      "Inventory Analyst",
+      "Master Data Specialist - Business Partner Data",
+      "Product Stewardship Specialist",
+      "Project Manager - Commercial",
+      "Project Manager - Commercial Services",
+      "Without Role Assignment"
+    ]
+  },
+  "4386b8471cda62f79bd6ad1d7231ef63": {
+    "op": "distinct",
+    "name": "fioriapp",
+    "digest": "4386b8471cda62f79bd6ad1d7231ef63",
+    "query": "releaseId",
+    "res": [
+      "S6OP",
+      "S7",
+      "W14",
+      "W8"
+    ]
+  },
+  "8d2ff2c045ef41e78b0151b7644298b1": {
+    "op": "distinct",
+    "name": "fioriapp",
+    "digest": "8d2ff2c045ef41e78b0151b7644298b1",
+    "query": "BusinessGroupName",
+    "res": [
+      null,
+      "SAP_ACS_BCG_INVESTIGATION, SAP_ACS_BCG_INVESTIGATION, SAP_ACS_BCG_INVESTIGATION, SAP_ACS_BCG_INVESTIGATION, SAP_ACS_BCG_INVESTIGATION, SAP_ACS_BCG_INVESTIGATION",
+      "SAP_CMD_BCG_SUPPLIER_MAINT",
+      "SAP_PSP_BCG_CUST_PROJ_MANAGE",
+      "SAP_PSS_BCG_GLM",
+      "SAP_SCM_BCG_STK_CHMP_PC",
+      "SAP_SFIN_BCG_GLACCOUNTANT",
+      "SAP_SFIN_BCG_GL_REP_US,SAP_FIN_BCG_GL_REP_CA",
+      "n/a"
+    ]
+  },
+  "a537b23430013d34a210231fcc1eeb7c": {
+    "op": "distinct",
+    "name": "fioriapp",
+    "digest": "a537b23430013d34a210231fcc1eeb7c",
+    "query": "FrontendSoftwareComponent",
+    "res": [
+      null,
+      "SAPSCORE 106",
+      "UIACS 120",
+      "UIAPFI70 200",
+      "UIS4HOP1 200"
+    ]
+  },
+  "3600056a51b7c31782f0598f347e4fd6": {
+    "op": "distinct",
+    "name": "fioribecatalog",
+    "digest": "3600056a51b7c31782f0598f347e4fd6",
+    "query": "fiori_intent",
+    "res": [
+      "#Customer-createBalanceConfirmationForEmpties",
+      "#Customer-evaluateEmptiesStock",
+      "#Document-maintainAuditArea",
+      "#Document-maintainRules",
+      "#TaxReport-prepareSalesUseTaxesReportCA",
+      "#TaxReport-prepareSalesUseTaxesReportUSA",
+      "#VisitList-maintain",
+      "#WBSElement-assignToGroupingWBSElementCollectively"
+    ]
+  },
+  "d472fc04976d25b01535e93b600710e2": {
+    "op": "distinct",
+    "name": "fioribecatalog",
+    "digest": "d472fc04976d25b01535e93b600710e2",
+    "query": "SemanticObject",
+    "res": [
+      "Customer",
+      "Document",
+      "TaxReport",
+      "VisitList",
+      "WBSElement"
+    ]
+  },
+  "fce337b5edc39c206ac08a24556371e1": {
+    "op": "distinct",
+    "name": "metamodel",
+    "digest": "fce337b5edc39c206ac08a24556371e1",
+    "query": "domain",
+    "res": [
+      "metamodel",
+      "IUPAC",
+      "Philosophers elements",
+      "Cosmos",
+      "SAP Transaction Codes",
+      "FioriBOM",
+      "SOBJ Tables",
+      "Fiori Backend Catalogs"
+    ]
+  },
+  "a5b50239d5a36d9d2e1b1d5f79d11223": {
+    "op": "distinct",
+    "name": "sobj_table",
+    "digest": "a5b50239d5a36d9d2e1b1d5f79d11223",
+    "query": "_tables.Table",
+    "res": [
+      "/UIF/LREPDATTR",
+      "/UIF/LREPDCONT",
+      "/UIF/LREPDEREF",
+      "/UIF/LREPDLTXT",
+      "/UIF/LREPDREF",
+      "/UIF/LREPDSTXT",
+      "/UIF/LREPDTEXT",
+      "/UIF/LREPDATTRCD",
+      "/UIF/LREPDCONTCD",
+      "/UIF/LREPDEREFCD",
+      "/UIF/LREPDLTXTCD",
+      "/UIF/LREPDREFCD",
+      "/UIF/LREPDSTXTCD",
+      "/UIF/LREPDTEXTCD",
+      "LTDHTRAW",
+      "LTDHTTMPL",
+      "LTR_REPOSITORY",
+      "SWOTDI",
+      "SWOTDQ",
+      "TZS02"
+    ]
+  },
+  "2c020e0323d6be864519bacce0f10541": {
+    "op": "distinct",
+    "name": "fioribecatalog",
+    "digest": "2c020e0323d6be864519bacce0f10541",
+    "query": "devclass",
+    "res": [
+      null,
+      "APPL_FIN_APP_DESCRIPTORS",
+      "IWP_UI",
+      "ODATA_GLO_FIN_APP_DESCRIPTORS",
+      "ODATA_PS_APP_DESCRIPTORS",
+      "S_LRM_UI"
+    ]
+  },
+  "789aa0f9b25f7857016b189528d736b0": {
+    "op": "distinct",
+    "name": "iupac",
+    "digest": "789aa0f9b25f7857016b189528d736b0",
+    "query": "element_symbol",
+    "res": [
+      "Ac",
+      "Ag",
+      "Al",
+      "Am",
+      "Ar",
+      "As",
+      "At",
+      "Au",
+      "B",
+      "Ba",
+      "Be",
+      "Bh",
+      "Bi",
+      "Bk",
+      "Br",
+      "C",
+      "Ca",
+      "Cd",
+      "Ce",
+      "Cf",
+      "Cl",
+      "Cm",
+      "Cn",
+      "Co",
+      "Cr",
+      "Cs",
+      "Cu",
+      "Db",
+      "Ds",
+      "Dy",
+      "Er",
+      "Es",
+      "Eu",
+      "F",
+      "Fe",
+      "Fl",
+      "Fm",
+      "Fr",
+      "Ga",
+      "Gd",
+      "Ge",
+      "H",
+      "He",
+      "Hf",
+      "Hg",
+      "Ho",
+      "Hs",
+      "I",
+      "In",
+      "Ir",
+      "K",
+      "Kr",
+      "La",
+      "Li",
+      "Lr",
+      "Lu",
+      "Lv",
+      "Mc",
+      "Md",
+      "Mg",
+      "Mn",
+      "Mo",
+      "Mt",
+      "N",
+      "Na",
+      "Nb",
+      "Nd",
+      "Ne",
+      "Nh",
+      "Ni",
+      "No",
+      "Np",
+      "O",
+      "Og",
+      "Os",
+      "P",
+      "Pa",
+      "Pb",
+      "Pd",
+      "Pm",
+      "Po",
+      "Pr",
+      "Pt",
+      "Pu",
+      "Ra",
+      "Rb",
+      "Re",
+      "Rf",
+      "Rg",
+      "Rh",
+      "Rn",
+      "Ru",
+      "S",
+      "Sb",
+      "Sc",
+      "Se",
+      "Sg",
+      "Si",
+      "Sm",
+      "Sn",
+      "Sr",
+      "Ta",
+      "Tb",
+      "Tc",
+      "Te",
+      "Th",
+      "Ti",
+      "Tl",
+      "Tm",
+      "Ts",
+      "U",
+      "V",
+      "W",
+      "Xe",
+      "Y",
+      "Yb",
+      "Zn",
+      "Zr"
+    ]
+  },
+  "154add836ee355d034911f69cbf614e9": {
+    "op": "distinct",
+    "name": "r3tran",
+    "digest": "154add836ee355d034911f69cbf614e9",
+    "query": "tcode",
+    "res": [
+      "LICENSE_ATTRIBUTES",
+      "MI_SYNEWS",
+      "SOBJ",
+      "SOBL_MODEL"
+    ]
+  },
+  "fd7c0f648246fe46bc355e08e66ab44f": {
+    "op": "distinct",
+    "name": "sobj_table",
+    "digest": "fd7c0f648246fe46bc355e08e66ab44f",
+    "query": "TranslationRelevant",
+    "res": [
+      false,
+      true
+    ]
+  },
+  "a8017507ab8fbf3ca4ba8b391cd8fc34": {
+    "op": "distinct",
+    "name": "fioribecatalog",
+    "digest": "a8017507ab8fbf3ca4ba8b391cd8fc34",
+    "query": "ApplicationComponent",
+    "res": [
+      null,
+      "BC-ILM-IRM",
+      "BC-ILM-RW",
+      "FI-AR",
+      "FI-LOC-FI",
+      "PS"
+    ]
+  },
+  "b3e1c12e5807e7b19e0d72eadca75378": {
+    "op": "distinct",
+    "name": "fioribecatalog",
+    "digest": "b3e1c12e5807e7b19e0d72eadca75378",
+    "query": "SemanticAction",
+    "res": [
+      "assignToGroupingWBSElementCollectively",
+      "createBalanceConfirmationForEmpties",
+      "evaluateEmptiesStock",
+      "maintain",
+      "maintainAuditArea",
+      "maintainRules",
+      "prepareSalesUseTaxesReportCA",
+      "prepareSalesUseTaxesReportUSA"
+    ]
+  },
+  "9e215601bf4f7de417b5bd577976e209": {
+    "op": "distinct",
+    "name": "metamodel",
+    "digest": "9e215601bf4f7de417b5bd577976e209",
+    "query": "_categories.category",
+    "res": [
+      "LUNRIndex",
+      "QBE",
+      "category",
+      "category description",
+      "category synonyms",
+      "columns",
+      "domain",
+      "domain description",
+      "exactmatch",
+      "uri",
+      "wordindex",
+      "atomic weight",
+      "element name",
+      "element number",
+      "element symbol",
+      "element properties",
+      "_url",
+      "albedo",
+      "distance",
+      "eccentricity",
+      "mass",
+      "object name",
+      "object type",
+      "orbit radius",
+      "orbital period",
+      "orbits",
+      "radius",
+      "visual luminosity",
+      "visual magnitude",
+      "client",
+      "devclass",
+      "systemId",
+      "tcode",
+      "transaction description",
+      "AppDocumentationLinkKW",
+      "AppKey",
+      "AppName",
+      "ApplicationComponent",
+      "ApplicationType",
+      "ArtifactId",
+      "BSPApplicationURL",
+      "BSPName",
+      "BSPPackage",
+      "BusinessCatalog",
+      "BusinessGroupDescription",
+      "BusinessGroupName",
+      "BusinessRoleName",
+      "ExternalReleaseName",
+      "FrontendSoftwareComponent",
+      "LPDCustInstance",
+      "PrimaryODataPFCGRole",
+      "PrimaryODataServiceName",
+      "RoleName",
+      "SemanticAction",
+      "SemanticObject",
+      "TechnicalCatalog",
+      "TransactionCode",
+      "URLParameters",
+      "appId",
+      "detailsurl",
+      "fiori intent",
+      "isPublished",
+      "releaseId",
+      "releaseName",
+      "Category",
+      "Object name length",
+      "PrimaryTable",
+      "Shorttext",
+      "Table",
+      "TableTransportKeySpec",
+      "TranslationRelevant",
+      "TransportObject",
+      "Type",
+      "clientSpecific",
+      "recordKey",
+      "BackendCatalogId",
+      "SoftwareComponent",
+      "TechnicalCatalogSystemAlias",
+      "WebDynproApplication"
+    ]
+  },
+  "5b9df3bb875738c46eafa4bbaf903012": {
+    "op": "distinct",
+    "name": "sobj_table",
+    "digest": "5b9df3bb875738c46eafa4bbaf903012",
+    "query": "_tables.PrimaryTable",
+    "res": [
+      false,
+      true
+    ]
+  },
+  "0205a0ef37e8e8bc2ceb1370107c9bdf": {
+    "op": "aggregate",
+    "name": "metamodel",
+    "digest": "0205a0ef37e8e8bc2ceb1370107c9bdf",
+    "query": [
+      {
+        "$match": {
+          "_synonyms.0": {
+            "$exists": true
+          }
+        }
+      },
+      {
+        "$project": {
+          "_synonyms": 1
+        }
+      },
+      {
+        "$unwind": "$_synonyms"
+      },
+      {
+        "$project": {
+          "category": "$_synonyms.category",
+          "fact": "$_synonyms.fact",
+          "synonyms": "$_synonyms.synonyms"
+        }
+      }
+    ],
+    "res": []
+  },
+  "7c59e839b1881741c8bc831e3abed175": {
+    "op": "aggregate",
+    "name": "cosmo",
+    "digest": "7c59e839b1881741c8bc831e3abed175",
+    "query": [
+      {
+        "$match": {
+          "_synonyms.0": {
+            "$exists": true
+          }
+        }
+      },
+      {
+        "$project": {
+          "_synonyms": 1
+        }
+      },
+      {
+        "$unwind": "$_synonyms"
+      },
+      {
+        "$project": {
+          "category": "$_synonyms.category",
+          "fact": "$_synonyms.fact",
+          "synonyms": "$_synonyms.synonyms"
+        }
+      }
+    ],
+    "res": [
+      {
+        "_id": "59289d809f1ae34670303fbb",
+        "category": "object name",
+        "fact": "Alpha Centauri A",
+        "synonyms": [
+          "Rigil Kentaurus"
+        ]
+      },
+      {
+        "_id": "59289d809f1ae34670303fbe",
+        "category": "object name",
+        "fact": "Alpha Centauri B",
+        "synonyms": [
+          "Proxima Centauri"
+        ]
+      },
+      {
+        "_id": "59289d809f1ae34670303fc0",
+        "category": "object name",
+        "fact": "Proxima Centauri b",
+        "synonyms": [
+          "Proxima b"
+        ]
+      },
+      {
+        "_id": "59289d809f1ae34670303fc3",
+        "category": "object name",
+        "fact": "earth",
+        "synonyms": [
+          "blue planet",
+          "gaia"
+        ]
+      },
+      {
+        "_id": "59289d809f1ae34670303fc3",
+        "category": "orbits",
+        "fact": "Sun",
+        "synonyms": [
+          "Sol"
+        ]
+      }
+    ]
+  },
+  "8dca7471eaed0f7aa3a9ed5559ef6a5a": {
+    "op": "aggregate",
+    "name": "sobj_table",
+    "digest": "8dca7471eaed0f7aa3a9ed5559ef6a5a",
+    "query": [
+      {
+        "$match": {
+          "_synonyms.0": {
+            "$exists": true
+          }
+        }
+      },
+      {
+        "$project": {
+          "_synonyms": 1
+        }
+      },
+      {
+        "$unwind": "$_synonyms"
+      },
+      {
+        "$project": {
+          "category": "$_synonyms.category",
+          "fact": "$_synonyms.fact",
+          "synonyms": "$_synonyms.synonyms"
+        }
+      }
+    ],
+    "res": []
+  },
+  "b15c64d2daf09e20e04def7b4ca0899b": {
+    "op": "aggregate",
+    "name": "fioriapp",
+    "digest": "b15c64d2daf09e20e04def7b4ca0899b",
+    "query": [
+      {
+        "$match": {
+          "_synonyms.0": {
+            "$exists": true
+          }
+        }
+      },
+      {
+        "$project": {
+          "_synonyms": 1
+        }
+      },
+      {
+        "$unwind": "$_synonyms"
+      },
+      {
+        "$project": {
+          "category": "$_synonyms.category",
+          "fact": "$_synonyms.fact",
+          "synonyms": "$_synonyms.synonyms"
+        }
+      }
+    ],
+    "res": []
+  },
+  "865962a28ebbd045bbd057693c283603": {
+    "op": "aggregate",
+    "name": "philoelement",
+    "digest": "865962a28ebbd045bbd057693c283603",
+    "query": [
+      {
+        "$match": {
+          "_synonyms.0": {
+            "$exists": true
+          }
+        }
+      },
+      {
+        "$project": {
+          "_synonyms": 1
+        }
+      },
+      {
+        "$unwind": "$_synonyms"
+      },
+      {
+        "$project": {
+          "category": "$_synonyms.category",
+          "fact": "$_synonyms.fact",
+          "synonyms": "$_synonyms.synonyms"
+        }
+      }
+    ],
+    "res": []
+  },
+  "3fc8df5140649a8d043665c860e40491": {
+    "op": "aggregate",
+    "name": "fioribecatalog",
+    "digest": "3fc8df5140649a8d043665c860e40491",
+    "query": [
+      {
+        "$match": {
+          "_synonyms.0": {
+            "$exists": true
+          }
+        }
+      },
+      {
+        "$project": {
+          "_synonyms": 1
+        }
+      },
+      {
+        "$unwind": "$_synonyms"
+      },
+      {
+        "$project": {
+          "category": "$_synonyms.category",
+          "fact": "$_synonyms.fact",
+          "synonyms": "$_synonyms.synonyms"
+        }
+      }
+    ],
+    "res": []
+  },
+  "8a51c23159a28f92c66232924768e283": {
+    "op": "aggregate",
+    "name": "r3tran",
+    "digest": "8a51c23159a28f92c66232924768e283",
+    "query": [
+      {
+        "$match": {
+          "_synonyms.0": {
+            "$exists": true
+          }
+        }
+      },
+      {
+        "$project": {
+          "_synonyms": 1
+        }
+      },
+      {
+        "$unwind": "$_synonyms"
+      },
+      {
+        "$project": {
+          "category": "$_synonyms.category",
+          "fact": "$_synonyms.fact",
+          "synonyms": "$_synonyms.synonyms"
+        }
+      }
+    ],
+    "res": []
+  },
+  "08f5f50b4ca97cd3e5323fafeb207b15": {
+    "op": "aggregate",
+    "name": "iupac",
+    "digest": "08f5f50b4ca97cd3e5323fafeb207b15",
+    "query": [
+      {
+        "$match": {
+          "_synonyms.0": {
+            "$exists": true
+          }
+        }
+      },
+      {
+        "$project": {
+          "_synonyms": 1
+        }
+      },
+      {
+        "$unwind": "$_synonyms"
+      },
+      {
+        "$project": {
+          "category": "$_synonyms.category",
+          "fact": "$_synonyms.fact",
+          "synonyms": "$_synonyms.synonyms"
+        }
+      }
+    ],
+    "res": [
+      {
+        "_id": "59289d809f1ae34670303fd3",
+        "category": "element name",
+        "fact": "aluminium",
+        "synonyms": [
+          "aluminum"
+        ]
+      },
+      {
+        "_id": "59289d809f1ae34670303ffe",
+        "category": "element name",
+        "fact": "caesium",
+        "synonyms": [
+          "cesium"
+        ]
+      }
+    ]
+  },
+  "aa079fb0d221243ef17e4e8953935f08": {
+    "op": "find",
+    "name": "filler",
+    "digest": "aa079fb0d221243ef17e4e8953935f08",
+    "query": {},
+    "res": [
+      {
+        "_id": "59289d809f1ae34670303ec4",
+        "fillers": [
+          "start",
+          "show",
+          "from",
+          "in",
+          "for",
+          "related",
+          "to",
+          "and",
+          "with",
+          "the",
+          "of"
+        ],
+        "__v": 0
+      }
+    ]
+  },
+  "67d8b485b4d15182967600c9eca32909": {
+    "op": "find",
+    "name": "operator",
+    "digest": "67d8b485b4d15182967600c9eca32909",
+    "query": {},
+    "res": [
+      {
+        "_id": "59289d809f1ae34670303ec3",
+        "operators": {
+          "having": {
+            "argcategory": [
+              [
+                "category"
+              ],
+              [
+                "category"
+              ]
+            ],
+            "arity": 2
+          },
+          "being": {
+            "argcategory": [
+              [
+                "category"
+              ],
+              [
+                "category"
+              ]
+            ],
+            "arity": 2
+          },
+          "excluding": {
+            "argcategory": [
+              [
+                "fact"
+              ]
+            ],
+            "arity": 1
+          },
+          "ending with": {
+            "argcategory": [
+              [
+                "category"
+              ],
+              [
+                "_fragment"
+              ]
+            ],
+            "arity": 2
+          },
+          "starting with": {
+            "argcategory": [
+              [
+                "category"
+              ],
+              [
+                "_fragment"
+              ]
+            ],
+            "arity": 2
+          },
+          "containing": {
+            "argcategory": [
+              [
+                "category"
+              ],
+              [
+                "_fragment"
+              ]
+            ],
+            "arity": 2
+          }
+        },
+        "synonyms": {
+          "having": [
+            "has a",
+            "has an"
+          ],
+          "containing": [
+            "contains"
+          ],
+          "being": [
+            "is",
+            "beeing",
+            "beeing a",
+            "beeing an",
+            "is a",
+            "is an"
+          ],
+          "ending with": [
+            "ends with",
+            "which end with",
+            "which ends with",
+            "which ends with a",
+            "which ends with an",
+            "which terminates with",
+            "which ends with a"
+          ],
+          "starting with": [
+            "starts with",
+            "begins with",
+            "begin with",
+            "which begin with",
+            "which begins with"
+          ]
+        },
+        "__v": 0
+      }
+    ]
+  },
+  "146d459ce5273ba06af90ee5ddc9f121": {
+    "op": "distinct",
+    "name": "metamodel",
+    "digest": "146d459ce5273ba06af90ee5ddc9f121",
+    "query": "domain_synonyms",
+    "res": [
+      "meta model",
+      "fiori bom"
+    ]
+  }
+}

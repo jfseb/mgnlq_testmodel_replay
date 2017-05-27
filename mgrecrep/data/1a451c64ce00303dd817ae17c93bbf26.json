@@ -1,0 +1,86 @@
+[
+  {
+    "_id": "5925e323d3f66454a8cb6e06",
+    "modelname": "cosmos",
+    "__v": 0,
+    "domain": "Cosmos",
+    "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a differnt model",
+    "_categories": [
+      {
+        "wordindex": true,
+        "category_description": "name of the comsmological object, e.g. star, start system, galaxy or planet",
+        "category": "object name",
+        "_id": "59289d809f1ae34670303e88",
+        "category_synonyms": []
+      },
+      {
+        "wordindex": true,
+        "category": "visual magnitude",
+        "_id": "59289d809f1ae34670303e87",
+        "category_synonyms": []
+      },
+      {
+        "category": "visual luminosity",
+        "_id": "59289d809f1ae34670303e86",
+        "category_synonyms": []
+      },
+      {
+        "category_description": "mass of an object",
+        "category": "mass",
+        "_id": "59289d809f1ae34670303e85",
+        "category_synonyms": []
+      },
+      {
+        "category": "radius",
+        "_id": "59289d809f1ae34670303e84",
+        "category_synonyms": []
+      },
+      {
+        "wordindex": true,
+        "category_description": "type of object, e.g. \"star\", \"planet\".",
+        "category": "object type",
+        "_id": "59289d809f1ae34670303e83",
+        "category_synonyms": []
+      },
+      {
+        "wordindex": true,
+        "category_description": "for planets, name of the central entity",
+        "category": "orbits",
+        "_id": "59289d809f1ae34670303e82",
+        "category_synonyms": []
+      },
+      {
+        "category_description": "distance from earth",
+        "category": "distance",
+        "_id": "59289d809f1ae34670303e81",
+        "category_synonyms": []
+      },
+      {
+        "category": "_url",
+        "_id": "59289d809f1ae34670303e80",
+        "category_synonyms": []
+      },
+      {
+        "category": "orbit radius",
+        "_id": "59289d809f1ae34670303e7f",
+        "category_synonyms": []
+      },
+      {
+        "category": "eccentricity",
+        "_id": "59289d809f1ae34670303e7e",
+        "category_synonyms": []
+      },
+      {
+        "category": "orbital period",
+        "_id": "59289d809f1ae34670303e7d",
+        "category_synonyms": []
+      },
+      {
+        "category": "albedo",
+        "_id": "59289d809f1ae34670303e7c",
+        "category_synonyms": []
+      }
+    ],
+    "columns": []
+  }
+]
