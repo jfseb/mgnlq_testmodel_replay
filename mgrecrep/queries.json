@@ -3373,5 +3373,4694 @@
       "meta model",
       "fiori bom"
     ]
+  },
+  "c6cbea17ff1ae2ecd0709409c151cd4b": {
+    "op": "find",
+    "name": "cosmo",
+    "digest": "c6cbea17ff1ae2ecd0709409c151cd4b",
+    "query": {},
+    "res": [
+      {
+        "_id": "59289d809f1ae34670303fc6",
+        "object_name": "Sun",
+        "visual_luminosity": "n/a",
+        "orbit_radius": "1.016 - 0.983 AU, 152,100,000km - 14,.095,000km",
+        "mass": "333,000*earth, 1.989×10^30 kg",
+        "radius": "109*earth, 695700km",
+        "visual_magnitude": "-27",
+        "object_type": "star",
+        "distance": "1au; 1.496x10^8 km, 8min 19s at light speed",
+        "_url": "https://en.wikipedia.org/wiki/Sun",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fbd",
+        "object_name": "Alpha Centauri B",
+        "visual_luminosity": "0.445*sun",
+        "mass": ".907*sun",
+        "visual_magnitude": "n/a",
+        "distance": "4.37 lightyears, 1.34pc",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fc2",
+        "object_name": "Mars",
+        "visual_luminosity": "n/a",
+        "orbit_radius": "1.66AU-1.523679AU",
+        "eccentricity": "0.0934",
+        "orbital_period": "1.880years, 668 sols",
+        "mass": "0.107*earth",
+        "radius": "0.53*earth, 3.390 km",
+        "visual_magnitude": "+1.6 to -3.0",
+        "object_type": "planet",
+        "orbits": "Sun",
+        "distance": "n/a",
+        "_url": "https://en.wikipedia.org/wiki/Mars",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fbb",
+        "object_name": "Alpha Centauri A",
+        "visual_magnitude": "-0.27",
+        "visual_luminosity": "1.519*sun",
+        "object_type": "star",
+        "mass": "1.1*sun",
+        "distance": "4.37 lightyears, 1.34pc",
+        "_synonyms": [
+          {
+            "category": "object name",
+            "fact": "Alpha Centauri A",
+            "_id": "59289d809f1ae34670303fbc",
+            "synonyms": [
+              "Rigil Kentaurus"
+            ]
+          }
+        ],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fbe",
+        "object_name": "Alpha Centauri C",
+        "visual_luminosity": "-0.27",
+        "mass": "n/a",
+        "visual_magnitude": "n/a",
+        "orbits": "n/a",
+        "object_type": "star, red dwarf",
+        "distance": "4.24 lightyears, 1.30pc",
+        "_synonyms": [
+          {
+            "category": "object name",
+            "fact": "Alpha Centauri B",
+            "_id": "59289d809f1ae34670303fbf",
+            "synonyms": [
+              "Proxima Centauri"
+            ]
+          }
+        ],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fc0",
+        "object_name": "Proxima Centauri b",
+        "visual_luminosity": "n/a",
+        "mass": "0.134*sun, 1.27*earth",
+        "radius": "0.141*sun, 1.1+/-0.3*earth",
+        "visual_magnitude": "n/a",
+        "object_type": "planet",
+        "orbits": "Alpha Centauri C",
+        "distance": "4.2 lightyears, 1.30pc",
+        "_url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b",
+        "_synonyms": [
+          {
+            "category": "object name",
+            "fact": "Proxima Centauri b",
+            "_id": "59289d809f1ae34670303fc1",
+            "synonyms": [
+              "Proxima b"
+            ]
+          }
+        ],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fc3",
+        "object_name": "earth",
+        "visual_luminosity": "n/a",
+        "orbit_radius": "1.016 - 0.983 AU, 152,100,000km - 14,.095,000km",
+        "eccentricity": "0.0167",
+        "orbital_period": "1years, 365.256363004 d 668 sols",
+        "mass": "1*earth, 5.2*10^24kg",
+        "radius": "1*earth, 6371km",
+        "visual_magnitude": "n/a",
+        "albedo": "0.367",
+        "object_type": "planet",
+        "orbits": "Sun",
+        "distance": "0",
+        "_url": "https://en.wikipedia.org/wiki/Earth",
+        "_synonyms": [
+          {
+            "category": "object name",
+            "fact": "earth",
+            "_id": "59289d809f1ae34670303fc5",
+            "synonyms": [
+              "blue planet",
+              "gaia"
+            ]
+          },
+          {
+            "category": "orbits",
+            "fact": "Sun",
+            "_id": "59289d809f1ae34670303fc4",
+            "synonyms": [
+              "Sol"
+            ]
+          }
+        ],
+        "__v": 0
+      }
+    ]
+  },
+  "a237b48765fc7da9b9b5849098267e6f": {
+    "op": "aggregate",
+    "name": "sobj_table",
+    "digest": "a237b48765fc7da9b9b5849098267e6f",
+    "query": [
+      [
+        {
+          "$unwind": {
+            "path": "$_tables",
+            "preserveNullAndEmptyArrays": true
+          }
+        }
+      ]
+    ],
+    "res": [
+      {
+        "_id": "59289d809f1ae34670303f8a",
+        "TransportObject": "LRCC",
+        "Shorttext": "LRepository cross-client content",
+        "clientSpecific": false,
+        "Object_name_length": 40,
+        "TranslationRelevant": true,
+        "Category": "n/a",
+        "Type": "n/a",
+        "_tables": {
+          "Table": "/UIF/LREPDCONT",
+          "TableTransportKeySpec": "/&",
+          "PrimaryTable": true,
+          "_id": "59289d809f1ae34670303f91"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303f8a",
+        "TransportObject": "LRCC",
+        "Shorttext": "LRepository cross-client content",
+        "clientSpecific": false,
+        "Object_name_length": 40,
+        "TranslationRelevant": true,
+        "Category": "n/a",
+        "Type": "n/a",
+        "_tables": {
+          "Table": "/UIF/LREPDATTR",
+          "TableTransportKeySpec": "/&/*",
+          "PrimaryTable": false,
+          "_id": "59289d809f1ae34670303f90"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303f8a",
+        "TransportObject": "LRCC",
+        "Shorttext": "LRepository cross-client content",
+        "clientSpecific": false,
+        "Object_name_length": 40,
+        "TranslationRelevant": true,
+        "Category": "n/a",
+        "Type": "n/a",
+        "_tables": {
+          "Table": "/UIF/LREPDREF",
+          "TableTransportKeySpec": "/&/*",
+          "PrimaryTable": false,
+          "_id": "59289d809f1ae34670303f8f"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303f8a",
+        "TransportObject": "LRCC",
+        "Shorttext": "LRepository cross-client content",
+        "clientSpecific": false,
+        "Object_name_length": 40,
+        "TranslationRelevant": true,
+        "Category": "n/a",
+        "Type": "n/a",
+        "_tables": {
+          "Table": "/UIF/LREPDEREF",
+          "TableTransportKeySpec": "/&/*",
+          "PrimaryTable": false,
+          "_id": "59289d809f1ae34670303f8e"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303f8a",
+        "TransportObject": "LRCC",
+        "Shorttext": "LRepository cross-client content",
+        "clientSpecific": false,
+        "Object_name_length": 40,
+        "TranslationRelevant": true,
+        "Category": "n/a",
+        "Type": "n/a",
+        "_tables": {
+          "Table": "/UIF/LREPDSTXT",
+          "TableTransportKeySpec": "/&/L/*",
+          "PrimaryTable": false,
+          "_id": "59289d809f1ae34670303f8d"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303f8a",
+        "TransportObject": "LRCC",
+        "Shorttext": "LRepository cross-client content",
+        "clientSpecific": false,
+        "Object_name_length": 40,
+        "TranslationRelevant": true,
+        "Category": "n/a",
+        "Type": "n/a",
+        "_tables": {
+          "Table": "/UIF/LREPDLTXT",
+          "TableTransportKeySpec": "/&/L/*",
+          "PrimaryTable": false,
+          "_id": "59289d809f1ae34670303f8c"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303f8a",
+        "TransportObject": "LRCC",
+        "Shorttext": "LRepository cross-client content",
+        "clientSpecific": false,
+        "Object_name_length": 40,
+        "TranslationRelevant": true,
+        "Category": "n/a",
+        "Type": "n/a",
+        "_tables": {
+          "Table": "/UIF/LREPDTEXT",
+          "TableTransportKeySpec": "/&/*",
+          "_id": "59289d809f1ae34670303f8b"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303f92",
+        "TransportObject": "LRCD",
+        "Shorttext": "LRepository client-dependent content",
+        "TranslationRelevant": true,
+        "clientSpecific": true,
+        "Object_name_length": 40,
+        "Category": "n/a",
+        "Type": "n/a",
+        "_tables": {
+          "Table": "/UIF/LREPDCONTCD",
+          "TableTransportKeySpec": "/C/&",
+          "PrimaryTable": true,
+          "_id": "59289d809f1ae34670303f99"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303f92",
+        "TransportObject": "LRCD",
+        "Shorttext": "LRepository client-dependent content",
+        "TranslationRelevant": true,
+        "clientSpecific": true,
+        "Object_name_length": 40,
+        "Category": "n/a",
+        "Type": "n/a",
+        "_tables": {
+          "Table": "/UIF/LREPDATTRCD",
+          "TableTransportKeySpec": "/C/&/*",
+          "PrimaryTable": false,
+          "_id": "59289d809f1ae34670303f98"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303f92",
+        "TransportObject": "LRCD",
+        "Shorttext": "LRepository client-dependent content",
+        "TranslationRelevant": true,
+        "clientSpecific": true,
+        "Object_name_length": 40,
+        "Category": "n/a",
+        "Type": "n/a",
+        "_tables": {
+          "Table": "/UIF/LREPDREFCD",
+          "TableTransportKeySpec": "/C/&/*",
+          "PrimaryTable": false,
+          "_id": "59289d809f1ae34670303f97"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303f92",
+        "TransportObject": "LRCD",
+        "Shorttext": "LRepository client-dependent content",
+        "TranslationRelevant": true,
+        "clientSpecific": true,
+        "Object_name_length": 40,
+        "Category": "n/a",
+        "Type": "n/a",
+        "_tables": {
+          "Table": "/UIF/LREPDEREFCD",
+          "TableTransportKeySpec": "/C/&/*",
+          "PrimaryTable": false,
+          "_id": "59289d809f1ae34670303f96"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303f92",
+        "TransportObject": "LRCD",
+        "Shorttext": "LRepository client-dependent content",
+        "TranslationRelevant": true,
+        "clientSpecific": true,
+        "Object_name_length": 40,
+        "Category": "n/a",
+        "Type": "n/a",
+        "_tables": {
+          "Table": "/UIF/LREPDSTXTCD",
+          "TableTransportKeySpec": "/C/&/L/*",
+          "PrimaryTable": false,
+          "_id": "59289d809f1ae34670303f95"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303f92",
+        "TransportObject": "LRCD",
+        "Shorttext": "LRepository client-dependent content",
+        "TranslationRelevant": true,
+        "clientSpecific": true,
+        "Object_name_length": 40,
+        "Category": "n/a",
+        "Type": "n/a",
+        "_tables": {
+          "Table": "/UIF/LREPDLTXTCD",
+          "TableTransportKeySpec": "/C/&/L/*",
+          "PrimaryTable": false,
+          "_id": "59289d809f1ae34670303f94"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303f92",
+        "TransportObject": "LRCD",
+        "Shorttext": "LRepository client-dependent content",
+        "TranslationRelevant": true,
+        "clientSpecific": true,
+        "Object_name_length": 40,
+        "Category": "n/a",
+        "Type": "n/a",
+        "_tables": {
+          "Table": "/UIF/LREPDTEXTCD",
+          "TableTransportKeySpec": "/C/&/*",
+          "PrimaryTable": false,
+          "_id": "59289d809f1ae34670303f93"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303f9a",
+        "TransportObject": "LTHR",
+        "Shorttext": "ALV: HTML Templates (Raw Version)",
+        "TranslationRelevant": false,
+        "clientSpecific": false,
+        "Object_name_length": 20,
+        "Category": "n/a",
+        "Type": "n/a",
+        "_tables": {
+          "Table": "LTDHTRAW",
+          "TableTransportKeySpec": "/&/*",
+          "PrimaryTable": true,
+          "_id": "59289d809f1ae34670303f9b"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303f9c",
+        "TransportObject": "LTHT",
+        "Shorttext": "ALV: HTML Templates (Translated Templates)",
+        "TranslationRelevant": true,
+        "clientSpecific": false,
+        "Object_name_length": 20,
+        "Category": "n/a",
+        "Type": "n/a",
+        "_tables": {
+          "Table": "LTDHTTMPL",
+          "TableTransportKeySpec": "/L/&/*",
+          "PrimaryTable": true,
+          "_id": "59289d809f1ae34670303f9d"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303f9e",
+        "TransportObject": "LTRC",
+        "Shorttext": "Landscape Transformation Repository: Object Version",
+        "TranslationRelevant": false,
+        "Category": "n/a",
+        "clientSpecific": false,
+        "Object_name_length": 40,
+        "Type": "n/a",
+        "_tables": {
+          "PrimaryTable": true,
+          "Table": "LTR_REPOSITORY",
+          "TableTransportKeySpec": "AA/&/*",
+          "_id": "59289d809f1ae34670303f9f"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fa0",
+        "TransportObject": "SOBJ",
+        "Shorttext": "Business object types",
+        "Object_name_length": 10,
+        "Category": "n/a",
+        "TranslationRelevant": true,
+        "clientSpecific": false,
+        "Type": "n/a",
+        "_tables": {
+          "Table": "SWOTDQ",
+          "PrimaryTable": true,
+          "TableTransportKeySpec": "/&/*",
+          "_id": "59289d809f1ae34670303fa2"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fa0",
+        "TransportObject": "SOBJ",
+        "Shorttext": "Business object types",
+        "Object_name_length": 10,
+        "Category": "n/a",
+        "TranslationRelevant": true,
+        "clientSpecific": false,
+        "Type": "n/a",
+        "_tables": {
+          "Table": "SWOTDI",
+          "TableTransportKeySpec": "/&/*",
+          "PrimaryTable": false,
+          "_id": "59289d809f1ae34670303fa1"
+        },
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fa3",
+        "TransportObject": "01DY",
+        "Object_name_length": 79,
+        "Shorttext": "Screen sequence for rental units transport object",
+        "TranslationRelevant": false,
+        "clientSpecific": true,
+        "Category": "n/a",
+        "Type": "n/a",
+        "_tables": {
+          "Table": "TZS02",
+          "TableTransportKeySpec": "/C/&",
+          "PrimaryTable": true,
+          "_id": "59289d809f1ae34670303fa4"
+        },
+        "__v": 0
+      }
+    ]
+  },
+  "a51fd86fafbde846ad8fe14ad9759212": {
+    "op": "aggregate",
+    "name": "metamodel",
+    "digest": "a51fd86fafbde846ad8fe14ad9759212",
+    "query": [
+      [
+        {
+          "$unwind": {
+            "path": "$_categories",
+            "preserveNullAndEmptyArrays": true
+          }
+        }
+      ]
+    ],
+    "res": [
+      {
+        "_id": "5925e323d3f66454a8cb6e00",
+        "modelname": "metamodels",
+        "__v": 0,
+        "collectionname": "metamodels",
+        "mongoosemodelname": "metamodel",
+        "domain": "metamodel",
+        "domain_description": "metamodel",
+        "_categories": {
+          "exactmatch": false,
+          "wordindex": false,
+          "category_description": "link to domain description",
+          "category": "uri",
+          "_id": "59289d7f9f1ae34670303e75",
+          "QBEColumnProps": {
+            "QBE": true
+          },
+          "category_synonyms": []
+        },
+        "columns": [
+          "domain",
+          "category",
+          "exactmatch",
+          "domain description",
+          "category description"
+        ],
+        "domain_synonyms": [
+          "meta model"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e00",
+        "modelname": "metamodels",
+        "__v": 0,
+        "collectionname": "metamodels",
+        "mongoosemodelname": "metamodel",
+        "domain": "metamodel",
+        "domain_description": "metamodel",
+        "_categories": {
+          "exactmatch": false,
+          "wordindex": true,
+          "category_description": "a technical key, combination of appId and releaseId",
+          "category": "domain",
+          "_id": "59289d7f9f1ae34670303e74",
+          "QBEColumnProps": {
+            "LUNRIndex": true,
+            "QBE": true
+          },
+          "category_synonyms": []
+        },
+        "columns": [
+          "domain",
+          "category",
+          "exactmatch",
+          "domain description",
+          "category description"
+        ],
+        "domain_synonyms": [
+          "meta model"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e00",
+        "modelname": "metamodels",
+        "__v": 0,
+        "collectionname": "metamodels",
+        "mongoosemodelname": "metamodel",
+        "domain": "metamodel",
+        "domain_description": "metamodel",
+        "_categories": {
+          "exactmatch": true,
+          "category_description": "a technical key, combination of appId and releaseId",
+          "category": "domain description",
+          "_id": "59289d7f9f1ae34670303e73",
+          "QBEColumnProps": {
+            "QBE": true
+          },
+          "category_synonyms": []
+        },
+        "columns": [
+          "domain",
+          "category",
+          "exactmatch",
+          "domain description",
+          "category description"
+        ],
+        "domain_synonyms": [
+          "meta model"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e00",
+        "modelname": "metamodels",
+        "__v": 0,
+        "collectionname": "metamodels",
+        "mongoosemodelname": "metamodel",
+        "domain": "metamodel",
+        "domain_description": "metamodel",
+        "_categories": {
+          "wordindex": true,
+          "category_description": "Object property",
+          "category": "category",
+          "_id": "59289d7f9f1ae34670303e72",
+          "QBEColumnProps": {
+            "LUNRIndex": true,
+            "QBE": true
+          },
+          "category_synonyms": []
+        },
+        "columns": [
+          "domain",
+          "category",
+          "exactmatch",
+          "domain description",
+          "category description"
+        ],
+        "domain_synonyms": [
+          "meta model"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e00",
+        "modelname": "metamodels",
+        "__v": 0,
+        "collectionname": "metamodels",
+        "mongoosemodelname": "metamodel",
+        "domain": "metamodel",
+        "domain_description": "metamodel",
+        "_categories": {
+          "category_description": "Description of the category",
+          "category": "category description",
+          "_id": "59289d7f9f1ae34670303e71",
+          "category_synonyms": []
+        },
+        "columns": [
+          "domain",
+          "category",
+          "exactmatch",
+          "domain description",
+          "category description"
+        ],
+        "domain_synonyms": [
+          "meta model"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e00",
+        "modelname": "metamodels",
+        "__v": 0,
+        "collectionname": "metamodels",
+        "mongoosemodelname": "metamodel",
+        "domain": "metamodel",
+        "domain_description": "metamodel",
+        "_categories": {
+          "category_description": "whether to include the category in QBE tables",
+          "category": "QBE",
+          "_id": "59289d7f9f1ae34670303e70",
+          "category_synonyms": []
+        },
+        "columns": [
+          "domain",
+          "category",
+          "exactmatch",
+          "domain description",
+          "category description"
+        ],
+        "domain_synonyms": [
+          "meta model"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e00",
+        "modelname": "metamodels",
+        "__v": 0,
+        "collectionname": "metamodels",
+        "mongoosemodelname": "metamodel",
+        "domain": "metamodel",
+        "domain_description": "metamodel",
+        "_categories": {
+          "category_description": "whether to include the category in a LUNR Index",
+          "category": "LUNRIndex",
+          "_id": "59289d7f9f1ae34670303e6f",
+          "category_synonyms": []
+        },
+        "columns": [
+          "domain",
+          "category",
+          "exactmatch",
+          "domain description",
+          "category description"
+        ],
+        "domain_synonyms": [
+          "meta model"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e00",
+        "modelname": "metamodels",
+        "__v": 0,
+        "collectionname": "metamodels",
+        "mongoosemodelname": "metamodel",
+        "domain": "metamodel",
+        "domain_description": "metamodel",
+        "_categories": {
+          "category_description": "whether to include the category in a LUNR Index",
+          "category": "wordindex",
+          "_id": "59289d7f9f1ae34670303e6e",
+          "category_synonyms": []
+        },
+        "columns": [
+          "domain",
+          "category",
+          "exactmatch",
+          "domain description",
+          "category description"
+        ],
+        "domain_synonyms": [
+          "meta model"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e00",
+        "modelname": "metamodels",
+        "__v": 0,
+        "collectionname": "metamodels",
+        "mongoosemodelname": "metamodel",
+        "domain": "metamodel",
+        "domain_description": "metamodel",
+        "_categories": {
+          "category_description": "whether a match on a given value has to be precise",
+          "category": "exactmatch",
+          "_id": "59289d7f9f1ae34670303e6d",
+          "category_synonyms": []
+        },
+        "columns": [
+          "domain",
+          "category",
+          "exactmatch",
+          "domain description",
+          "category description"
+        ],
+        "domain_synonyms": [
+          "meta model"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e00",
+        "modelname": "metamodels",
+        "__v": 0,
+        "collectionname": "metamodels",
+        "mongoosemodelname": "metamodel",
+        "domain": "metamodel",
+        "domain_description": "metamodel",
+        "_categories": {
+          "category_description": "synonyms for the category",
+          "category": "category synonyms",
+          "_id": "59289d7f9f1ae34670303e6c",
+          "category_synonyms": []
+        },
+        "columns": [
+          "domain",
+          "category",
+          "exactmatch",
+          "domain description",
+          "category description"
+        ],
+        "domain_synonyms": [
+          "meta model"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e00",
+        "modelname": "metamodels",
+        "__v": 0,
+        "collectionname": "metamodels",
+        "mongoosemodelname": "metamodel",
+        "domain": "metamodel",
+        "domain_description": "metamodel",
+        "_categories": {
+          "category_description": "the columns in order which are shon in a table",
+          "category": "columns",
+          "_id": "59289d7f9f1ae34670303e6b",
+          "category_synonyms": []
+        },
+        "columns": [
+          "domain",
+          "category",
+          "exactmatch",
+          "domain description",
+          "category description"
+        ],
+        "domain_synonyms": [
+          "meta model"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e01",
+        "modelname": "iupacs",
+        "__v": 0,
+        "domain": "IUPAC",
+        "_categories": {
+          "wordindex": true,
+          "category_description": "element name",
+          "category": "element name",
+          "_id": "59289d809f1ae34670303e79",
+          "QBEColumnProps": {
+            "LUNRIndex": true,
+            "QBE": true,
+            "defaultWidth": 120
+          },
+          "category_synonyms": [
+            "name"
+          ]
+        },
+        "columns": [
+          "element symbol",
+          "element number",
+          "element name"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e01",
+        "modelname": "iupacs",
+        "__v": 0,
+        "domain": "IUPAC",
+        "_categories": {
+          "wordindex": true,
+          "category_description": "element symbol",
+          "category": "element symbol",
+          "_id": "59289d809f1ae34670303e78",
+          "QBEColumnProps": {
+            "LUNRIndex": true,
+            "QBE": true,
+            "defaultWidth": 60
+          },
+          "category_synonyms": [
+            "symbol"
+          ]
+        },
+        "columns": [
+          "element symbol",
+          "element number",
+          "element name"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e01",
+        "modelname": "iupacs",
+        "__v": 0,
+        "domain": "IUPAC",
+        "_categories": {
+          "category_description": "weigth of the element",
+          "category": "atomic weight",
+          "_id": "59289d809f1ae34670303e77",
+          "QBEColumnProps": {
+            "QBE": true,
+            "defaultWidth": 80
+          },
+          "category_synonyms": [
+            "element weight"
+          ]
+        },
+        "columns": [
+          "element symbol",
+          "element number",
+          "element name"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e01",
+        "modelname": "iupacs",
+        "__v": 0,
+        "domain": "IUPAC",
+        "_categories": {
+          "wordindex": true,
+          "category_description": "weigth of the element",
+          "category": "element number",
+          "_id": "59289d809f1ae34670303e76",
+          "QBEColumnProps": {
+            "LUNRIndex": true,
+            "QBE": true,
+            "defaultWidth": 60
+          },
+          "category_synonyms": []
+        },
+        "columns": [
+          "element symbol",
+          "element number",
+          "element name"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e03",
+        "modelname": "philoelements",
+        "__v": 0,
+        "domain": "Philosophers elements",
+        "domain_description": "Philosophical elements, a trivial model to create some ambiguities, notably \"earth\", which is also a key of the domain cosmos",
+        "_categories": {
+          "wordindex": true,
+          "category_description": "name of the philosophical element",
+          "category": "element name",
+          "_id": "59289d809f1ae34670303e7b",
+          "category_synonyms": [
+            "name"
+          ]
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e03",
+        "modelname": "philoelements",
+        "__v": 0,
+        "domain": "Philosophers elements",
+        "domain_description": "Philosophical elements, a trivial model to create some ambiguities, notably \"earth\", which is also a key of the domain cosmos",
+        "_categories": {
+          "category": "element properties",
+          "_id": "59289d809f1ae34670303e7a",
+          "category_synonyms": []
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e06",
+        "modelname": "cosmos",
+        "__v": 0,
+        "domain": "Cosmos",
+        "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a differnt model",
+        "_categories": {
+          "wordindex": true,
+          "category_description": "name of the comsmological object, e.g. star, start system, galaxy or planet",
+          "category": "object name",
+          "_id": "59289d809f1ae34670303e88",
+          "category_synonyms": []
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e06",
+        "modelname": "cosmos",
+        "__v": 0,
+        "domain": "Cosmos",
+        "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a differnt model",
+        "_categories": {
+          "wordindex": true,
+          "category": "visual magnitude",
+          "_id": "59289d809f1ae34670303e87",
+          "category_synonyms": []
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e06",
+        "modelname": "cosmos",
+        "__v": 0,
+        "domain": "Cosmos",
+        "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a differnt model",
+        "_categories": {
+          "category": "visual luminosity",
+          "_id": "59289d809f1ae34670303e86",
+          "category_synonyms": []
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e06",
+        "modelname": "cosmos",
+        "__v": 0,
+        "domain": "Cosmos",
+        "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a differnt model",
+        "_categories": {
+          "category_description": "mass of an object",
+          "category": "mass",
+          "_id": "59289d809f1ae34670303e85",
+          "category_synonyms": []
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e06",
+        "modelname": "cosmos",
+        "__v": 0,
+        "domain": "Cosmos",
+        "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a differnt model",
+        "_categories": {
+          "category": "radius",
+          "_id": "59289d809f1ae34670303e84",
+          "category_synonyms": []
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e06",
+        "modelname": "cosmos",
+        "__v": 0,
+        "domain": "Cosmos",
+        "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a differnt model",
+        "_categories": {
+          "wordindex": true,
+          "category_description": "type of object, e.g. \"star\", \"planet\".",
+          "category": "object type",
+          "_id": "59289d809f1ae34670303e83",
+          "category_synonyms": []
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e06",
+        "modelname": "cosmos",
+        "__v": 0,
+        "domain": "Cosmos",
+        "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a differnt model",
+        "_categories": {
+          "wordindex": true,
+          "category_description": "for planets, name of the central entity",
+          "category": "orbits",
+          "_id": "59289d809f1ae34670303e82",
+          "category_synonyms": []
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e06",
+        "modelname": "cosmos",
+        "__v": 0,
+        "domain": "Cosmos",
+        "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a differnt model",
+        "_categories": {
+          "category_description": "distance from earth",
+          "category": "distance",
+          "_id": "59289d809f1ae34670303e81",
+          "category_synonyms": []
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e06",
+        "modelname": "cosmos",
+        "__v": 0,
+        "domain": "Cosmos",
+        "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a differnt model",
+        "_categories": {
+          "category": "_url",
+          "_id": "59289d809f1ae34670303e80",
+          "category_synonyms": []
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e06",
+        "modelname": "cosmos",
+        "__v": 0,
+        "domain": "Cosmos",
+        "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a differnt model",
+        "_categories": {
+          "category": "orbit radius",
+          "_id": "59289d809f1ae34670303e7f",
+          "category_synonyms": []
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e06",
+        "modelname": "cosmos",
+        "__v": 0,
+        "domain": "Cosmos",
+        "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a differnt model",
+        "_categories": {
+          "category": "eccentricity",
+          "_id": "59289d809f1ae34670303e7e",
+          "category_synonyms": []
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e06",
+        "modelname": "cosmos",
+        "__v": 0,
+        "domain": "Cosmos",
+        "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a differnt model",
+        "_categories": {
+          "category": "orbital period",
+          "_id": "59289d809f1ae34670303e7d",
+          "category_synonyms": []
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e06",
+        "modelname": "cosmos",
+        "__v": 0,
+        "domain": "Cosmos",
+        "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a differnt model",
+        "_categories": {
+          "category": "albedo",
+          "_id": "59289d809f1ae34670303e7c",
+          "category_synonyms": []
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e08",
+        "modelname": "r3trans",
+        "__v": 0,
+        "domain": "SAP Transaction Codes",
+        "domain_description": "An extract of SAP Basis transactions",
+        "_categories": {
+          "wordindex": true,
+          "category_description": "SAP Transaction code",
+          "category": "tcode",
+          "_id": "59289d809f1ae34670303e8d",
+          "category_synonyms": []
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e08",
+        "modelname": "r3trans",
+        "__v": 0,
+        "domain": "SAP Transaction Codes",
+        "domain_description": "An extract of SAP Basis transactions",
+        "_categories": {
+          "wordindex": true,
+          "category_description": "Development class (Package) in system",
+          "category": "devclass",
+          "_id": "59289d809f1ae34670303e8c",
+          "category_synonyms": []
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e08",
+        "modelname": "r3trans",
+        "__v": 0,
+        "domain": "SAP Transaction Codes",
+        "domain_description": "An extract of SAP Basis transactions",
+        "_categories": {
+          "category": "systemId",
+          "_id": "59289d809f1ae34670303e8b",
+          "category_synonyms": []
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e08",
+        "modelname": "r3trans",
+        "__v": 0,
+        "domain": "SAP Transaction Codes",
+        "domain_description": "An extract of SAP Basis transactions",
+        "_categories": {
+          "category": "client",
+          "_id": "59289d809f1ae34670303e8a",
+          "category_synonyms": []
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e08",
+        "modelname": "r3trans",
+        "__v": 0,
+        "domain": "SAP Transaction Codes",
+        "domain_description": "An extract of SAP Basis transactions",
+        "_categories": {
+          "category_description": "English text of the transaction",
+          "category": "transaction description",
+          "_id": "59289d809f1ae34670303e89",
+          "category_synonyms": []
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0a",
+        "modelname": "fioriapps",
+        "__v": 0,
+        "domain": "FioriBOM",
+        "domain_description": "Information about Fiori apps with links to the Fiori Reference apps library",
+        "_categories": {
+          "category_description": "link to fiori app reference library",
+          "category": "uri",
+          "_id": "59289d809f1ae34670303eac",
+          "QBEColumnProps": {
+            "QBEInclude": true
+          },
+          "category_synonyms": []
+        },
+        "columns": [
+          "AppKey",
+          "ArtifactId",
+          "appId",
+          "fiori intent",
+          "AppName",
+          "ApplicationComponent",
+          "RoleName",
+          "ApplicationType",
+          "BSPName",
+          "BSPApplicationURL",
+          "releaseName",
+          "BSPPackage",
+          "BusinessRoleName",
+          "BusinessGroupName",
+          "PrimaryODataServiceName",
+          "SemanticObject",
+          "SemanticAction",
+          "FrontendSoftwareComponent",
+          "TransactionCode",
+          "ExternalReleaseName",
+          "BusinessCatalog",
+          "TechnicalCatalog"
+        ],
+        "domain_synonyms": [
+          "fiori bom"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0a",
+        "modelname": "fioriapps",
+        "__v": 0,
+        "domain": "FioriBOM",
+        "domain_description": "Information about Fiori apps with links to the Fiori Reference apps library",
+        "_categories": {
+          "exactmatch": true,
+          "category_description": "a technical key, combination of appId and releaseId",
+          "category": "AppKey",
+          "_id": "59289d809f1ae34670303eab",
+          "QBEColumnProps": {
+            "QBE": true
+          },
+          "category_synonyms": []
+        },
+        "columns": [
+          "AppKey",
+          "ArtifactId",
+          "appId",
+          "fiori intent",
+          "AppName",
+          "ApplicationComponent",
+          "RoleName",
+          "ApplicationType",
+          "BSPName",
+          "BSPApplicationURL",
+          "releaseName",
+          "BSPPackage",
+          "BusinessRoleName",
+          "BusinessGroupName",
+          "PrimaryODataServiceName",
+          "SemanticObject",
+          "SemanticAction",
+          "FrontendSoftwareComponent",
+          "TransactionCode",
+          "ExternalReleaseName",
+          "BusinessCatalog",
+          "TechnicalCatalog"
+        ],
+        "domain_synonyms": [
+          "fiori bom"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0a",
+        "modelname": "fioriapps",
+        "__v": 0,
+        "domain": "FioriBOM",
+        "domain_description": "Information about Fiori apps with links to the Fiori Reference apps library",
+        "_categories": {
+          "wordindex": true,
+          "category_description": "for UI5 based applications, name of the UI5 Component, e.g. \"ui.s2p.mm.supconf.monitors1\".",
+          "category": "ArtifactId",
+          "_id": "59289d809f1ae34670303eaa",
+          "QBEColumnProps": {
+            "LUNRIndex": true,
+            "QBE": true
+          },
+          "category_synonyms": [
+            "component name",
+            "ui5 component name",
+            "library name",
+            "javascript name",
+            "javascript id",
+            "manifest id",
+            "appdescriptor id"
+          ]
+        },
+        "columns": [
+          "AppKey",
+          "ArtifactId",
+          "appId",
+          "fiori intent",
+          "AppName",
+          "ApplicationComponent",
+          "RoleName",
+          "ApplicationType",
+          "BSPName",
+          "BSPApplicationURL",
+          "releaseName",
+          "BSPPackage",
+          "BusinessRoleName",
+          "BusinessGroupName",
+          "PrimaryODataServiceName",
+          "SemanticObject",
+          "SemanticAction",
+          "FrontendSoftwareComponent",
+          "TransactionCode",
+          "ExternalReleaseName",
+          "BusinessCatalog",
+          "TechnicalCatalog"
+        ],
+        "domain_synonyms": [
+          "fiori bom"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0a",
+        "modelname": "fioriapps",
+        "__v": 0,
+        "domain": "FioriBOM",
+        "domain_description": "Information about Fiori apps with links to the Fiori Reference apps library",
+        "_categories": {
+          "wordindex": true,
+          "category_description": "the Fiori appId, note that multiple records exists, as the same ID may change over time with verions",
+          "category": "appId",
+          "_id": "59289d809f1ae34670303ea9",
+          "QBEColumnProps": {
+            "LUNRIndex": true,
+            "QBE": true,
+            "defaultWidth": 80
+          },
+          "category_synonyms": []
+        },
+        "columns": [
+          "AppKey",
+          "ArtifactId",
+          "appId",
+          "fiori intent",
+          "AppName",
+          "ApplicationComponent",
+          "RoleName",
+          "ApplicationType",
+          "BSPName",
+          "BSPApplicationURL",
+          "releaseName",
+          "BSPPackage",
+          "BusinessRoleName",
+          "BusinessGroupName",
+          "PrimaryODataServiceName",
+          "SemanticObject",
+          "SemanticAction",
+          "FrontendSoftwareComponent",
+          "TransactionCode",
+          "ExternalReleaseName",
+          "BusinessCatalog",
+          "TechnicalCatalog"
+        ],
+        "domain_synonyms": [
+          "fiori bom"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0a",
+        "modelname": "fioriapps",
+        "__v": 0,
+        "domain": "FioriBOM",
+        "domain_description": "Information about Fiori apps with links to the Fiori Reference apps library",
+        "_categories": {
+          "wordindex": true,
+          "category_description": "A combination of \"#\" <SemanticObject> - <Semanticaction> which appears in the URL of the Fiori Launchpad when addressing the application",
+          "category": "fiori intent",
+          "_id": "59289d809f1ae34670303ea8",
+          "QBEColumnProps": {
+            "LUNRIndex": true,
+            "QBE": true,
+            "defaultWidth": 180
+          },
+          "category_synonyms": [
+            "fiori intents",
+            "intents",
+            "intent"
+          ]
+        },
+        "columns": [
+          "AppKey",
+          "ArtifactId",
+          "appId",
+          "fiori intent",
+          "AppName",
+          "ApplicationComponent",
+          "RoleName",
+          "ApplicationType",
+          "BSPName",
+          "BSPApplicationURL",
+          "releaseName",
+          "BSPPackage",
+          "BusinessRoleName",
+          "BusinessGroupName",
+          "PrimaryODataServiceName",
+          "SemanticObject",
+          "SemanticAction",
+          "FrontendSoftwareComponent",
+          "TransactionCode",
+          "ExternalReleaseName",
+          "BusinessCatalog",
+          "TechnicalCatalog"
+        ],
+        "domain_synonyms": [
+          "fiori bom"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0a",
+        "modelname": "fioriapps",
+        "__v": 0,
+        "domain": "FioriBOM",
+        "domain_description": "Information about Fiori apps with links to the Fiori Reference apps library",
+        "_categories": {
+          "wordindex": true,
+          "category_description": "Human legible Application name",
+          "category": "AppName",
+          "_id": "59289d809f1ae34670303ea7",
+          "QBEColumnProps": {
+            "LUNRIndex": true,
+            "QBE": true,
+            "defaultWidth": 200
+          },
+          "category_synonyms": [
+            "Fiori App"
+          ]
+        },
+        "columns": [
+          "AppKey",
+          "ArtifactId",
+          "appId",
+          "fiori intent",
+          "AppName",
+          "ApplicationComponent",
+          "RoleName",
+          "ApplicationType",
+          "BSPName",
+          "BSPApplicationURL",
+          "releaseName",
+          "BSPPackage",
+          "BusinessRoleName",
+          "BusinessGroupName",
+          "PrimaryODataServiceName",
+          "SemanticObject",
+          "SemanticAction",
+          "FrontendSoftwareComponent",
+          "TransactionCode",
+          "ExternalReleaseName",
+          "BusinessCatalog",
+          "TechnicalCatalog"
+        ],
+        "domain_synonyms": [
+          "fiori bom"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0a",
+        "modelname": "fioriapps",
+        "__v": 0,
+        "domain": "FioriBOM",
+        "domain_description": "Information about Fiori apps with links to the Fiori Reference apps library",
+        "_categories": {
+          "exactmatch": true,
+          "wordindex": true,
+          "category_description": "Support component for the Frontend application, typically",
+          "category": "ApplicationComponent",
+          "_id": "59289d809f1ae34670303ea6",
+          "QBEColumnProps": {
+            "LUNRIndex": true,
+            "QBE": true,
+            "defaultWidth": 100
+          },
+          "category_synonyms": [
+            "Application Component",
+            "Application components",
+            "ApplicationComponents",
+            "Support Component",
+            "Component"
+          ]
+        },
+        "columns": [
+          "AppKey",
+          "ArtifactId",
+          "appId",
+          "fiori intent",
+          "AppName",
+          "ApplicationComponent",
+          "RoleName",
+          "ApplicationType",
+          "BSPName",
+          "BSPApplicationURL",
+          "releaseName",
+          "BSPPackage",
+          "BusinessRoleName",
+          "BusinessGroupName",
+          "PrimaryODataServiceName",
+          "SemanticObject",
+          "SemanticAction",
+          "FrontendSoftwareComponent",
+          "TransactionCode",
+          "ExternalReleaseName",
+          "BusinessCatalog",
+          "TechnicalCatalog"
+        ],
+        "domain_synonyms": [
+          "fiori bom"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0a",
+        "modelname": "fioriapps",
+        "__v": 0,
+        "domain": "FioriBOM",
+        "domain_description": "Information about Fiori apps with links to the Fiori Reference apps library",
+        "_categories": {
+          "exactmatch": true,
+          "wordindex": true,
+          "category_description": "A business role name, e.g. \"Purchaser\", for a technical role (PFCG), try BusinessRoleName",
+          "category": "RoleName",
+          "_id": "59289d809f1ae34670303ea5",
+          "QBEColumnProps": {
+            "LUNRIndex": true,
+            "QBE": true
+          },
+          "category_synonyms": [
+            "Role Name",
+            "PFCG Role"
+          ]
+        },
+        "columns": [
+          "AppKey",
+          "ArtifactId",
+          "appId",
+          "fiori intent",
+          "AppName",
+          "ApplicationComponent",
+          "RoleName",
+          "ApplicationType",
+          "BSPName",
+          "BSPApplicationURL",
+          "releaseName",
+          "BSPPackage",
+          "BusinessRoleName",
+          "BusinessGroupName",
+          "PrimaryODataServiceName",
+          "SemanticObject",
+          "SemanticAction",
+          "FrontendSoftwareComponent",
+          "TransactionCode",
+          "ExternalReleaseName",
+          "BusinessCatalog",
+          "TechnicalCatalog"
+        ],
+        "domain_synonyms": [
+          "fiori bom"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0a",
+        "modelname": "fioriapps",
+        "__v": 0,
+        "domain": "FioriBOM",
+        "domain_description": "Information about Fiori apps with links to the Fiori Reference apps library",
+        "_categories": {
+          "exactmatch": true,
+          "wordindex": true,
+          "category_description": "Whether the application is classical or not",
+          "category": "ApplicationType",
+          "_id": "59289d809f1ae34670303ea4",
+          "QBEColumnProps": {
+            "LUNRIndex": true,
+            "QBE": true,
+            "defaultWidth": 100
+          },
+          "category_synonyms": []
+        },
+        "columns": [
+          "AppKey",
+          "ArtifactId",
+          "appId",
+          "fiori intent",
+          "AppName",
+          "ApplicationComponent",
+          "RoleName",
+          "ApplicationType",
+          "BSPName",
+          "BSPApplicationURL",
+          "releaseName",
+          "BSPPackage",
+          "BusinessRoleName",
+          "BusinessGroupName",
+          "PrimaryODataServiceName",
+          "SemanticObject",
+          "SemanticAction",
+          "FrontendSoftwareComponent",
+          "TransactionCode",
+          "ExternalReleaseName",
+          "BusinessCatalog",
+          "TechnicalCatalog"
+        ],
+        "domain_synonyms": [
+          "fiori bom"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0a",
+        "modelname": "fioriapps",
+        "__v": 0,
+        "domain": "FioriBOM",
+        "domain_description": "Information about Fiori apps with links to the Fiori Reference apps library",
+        "_categories": {
+          "exactmatch": true,
+          "wordindex": true,
+          "category_description": "Name of the Business Server Page",
+          "category": "BSPName",
+          "_id": "59289d809f1ae34670303ea3",
+          "QBEColumnProps": {
+            "LUNRIndex": true,
+            "QBE": true
+          },
+          "category_synonyms": [
+            "BSP",
+            "BSP Name",
+            "BSP repository"
+          ]
+        },
+        "columns": [
+          "AppKey",
+          "ArtifactId",
+          "appId",
+          "fiori intent",
+          "AppName",
+          "ApplicationComponent",
+          "RoleName",
+          "ApplicationType",
+          "BSPName",
+          "BSPApplicationURL",
+          "releaseName",
+          "BSPPackage",
+          "BusinessRoleName",
+          "BusinessGroupName",
+          "PrimaryODataServiceName",
+          "SemanticObject",
+          "SemanticAction",
+          "FrontendSoftwareComponent",
+          "TransactionCode",
+          "ExternalReleaseName",
+          "BusinessCatalog",
+          "TechnicalCatalog"
+        ],
+        "domain_synonyms": [
+          "fiori bom"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0a",
+        "modelname": "fioriapps",
+        "__v": 0,
+        "domain": "FioriBOM",
+        "domain_description": "Information about Fiori apps with links to the Fiori Reference apps library",
+        "_categories": {
+          "wordindex": true,
+          "category_description": "url of the BSP application in an ABAP system, see BSP name for the technical storage  /sab/bc/ui5_ui5/..",
+          "category": "BSPApplicationURL",
+          "_id": "59289d809f1ae34670303ea2",
+          "QBEColumnProps": {
+            "LUNRIndex": true,
+            "QBE": true
+          },
+          "category_synonyms": [
+            "BSP Path",
+            "BSP Url",
+            "BSP Urls",
+            "Resource Path"
+          ]
+        },
+        "columns": [
+          "AppKey",
+          "ArtifactId",
+          "appId",
+          "fiori intent",
+          "AppName",
+          "ApplicationComponent",
+          "RoleName",
+          "ApplicationType",
+          "BSPName",
+          "BSPApplicationURL",
+          "releaseName",
+          "BSPPackage",
+          "BusinessRoleName",
+          "BusinessGroupName",
+          "PrimaryODataServiceName",
+          "SemanticObject",
+          "SemanticAction",
+          "FrontendSoftwareComponent",
+          "TransactionCode",
+          "ExternalReleaseName",
+          "BusinessCatalog",
+          "TechnicalCatalog"
+        ],
+        "domain_synonyms": [
+          "fiori bom"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0a",
+        "modelname": "fioriapps",
+        "__v": 0,
+        "domain": "FioriBOM",
+        "domain_description": "Information about Fiori apps with links to the Fiori Reference apps library",
+        "_categories": {
+          "exactmatch": true,
+          "wordindex": true,
+          "category_description": "release name",
+          "category": "releaseName",
+          "_id": "59289d809f1ae34670303ea1",
+          "QBEColumnProps": {
+            "LUNRIndex": true,
+            "QBE": true
+          },
+          "category_synonyms": []
+        },
+        "columns": [
+          "AppKey",
+          "ArtifactId",
+          "appId",
+          "fiori intent",
+          "AppName",
+          "ApplicationComponent",
+          "RoleName",
+          "ApplicationType",
+          "BSPName",
+          "BSPApplicationURL",
+          "releaseName",
+          "BSPPackage",
+          "BusinessRoleName",
+          "BusinessGroupName",
+          "PrimaryODataServiceName",
+          "SemanticObject",
+          "SemanticAction",
+          "FrontendSoftwareComponent",
+          "TransactionCode",
+          "ExternalReleaseName",
+          "BusinessCatalog",
+          "TechnicalCatalog"
+        ],
+        "domain_synonyms": [
+          "fiori bom"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0a",
+        "modelname": "fioriapps",
+        "__v": 0,
+        "domain": "FioriBOM",
+        "domain_description": "Information about Fiori apps with links to the Fiori Reference apps library",
+        "_categories": {
+          "exactmatch": true,
+          "wordindex": true,
+          "category": "releaseId",
+          "_id": "59289d809f1ae34670303ea0",
+          "category_synonyms": []
+        },
+        "columns": [
+          "AppKey",
+          "ArtifactId",
+          "appId",
+          "fiori intent",
+          "AppName",
+          "ApplicationComponent",
+          "RoleName",
+          "ApplicationType",
+          "BSPName",
+          "BSPApplicationURL",
+          "releaseName",
+          "BSPPackage",
+          "BusinessRoleName",
+          "BusinessGroupName",
+          "PrimaryODataServiceName",
+          "SemanticObject",
+          "SemanticAction",
+          "FrontendSoftwareComponent",
+          "TransactionCode",
+          "ExternalReleaseName",
+          "BusinessCatalog",
+          "TechnicalCatalog"
+        ],
+        "domain_synonyms": [
+          "fiori bom"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0a",
+        "modelname": "fioriapps",
+        "__v": 0,
+        "domain": "FioriBOM",
+        "domain_description": "Information about Fiori apps with links to the Fiori Reference apps library",
+        "_categories": {
+          "exactmatch": true,
+          "wordindex": true,
+          "category_description": "The SAP Business catalog which references the application in a \"TechnicalCatalog\" or \"BackendCatalog\" (for GUI/WDA transactions",
+          "category": "BusinessCatalog",
+          "_id": "59289d809f1ae34670303e9f",
+          "QBEColumnProps": {
+            "LUNRIndex": true
+          },
+          "category_synonyms": []
+        },
+        "columns": [
+          "AppKey",
+          "ArtifactId",
+          "appId",
+          "fiori intent",
+          "AppName",
+          "ApplicationComponent",
+          "RoleName",
+          "ApplicationType",
+          "BSPName",
+          "BSPApplicationURL",
+          "releaseName",
+          "BSPPackage",
+          "BusinessRoleName",
+          "BusinessGroupName",
+          "PrimaryODataServiceName",
+          "SemanticObject",
+          "SemanticAction",
+          "FrontendSoftwareComponent",
+          "TransactionCode",
+          "ExternalReleaseName",
+          "BusinessCatalog",
+          "TechnicalCatalog"
+        ],
+        "domain_synonyms": [
+          "fiori bom"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0a",
+        "modelname": "fioriapps",
+        "__v": 0,
+        "domain": "FioriBOM",
+        "domain_description": "Information about Fiori apps with links to the Fiori Reference apps library",
+        "_categories": {
+          "exactmatch": true,
+          "wordindex": true,
+          "category_description": "Technical catalog, basic definition of \"TargetMapping\" and \"Tile\" for fiori (UI5) Applications",
+          "category": "TechnicalCatalog",
+          "_id": "59289d809f1ae34670303e9e",
+          "QBEColumnProps": {
+            "LUNRIndex": true
+          },
+          "category_synonyms": []
+        },
+        "columns": [
+          "AppKey",
+          "ArtifactId",
+          "appId",
+          "fiori intent",
+          "AppName",
+          "ApplicationComponent",
+          "RoleName",
+          "ApplicationType",
+          "BSPName",
+          "BSPApplicationURL",
+          "releaseName",
+          "BSPPackage",
+          "BusinessRoleName",
+          "BusinessGroupName",
+          "PrimaryODataServiceName",
+          "SemanticObject",
+          "SemanticAction",
+          "FrontendSoftwareComponent",
+          "TransactionCode",
+          "ExternalReleaseName",
+          "BusinessCatalog",
+          "TechnicalCatalog"
+        ],
+        "domain_synonyms": [
+          "fiori bom"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0a",
+        "modelname": "fioriapps",
+        "__v": 0,
+        "domain": "FioriBOM",
+        "domain_description": "Information about Fiori apps with links to the Fiori Reference apps library",
+        "_categories": {
+          "hidden": true,
+          "category": "detailsurl",
+          "_id": "59289d809f1ae34670303e9d",
+          "category_synonyms": []
+        },
+        "columns": [
+          "AppKey",
+          "ArtifactId",
+          "appId",
+          "fiori intent",
+          "AppName",
+          "ApplicationComponent",
+          "RoleName",
+          "ApplicationType",
+          "BSPName",
+          "BSPApplicationURL",
+          "releaseName",
+          "BSPPackage",
+          "BusinessRoleName",
+          "BusinessGroupName",
+          "PrimaryODataServiceName",
+          "SemanticObject",
+          "SemanticAction",
+          "FrontendSoftwareComponent",
+          "TransactionCode",
+          "ExternalReleaseName",
+          "BusinessCatalog",
+          "TechnicalCatalog"
+        ],
+        "domain_synonyms": [
+          "fiori bom"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0a",
+        "modelname": "fioriapps",
+        "__v": 0,
+        "domain": "FioriBOM",
+        "domain_description": "Information about Fiori apps with links to the Fiori Reference apps library",
+        "_categories": {
+          "category": "isPublished",
+          "_id": "59289d809f1ae34670303e9c",
+          "category_synonyms": []
+        },
+        "columns": [
+          "AppKey",
+          "ArtifactId",
+          "appId",
+          "fiori intent",
+          "AppName",
+          "ApplicationComponent",
+          "RoleName",
+          "ApplicationType",
+          "BSPName",
+          "BSPApplicationURL",
+          "releaseName",
+          "BSPPackage",
+          "BusinessRoleName",
+          "BusinessGroupName",
+          "PrimaryODataServiceName",
+          "SemanticObject",
+          "SemanticAction",
+          "FrontendSoftwareComponent",
+          "TransactionCode",
+          "ExternalReleaseName",
+          "BusinessCatalog",
+          "TechnicalCatalog"
+        ],
+        "domain_synonyms": [
+          "fiori bom"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0a",
+        "modelname": "fioriapps",
+        "__v": 0,
+        "domain": "FioriBOM",
+        "domain_description": "Information about Fiori apps with links to the Fiori Reference apps library",
+        "_categories": {
+          "exactmatch": true,
+          "wordindex": true,
+          "category_description": "Package (DevClass) of the BSP Application",
+          "category": "BSPPackage",
+          "_id": "59289d809f1ae34670303e9b",
+          "QBEColumnProps": {
+            "LUNRIndex": true,
+            "QBE": true
+          },
+          "category_synonyms": []
+        },
+        "columns": [
+          "AppKey",
+          "ArtifactId",
+          "appId",
+          "fiori intent",
+          "AppName",
+          "ApplicationComponent",
+          "RoleName",
+          "ApplicationType",
+          "BSPName",
+          "BSPApplicationURL",
+          "releaseName",
+          "BSPPackage",
+          "BusinessRoleName",
+          "BusinessGroupName",
+          "PrimaryODataServiceName",
+          "SemanticObject",
+          "SemanticAction",
+          "FrontendSoftwareComponent",
+          "TransactionCode",
+          "ExternalReleaseName",
+          "BusinessCatalog",
+          "TechnicalCatalog"
+        ],
+        "domain_synonyms": [
+          "fiori bom"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0a",
+        "modelname": "fioriapps",
+        "__v": 0,
+        "domain": "FioriBOM",
+        "domain_description": "Information about Fiori apps with links to the Fiori Reference apps library",
+        "_categories": {
+          "category": "AppDocumentationLinkKW",
+          "_id": "59289d809f1ae34670303e9a",
+          "category_synonyms": []
+        },
+        "columns": [
+          "AppKey",
+          "ArtifactId",
+          "appId",
+          "fiori intent",
+          "AppName",
+          "ApplicationComponent",
+          "RoleName",
+          "ApplicationType",
+          "BSPName",
+          "BSPApplicationURL",
+          "releaseName",
+          "BSPPackage",
+          "BusinessRoleName",
+          "BusinessGroupName",
+          "PrimaryODataServiceName",
+          "SemanticObject",
+          "SemanticAction",
+          "FrontendSoftwareComponent",
+          "TransactionCode",
+          "ExternalReleaseName",
+          "BusinessCatalog",
+          "TechnicalCatalog"
+        ],
+        "domain_synonyms": [
+          "fiori bom"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0a",
+        "modelname": "fioriapps",
+        "__v": 0,
+        "domain": "FioriBOM",
+        "domain_description": "Information about Fiori apps with links to the Fiori Reference apps library",
+        "_categories": {
+          "exactmatch": true,
+          "wordindex": true,
+          "category_description": "Package (DevClass) of the BSP Application",
+          "category": "BusinessRoleName",
+          "_id": "59289d809f1ae34670303e99",
+          "QBEColumnProps": {
+            "LUNRIndex": true,
+            "QBE": true
+          },
+          "category_synonyms": [
+            "Business Role Name",
+            "Backend PFCG Role"
+          ]
+        },
+        "columns": [
+          "AppKey",
+          "ArtifactId",
+          "appId",
+          "fiori intent",
+          "AppName",
+          "ApplicationComponent",
+          "RoleName",
+          "ApplicationType",
+          "BSPName",
+          "BSPApplicationURL",
+          "releaseName",
+          "BSPPackage",
+          "BusinessRoleName",
+          "BusinessGroupName",
+          "PrimaryODataServiceName",
+          "SemanticObject",
+          "SemanticAction",
+          "FrontendSoftwareComponent",
+          "TransactionCode",
+          "ExternalReleaseName",
+          "BusinessCatalog",
+          "TechnicalCatalog"
+        ],
+        "domain_synonyms": [
+          "fiori bom"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0a",
+        "modelname": "fioriapps",
+        "__v": 0,
+        "domain": "FioriBOM",
+        "domain_description": "Information about Fiori apps with links to the Fiori Reference apps library",
+        "_categories": {
+          "exactmatch": true,
+          "wordindex": true,
+          "category_description": "Package (DevClass) of the BSP Application",
+          "category": "BusinessGroupName",
+          "_id": "59289d809f1ae34670303e98",
+          "QBEColumnProps": {
+            "LUNRIndex": true,
+            "QBE": true
+          },
+          "category_synonyms": []
+        },
+        "columns": [
+          "AppKey",
+          "ArtifactId",
+          "appId",
+          "fiori intent",
+          "AppName",
+          "ApplicationComponent",
+          "RoleName",
+          "ApplicationType",
+          "BSPName",
+          "BSPApplicationURL",
+          "releaseName",
+          "BSPPackage",
+          "BusinessRoleName",
+          "BusinessGroupName",
+          "PrimaryODataServiceName",
+          "SemanticObject",
+          "SemanticAction",
+          "FrontendSoftwareComponent",
+          "TransactionCode",
+          "ExternalReleaseName",
+          "BusinessCatalog",
+          "TechnicalCatalog"
+        ],
+        "domain_synonyms": [
+          "fiori bom"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0a",
+        "modelname": "fioriapps",
+        "__v": 0,
+        "domain": "FioriBOM",
+        "domain_description": "Information about Fiori apps with links to the Fiori Reference apps library",
+        "_categories": {
+          "wordindex": true,
+          "category": "BusinessGroupDescription",
+          "_id": "59289d809f1ae34670303e97",
+          "category_synonyms": []
+        },
+        "columns": [
+          "AppKey",
+          "ArtifactId",
+          "appId",
+          "fiori intent",
+          "AppName",
+          "ApplicationComponent",
+          "RoleName",
+          "ApplicationType",
+          "BSPName",
+          "BSPApplicationURL",
+          "releaseName",
+          "BSPPackage",
+          "BusinessRoleName",
+          "BusinessGroupName",
+          "PrimaryODataServiceName",
+          "SemanticObject",
+          "SemanticAction",
+          "FrontendSoftwareComponent",
+          "TransactionCode",
+          "ExternalReleaseName",
+          "BusinessCatalog",
+          "TechnicalCatalog"
+        ],
+        "domain_synonyms": [
+          "fiori bom"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0a",
+        "modelname": "fioriapps",
+        "__v": 0,
+        "domain": "FioriBOM",
+        "domain_description": "Information about Fiori apps with links to the Fiori Reference apps library",
+        "_categories": {
+          "exactmatch": true,
+          "wordindex": true,
+          "category_description": "OData service : Technical name of the OData Service operating on a Gateway server (and implemented in the R/3 Backend) serving data for UI5 based Fiori Apps",
+          "category": "PrimaryODataServiceName",
+          "_id": "59289d809f1ae34670303e96",
+          "QBEColumnProps": {
+            "LUNRIndex": true,
+            "QBE": true
+          },
+          "category_synonyms": [
+            "ODataService",
+            "Primary OData Service",
+            "OData Service Name",
+            "OData Service"
+          ]
+        },
+        "columns": [
+          "AppKey",
+          "ArtifactId",
+          "appId",
+          "fiori intent",
+          "AppName",
+          "ApplicationComponent",
+          "RoleName",
+          "ApplicationType",
+          "BSPName",
+          "BSPApplicationURL",
+          "releaseName",
+          "BSPPackage",
+          "BusinessRoleName",
+          "BusinessGroupName",
+          "PrimaryODataServiceName",
+          "SemanticObject",
+          "SemanticAction",
+          "FrontendSoftwareComponent",
+          "TransactionCode",
+          "ExternalReleaseName",
+          "BusinessCatalog",
+          "TechnicalCatalog"
+        ],
+        "domain_synonyms": [
+          "fiori bom"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0a",
+        "modelname": "fioriapps",
+        "__v": 0,
+        "domain": "FioriBOM",
+        "domain_description": "Information about Fiori apps with links to the Fiori Reference apps library",
+        "_categories": {
+          "wordindex": true,
+          "category_description": "The first part of the \"fiori intent\", identifying the Business entity, e.g. \"SalesOrder\",\"GLAcount\" used for generic navigation",
+          "category": "SemanticObject",
+          "_id": "59289d809f1ae34670303e95",
+          "QBEColumnProps": {
+            "LUNRIndex": true,
+            "QBE": true,
+            "defaultWidth": 100
+          },
+          "category_synonyms": [
+            "Semantic Object"
+          ]
+        },
+        "columns": [
+          "AppKey",
+          "ArtifactId",
+          "appId",
+          "fiori intent",
+          "AppName",
+          "ApplicationComponent",
+          "RoleName",
+          "ApplicationType",
+          "BSPName",
+          "BSPApplicationURL",
+          "releaseName",
+          "BSPPackage",
+          "BusinessRoleName",
+          "BusinessGroupName",
+          "PrimaryODataServiceName",
+          "SemanticObject",
+          "SemanticAction",
+          "FrontendSoftwareComponent",
+          "TransactionCode",
+          "ExternalReleaseName",
+          "BusinessCatalog",
+          "TechnicalCatalog"
+        ],
+        "domain_synonyms": [
+          "fiori bom"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0a",
+        "modelname": "fioriapps",
+        "__v": 0,
+        "domain": "FioriBOM",
+        "domain_description": "Information about Fiori apps with links to the Fiori Reference apps library",
+        "_categories": {
+          "wordindex": true,
+          "category_description": "The second part of the \"fiori intent\", identifying the action, e.g. \"maintain\", \"create\"",
+          "category": "SemanticAction",
+          "_id": "59289d809f1ae34670303e94",
+          "QBEColumnProps": {
+            "LUNRIndex": true,
+            "QBE": true
+          },
+          "category_synonyms": [
+            "Semantic Action"
+          ]
+        },
+        "columns": [
+          "AppKey",
+          "ArtifactId",
+          "appId",
+          "fiori intent",
+          "AppName",
+          "ApplicationComponent",
+          "RoleName",
+          "ApplicationType",
+          "BSPName",
+          "BSPApplicationURL",
+          "releaseName",
+          "BSPPackage",
+          "BusinessRoleName",
+          "BusinessGroupName",
+          "PrimaryODataServiceName",
+          "SemanticObject",
+          "SemanticAction",
+          "FrontendSoftwareComponent",
+          "TransactionCode",
+          "ExternalReleaseName",
+          "BusinessCatalog",
+          "TechnicalCatalog"
+        ],
+        "domain_synonyms": [
+          "fiori bom"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0a",
+        "modelname": "fioriapps",
+        "__v": 0,
+        "domain": "FioriBOM",
+        "domain_description": "Information about Fiori apps with links to the Fiori Reference apps library",
+        "_categories": {
+          "exactmatch": true,
+          "wordindex": true,
+          "category_description": "Frontend Software Component",
+          "category": "FrontendSoftwareComponent",
+          "_id": "59289d809f1ae34670303e93",
+          "QBEColumnProps": {
+            "LUNRIndex": true,
+            "QBE": true
+          },
+          "category_synonyms": []
+        },
+        "columns": [
+          "AppKey",
+          "ArtifactId",
+          "appId",
+          "fiori intent",
+          "AppName",
+          "ApplicationComponent",
+          "RoleName",
+          "ApplicationType",
+          "BSPName",
+          "BSPApplicationURL",
+          "releaseName",
+          "BSPPackage",
+          "BusinessRoleName",
+          "BusinessGroupName",
+          "PrimaryODataServiceName",
+          "SemanticObject",
+          "SemanticAction",
+          "FrontendSoftwareComponent",
+          "TransactionCode",
+          "ExternalReleaseName",
+          "BusinessCatalog",
+          "TechnicalCatalog"
+        ],
+        "domain_synonyms": [
+          "fiori bom"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0a",
+        "modelname": "fioriapps",
+        "__v": 0,
+        "domain": "FioriBOM",
+        "domain_description": "Information about Fiori apps with links to the Fiori Reference apps library",
+        "_categories": {
+          "exactmatch": true,
+          "wordindex": true,
+          "category_description": "For GUI based transaction, the transaciton code behind intent, a classical R/3 SAPGUi transaction",
+          "category": "TransactionCode",
+          "_id": "59289d809f1ae34670303e92",
+          "QBEColumnProps": {
+            "LUNRIndex": true,
+            "QBE": true,
+            "defaultWidth": 80
+          },
+          "category_synonyms": [
+            "Transactions",
+            "TransactionCode",
+            "TransactionCodes"
+          ]
+        },
+        "columns": [
+          "AppKey",
+          "ArtifactId",
+          "appId",
+          "fiori intent",
+          "AppName",
+          "ApplicationComponent",
+          "RoleName",
+          "ApplicationType",
+          "BSPName",
+          "BSPApplicationURL",
+          "releaseName",
+          "BSPPackage",
+          "BusinessRoleName",
+          "BusinessGroupName",
+          "PrimaryODataServiceName",
+          "SemanticObject",
+          "SemanticAction",
+          "FrontendSoftwareComponent",
+          "TransactionCode",
+          "ExternalReleaseName",
+          "BusinessCatalog",
+          "TechnicalCatalog"
+        ],
+        "domain_synonyms": [
+          "fiori bom"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0a",
+        "modelname": "fioriapps",
+        "__v": 0,
+        "domain": "FioriBOM",
+        "domain_description": "Information about Fiori apps with links to the Fiori Reference apps library",
+        "_categories": {
+          "category": "URLParameters",
+          "_id": "59289d809f1ae34670303e91",
+          "category_synonyms": []
+        },
+        "columns": [
+          "AppKey",
+          "ArtifactId",
+          "appId",
+          "fiori intent",
+          "AppName",
+          "ApplicationComponent",
+          "RoleName",
+          "ApplicationType",
+          "BSPName",
+          "BSPApplicationURL",
+          "releaseName",
+          "BSPPackage",
+          "BusinessRoleName",
+          "BusinessGroupName",
+          "PrimaryODataServiceName",
+          "SemanticObject",
+          "SemanticAction",
+          "FrontendSoftwareComponent",
+          "TransactionCode",
+          "ExternalReleaseName",
+          "BusinessCatalog",
+          "TechnicalCatalog"
+        ],
+        "domain_synonyms": [
+          "fiori bom"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0a",
+        "modelname": "fioriapps",
+        "__v": 0,
+        "domain": "FioriBOM",
+        "domain_description": "Information about Fiori apps with links to the Fiori Reference apps library",
+        "_categories": {
+          "exactmatch": true,
+          "wordindex": true,
+          "category": "LPDCustInstance",
+          "_id": "59289d809f1ae34670303e90",
+          "category_synonyms": []
+        },
+        "columns": [
+          "AppKey",
+          "ArtifactId",
+          "appId",
+          "fiori intent",
+          "AppName",
+          "ApplicationComponent",
+          "RoleName",
+          "ApplicationType",
+          "BSPName",
+          "BSPApplicationURL",
+          "releaseName",
+          "BSPPackage",
+          "BusinessRoleName",
+          "BusinessGroupName",
+          "PrimaryODataServiceName",
+          "SemanticObject",
+          "SemanticAction",
+          "FrontendSoftwareComponent",
+          "TransactionCode",
+          "ExternalReleaseName",
+          "BusinessCatalog",
+          "TechnicalCatalog"
+        ],
+        "domain_synonyms": [
+          "fiori bom"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0a",
+        "modelname": "fioriapps",
+        "__v": 0,
+        "domain": "FioriBOM",
+        "domain_description": "Information about Fiori apps with links to the Fiori Reference apps library",
+        "_categories": {
+          "exactmatch": true,
+          "wordindex": true,
+          "category": "PrimaryODataPFCGRole",
+          "_id": "59289d809f1ae34670303e8f",
+          "category_synonyms": []
+        },
+        "columns": [
+          "AppKey",
+          "ArtifactId",
+          "appId",
+          "fiori intent",
+          "AppName",
+          "ApplicationComponent",
+          "RoleName",
+          "ApplicationType",
+          "BSPName",
+          "BSPApplicationURL",
+          "releaseName",
+          "BSPPackage",
+          "BusinessRoleName",
+          "BusinessGroupName",
+          "PrimaryODataServiceName",
+          "SemanticObject",
+          "SemanticAction",
+          "FrontendSoftwareComponent",
+          "TransactionCode",
+          "ExternalReleaseName",
+          "BusinessCatalog",
+          "TechnicalCatalog"
+        ],
+        "domain_synonyms": [
+          "fiori bom"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0a",
+        "modelname": "fioriapps",
+        "__v": 0,
+        "domain": "FioriBOM",
+        "domain_description": "Information about Fiori apps with links to the Fiori Reference apps library",
+        "_categories": {
+          "exactmatch": true,
+          "wordindex": true,
+          "category_description": "External Release name",
+          "category": "ExternalReleaseName",
+          "_id": "59289d809f1ae34670303e8e",
+          "QBEColumnProps": {
+            "LUNRIndex": true,
+            "QBE": true
+          },
+          "category_synonyms": []
+        },
+        "columns": [
+          "AppKey",
+          "ArtifactId",
+          "appId",
+          "fiori intent",
+          "AppName",
+          "ApplicationComponent",
+          "RoleName",
+          "ApplicationType",
+          "BSPName",
+          "BSPApplicationURL",
+          "releaseName",
+          "BSPPackage",
+          "BusinessRoleName",
+          "BusinessGroupName",
+          "PrimaryODataServiceName",
+          "SemanticObject",
+          "SemanticAction",
+          "FrontendSoftwareComponent",
+          "TransactionCode",
+          "ExternalReleaseName",
+          "BusinessCatalog",
+          "TechnicalCatalog"
+        ],
+        "domain_synonyms": [
+          "fiori bom"
+        ]
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0c",
+        "modelname": "sobj_tables",
+        "__v": 0,
+        "domain": "SOBJ Tables",
+        "domain_description": "R/3 Transport objects and associated tables. This domains allows to quickly lookup up if and in what transport object a given table content is transported, e.g. \"What is the Transport Object, Primary Table for /UIF/LREPDCONT\" ",
+        "_categories": {
+          "category": "recordKey",
+          "_id": "59289d809f1ae34670303eb7",
+          "category_synonyms": []
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0c",
+        "modelname": "sobj_tables",
+        "__v": 0,
+        "domain": "SOBJ Tables",
+        "domain_description": "R/3 Transport objects and associated tables. This domains allows to quickly lookup up if and in what transport object a given table content is transported, e.g. \"What is the Transport Object, Primary Table for /UIF/LREPDCONT\" ",
+        "_categories": {
+          "category_description": "The transport object key (SOBJ)",
+          "category": "TransportObject",
+          "_id": "59289d809f1ae34670303eb6",
+          "category_synonyms": [
+            "SOBJ",
+            "Transport Key"
+          ]
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0c",
+        "modelname": "sobj_tables",
+        "__v": 0,
+        "domain": "SOBJ Tables",
+        "domain_description": "R/3 Transport objects and associated tables. This domains allows to quickly lookup up if and in what transport object a given table content is transported, e.g. \"What is the Transport Object, Primary Table for /UIF/LREPDCONT\" ",
+        "_categories": {
+          "category_description": "Short text of transport object",
+          "category": "Shorttext",
+          "_id": "59289d809f1ae34670303eb5",
+          "category_synonyms": []
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0c",
+        "modelname": "sobj_tables",
+        "__v": 0,
+        "domain": "SOBJ Tables",
+        "domain_description": "R/3 Transport objects and associated tables. This domains allows to quickly lookup up if and in what transport object a given table content is transported, e.g. \"What is the Transport Object, Primary Table for /UIF/LREPDCONT\" ",
+        "_categories": {
+          "exactmatch": true,
+          "wordindex": true,
+          "category_description": "The DDIC Table",
+          "category": "Table",
+          "_id": "59289d809f1ae34670303eb4",
+          "category_synonyms": [
+            "Tables",
+            "Database Table",
+            "Transport Table"
+          ]
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0c",
+        "modelname": "sobj_tables",
+        "__v": 0,
+        "domain": "SOBJ Tables",
+        "domain_description": "R/3 Transport objects and associated tables. This domains allows to quickly lookup up if and in what transport object a given table content is transported, e.g. \"What is the Transport Object, Primary Table for /UIF/LREPDCONT\" ",
+        "_categories": {
+          "exactmatch": true,
+          "category_description": "Key specification for the table",
+          "category": "TableTransportKeySpec",
+          "_id": "59289d809f1ae34670303eb3",
+          "category_synonyms": []
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0c",
+        "modelname": "sobj_tables",
+        "__v": 0,
+        "domain": "SOBJ Tables",
+        "domain_description": "R/3 Transport objects and associated tables. This domains allows to quickly lookup up if and in what transport object a given table content is transported, e.g. \"What is the Transport Object, Primary Table for /UIF/LREPDCONT\" ",
+        "_categories": {
+          "exactmatch": true,
+          "wordindex": true,
+          "category_description": "Primary table of transport object, if existing",
+          "category": "PrimaryTable",
+          "_id": "59289d809f1ae34670303eb2",
+          "category_synonyms": [
+            "Primary Table"
+          ]
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0c",
+        "modelname": "sobj_tables",
+        "__v": 0,
+        "domain": "SOBJ Tables",
+        "domain_description": "R/3 Transport objects and associated tables. This domains allows to quickly lookup up if and in what transport object a given table content is transported, e.g. \"What is the Transport Object, Primary Table for /UIF/LREPDCONT\" ",
+        "_categories": {
+          "exactmatch": true,
+          "wordindex": true,
+          "category_description": "Whether the object is client specific",
+          "category": "clientSpecific",
+          "_id": "59289d809f1ae34670303eb1",
+          "category_synonyms": []
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0c",
+        "modelname": "sobj_tables",
+        "__v": 0,
+        "domain": "SOBJ Tables",
+        "domain_description": "R/3 Transport objects and associated tables. This domains allows to quickly lookup up if and in what transport object a given table content is transported, e.g. \"What is the Transport Object, Primary Table for /UIF/LREPDCONT\" ",
+        "_categories": {
+          "exactmatch": true,
+          "category_description": "Length of transport key",
+          "category": "Object name length",
+          "_id": "59289d809f1ae34670303eb0",
+          "category_synonyms": []
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0c",
+        "modelname": "sobj_tables",
+        "__v": 0,
+        "domain": "SOBJ Tables",
+        "domain_description": "R/3 Transport objects and associated tables. This domains allows to quickly lookup up if and in what transport object a given table content is transported, e.g. \"What is the Transport Object, Primary Table for /UIF/LREPDCONT\" ",
+        "_categories": {
+          "exactmatch": true,
+          "category_description": "Category of the transport",
+          "category": "Category",
+          "_id": "59289d809f1ae34670303eaf",
+          "category_synonyms": []
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0c",
+        "modelname": "sobj_tables",
+        "__v": 0,
+        "domain": "SOBJ Tables",
+        "domain_description": "R/3 Transport objects and associated tables. This domains allows to quickly lookup up if and in what transport object a given table content is transported, e.g. \"What is the Transport Object, Primary Table for /UIF/LREPDCONT\" ",
+        "_categories": {
+          "exactmatch": true,
+          "wordindex": true,
+          "category_description": "Boolean (\"true\",\"false\") whether object is translation relevant",
+          "category": "TranslationRelevant",
+          "_id": "59289d809f1ae34670303eae",
+          "category_synonyms": []
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0c",
+        "modelname": "sobj_tables",
+        "__v": 0,
+        "domain": "SOBJ Tables",
+        "domain_description": "R/3 Transport objects and associated tables. This domains allows to quickly lookup up if and in what transport object a given table content is transported, e.g. \"What is the Transport Object, Primary Table for /UIF/LREPDCONT\" ",
+        "_categories": {
+          "exactmatch": true,
+          "category": "Type",
+          "_id": "59289d809f1ae34670303ead",
+          "category_synonyms": []
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0e",
+        "modelname": "fioribecatalogs",
+        "__v": 0,
+        "domain": "Fiori Backend Catalogs",
+        "domain_description": "R/3 Backend catalogs as modelled in table SUI_TM_MM_APPS. \nThis delivery is used to model technical catalogs which are imported (replicated) into the ABAP Frontend Server.\n It maps existing GUI and WebDynpro Transactions into the Fiori World by specifying Intent and potentially tile information for them. Note that there is an overlap with the FioriBOM domain. Note also, that the ApplicationComponetn here is the Application Component of the Backend Catalog Definition in SUI_TM_MM_APPS (the UIAD transport object)",
+        "_categories": {
+          "wordindex": true,
+          "category_description": "A combination of \"#\" <SemanticObject> - <Semanticaction> which appears in the URL of the Fiori Launchpad when addressing the application",
+          "category": "fiori intent",
+          "_id": "59289d809f1ae34670303ec2",
+          "category_synonyms": []
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0e",
+        "modelname": "fioribecatalogs",
+        "__v": 0,
+        "domain": "Fiori Backend Catalogs",
+        "domain_description": "R/3 Backend catalogs as modelled in table SUI_TM_MM_APPS. \nThis delivery is used to model technical catalogs which are imported (replicated) into the ABAP Frontend Server.\n It maps existing GUI and WebDynpro Transactions into the Fiori World by specifying Intent and potentially tile information for them. Note that there is an overlap with the FioriBOM domain. Note also, that the ApplicationComponetn here is the Application Component of the Backend Catalog Definition in SUI_TM_MM_APPS (the UIAD transport object)",
+        "_categories": {
+          "wordindex": true,
+          "category_description": "Support component for the Backend catalog entry, (the Package associated with the UIAD Transport record containing the Catalog Definition (SUI_TM_MM_APPS table). This is the component repsonsible for the Catalog, (not necessarily for the legacy application!)",
+          "category": "ApplicationComponent",
+          "_id": "59289d809f1ae34670303ec1",
+          "category_synonyms": []
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0e",
+        "modelname": "fioribecatalogs",
+        "__v": 0,
+        "domain": "Fiori Backend Catalogs",
+        "domain_description": "R/3 Backend catalogs as modelled in table SUI_TM_MM_APPS. \nThis delivery is used to model technical catalogs which are imported (replicated) into the ABAP Frontend Server.\n It maps existing GUI and WebDynpro Transactions into the Fiori World by specifying Intent and potentially tile information for them. Note that there is an overlap with the FioriBOM domain. Note also, that the ApplicationComponetn here is the Application Component of the Backend Catalog Definition in SUI_TM_MM_APPS (the UIAD transport object)",
+        "_categories": {
+          "wordindex": true,
+          "category_description": "Name of the web dynpro application",
+          "category": "WebDynproApplication",
+          "_id": "59289d809f1ae34670303ec0",
+          "category_synonyms": []
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0e",
+        "modelname": "fioribecatalogs",
+        "__v": 0,
+        "domain": "Fiori Backend Catalogs",
+        "domain_description": "R/3 Backend catalogs as modelled in table SUI_TM_MM_APPS. \nThis delivery is used to model technical catalogs which are imported (replicated) into the ABAP Frontend Server.\n It maps existing GUI and WebDynpro Transactions into the Fiori World by specifying Intent and potentially tile information for them. Note that there is an overlap with the FioriBOM domain. Note also, that the ApplicationComponetn here is the Application Component of the Backend Catalog Definition in SUI_TM_MM_APPS (the UIAD transport object)",
+        "_categories": {
+          "wordindex": true,
+          "category_description": "devclass ( Package) of the backend catalog record (not necessarily the transaction",
+          "category": "devclass",
+          "_id": "59289d809f1ae34670303ebf",
+          "category_synonyms": []
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0e",
+        "modelname": "fioribecatalogs",
+        "__v": 0,
+        "domain": "Fiori Backend Catalogs",
+        "domain_description": "R/3 Backend catalogs as modelled in table SUI_TM_MM_APPS. \nThis delivery is used to model technical catalogs which are imported (replicated) into the ABAP Frontend Server.\n It maps existing GUI and WebDynpro Transactions into the Fiori World by specifying Intent and potentially tile information for them. Note that there is an overlap with the FioriBOM domain. Note also, that the ApplicationComponetn here is the Application Component of the Backend Catalog Definition in SUI_TM_MM_APPS (the UIAD transport object)",
+        "_categories": {
+          "wordindex": true,
+          "category_description": "Name of the technical catalog (_TC_..._BE_), (same as FioriBOM Technical Catalog) (identical to entry in /UI2/SYSALIASCAT), \n(in /UI2/PB_C_CHIP.REFERENCEID  *ADCAT*...)",
+          "category": "BackendCatalogId",
+          "_id": "59289d809f1ae34670303ebe",
+          "category_synonyms": [
+            "Fiori Backend Catalog",
+            "Backend Catalog"
+          ]
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0e",
+        "modelname": "fioribecatalogs",
+        "__v": 0,
+        "domain": "Fiori Backend Catalogs",
+        "domain_description": "R/3 Backend catalogs as modelled in table SUI_TM_MM_APPS. \nThis delivery is used to model technical catalogs which are imported (replicated) into the ABAP Frontend Server.\n It maps existing GUI and WebDynpro Transactions into the Fiori World by specifying Intent and potentially tile information for them. Note that there is an overlap with the FioriBOM domain. Note also, that the ApplicationComponetn here is the Application Component of the Backend Catalog Definition in SUI_TM_MM_APPS (the UIAD transport object)",
+        "_categories": {
+          "category_description": "Name of the System alias associated with this Technical catalog (entry delivered in /UI2/SYSALIASCAT)",
+          "category": "TechnicalCatalogSystemAlias",
+          "_id": "59289d809f1ae34670303ebd",
+          "category_synonyms": []
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0e",
+        "modelname": "fioribecatalogs",
+        "__v": 0,
+        "domain": "Fiori Backend Catalogs",
+        "domain_description": "R/3 Backend catalogs as modelled in table SUI_TM_MM_APPS. \nThis delivery is used to model technical catalogs which are imported (replicated) into the ABAP Frontend Server.\n It maps existing GUI and WebDynpro Transactions into the Fiori World by specifying Intent and potentially tile information for them. Note that there is an overlap with the FioriBOM domain. Note also, that the ApplicationComponetn here is the Application Component of the Backend Catalog Definition in SUI_TM_MM_APPS (the UIAD transport object)",
+        "_categories": {
+          "category_description": "Name of the Business Catalog referencing this catalog (in /UI2/PB_C_CACHE.ID *CATALOGPAGE:*  _BC_ ..",
+          "category": "BusinessCatalog",
+          "_id": "59289d809f1ae34670303ebc",
+          "category_synonyms": []
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0e",
+        "modelname": "fioribecatalogs",
+        "__v": 0,
+        "domain": "Fiori Backend Catalogs",
+        "domain_description": "R/3 Backend catalogs as modelled in table SUI_TM_MM_APPS. \nThis delivery is used to model technical catalogs which are imported (replicated) into the ABAP Frontend Server.\n It maps existing GUI and WebDynpro Transactions into the Fiori World by specifying Intent and potentially tile information for them. Note that there is an overlap with the FioriBOM domain. Note also, that the ApplicationComponetn here is the Application Component of the Backend Catalog Definition in SUI_TM_MM_APPS (the UIAD transport object)",
+        "_categories": {
+          "wordindex": true,
+          "category_description": "The first part of the \"fiori intent\", identifying the Business entity, e.g. \"SalesOrder\",\"GLAcount\" used for generic navigation",
+          "category": "SemanticObject",
+          "_id": "59289d809f1ae34670303ebb",
+          "category_synonyms": []
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0e",
+        "modelname": "fioribecatalogs",
+        "__v": 0,
+        "domain": "Fiori Backend Catalogs",
+        "domain_description": "R/3 Backend catalogs as modelled in table SUI_TM_MM_APPS. \nThis delivery is used to model technical catalogs which are imported (replicated) into the ABAP Frontend Server.\n It maps existing GUI and WebDynpro Transactions into the Fiori World by specifying Intent and potentially tile information for them. Note that there is an overlap with the FioriBOM domain. Note also, that the ApplicationComponetn here is the Application Component of the Backend Catalog Definition in SUI_TM_MM_APPS (the UIAD transport object)",
+        "_categories": {
+          "wordindex": true,
+          "category_description": "The second part of the \"fiori intent\", identifying the action, e.g. \"maintain\", \"create\"",
+          "category": "SemanticAction",
+          "_id": "59289d809f1ae34670303eba",
+          "category_synonyms": []
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0e",
+        "modelname": "fioribecatalogs",
+        "__v": 0,
+        "domain": "Fiori Backend Catalogs",
+        "domain_description": "R/3 Backend catalogs as modelled in table SUI_TM_MM_APPS. \nThis delivery is used to model technical catalogs which are imported (replicated) into the ABAP Frontend Server.\n It maps existing GUI and WebDynpro Transactions into the Fiori World by specifying Intent and potentially tile information for them. Note that there is an overlap with the FioriBOM domain. Note also, that the ApplicationComponetn here is the Application Component of the Backend Catalog Definition in SUI_TM_MM_APPS (the UIAD transport object)",
+        "_categories": {
+          "exactmatch": true,
+          "category_description": "Software component containing the Backend catalog",
+          "category": "SoftwareComponent",
+          "_id": "59289d809f1ae34670303eb9",
+          "category_synonyms": []
+        },
+        "columns": []
+      },
+      {
+        "_id": "5925e323d3f66454a8cb6e0e",
+        "modelname": "fioribecatalogs",
+        "__v": 0,
+        "domain": "Fiori Backend Catalogs",
+        "domain_description": "R/3 Backend catalogs as modelled in table SUI_TM_MM_APPS. \nThis delivery is used to model technical catalogs which are imported (replicated) into the ABAP Frontend Server.\n It maps existing GUI and WebDynpro Transactions into the Fiori World by specifying Intent and potentially tile information for them. Note that there is an overlap with the FioriBOM domain. Note also, that the ApplicationComponetn here is the Application Component of the Backend Catalog Definition in SUI_TM_MM_APPS (the UIAD transport object)",
+        "_categories": {
+          "exactmatch": true,
+          "category_description": "For GUI based transaction, the transaction code behind intent, a classical R/3 SAPGUi transaction",
+          "category": "TransactionCode",
+          "_id": "59289d809f1ae34670303eb8",
+          "category_synonyms": [
+            "Transactions",
+            "TransactionCode",
+            "TransactionCodes"
+          ]
+        },
+        "columns": []
+      }
+    ]
+  },
+  "bd67f1235a8a54f7037291567388b511": {
+    "op": "find",
+    "name": "philoelement",
+    "digest": "bd67f1235a8a54f7037291567388b511",
+    "query": {},
+    "res": [
+      {
+        "_id": "59289d809f1ae34670303f82",
+        "element_name": "earth",
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303f83",
+        "element_name": "wind",
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303f84",
+        "element_name": "fire",
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303f85",
+        "element_name": "water",
+        "__v": 0
+      }
+    ]
+  },
+  "c42064caf7758feef0b917903409a5e7": {
+    "op": "find",
+    "name": "fioriapp",
+    "digest": "c42064caf7758feef0b917903409a5e7",
+    "query": {},
+    "res": [
+      {
+        "_id": "59289d809f1ae34670303fad",
+        "uri": "https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps('W0052')/S7",
+        "fiori_intent": "#Project-analyzeProjectProfitability",
+        "appId": "W0052",
+        "AppName": "Project Profitability",
+        "ApplicationComponent": "CO-FIO",
+        "RoleName": "Cost Accountant - Sales",
+        "ApplicationType": "Analytical, FPM/WebDynpro, Design Studio",
+        "BSPName": "n/a",
+        "BSPApplicationURL": "n/a",
+        "releaseName": "SAP S/4HANA Cloud 1611",
+        "releaseId": "S7",
+        "BusinessCatalog": "n/a",
+        "TechnicalCatalog": "SAP_TC_FIN_CO_COMMON",
+        "detailsurl": "https://boma0d717969.hana.ondemand.com:443/sap/fix/externalViewer/services/SingleApp.xsodata/Details(fioriId='W0052',releaseId='S7')",
+        "isPublished": "Published",
+        "BSPPackage": "n/a",
+        "AppDocumentationLinkKW": "n/a",
+        "BusinessRoleName": "n/a",
+        "BusinessGroupName": "n/a",
+        "BusinessGroupDescription": "n/a",
+        "PrimaryODataServiceName": "n/a",
+        "SemanticObject": "Project",
+        "SemanticAction": "analyzeProjectProfitability",
+        "FrontendSoftwareComponent": "SAPSCORE 106",
+        "TransactionCode": "n/a",
+        "URLParameters": "n/a",
+        "LPDCustInstance": "n/a",
+        "PrimaryODataPFCGRole": "n/a",
+        "ExternalReleaseName": "SAP S/4HANA Cloud 1611",
+        "ArtifactId": "n/a",
+        "AppKey": "W0052/S7(i)",
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fae",
+        "uri": "https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps('F2316')/S7",
+        "fiori_intent": "#ApplicationJob-show",
+        "appId": "F2316",
+        "AppName": "Scheduling Block Suppliers",
+        "ApplicationComponent": "AP-MD-BP",
+        "RoleName": "Data Privacy Specialist",
+        "ApplicationType": "Transactional",
+        "BSPName": "NW_APS_APJ",
+        "BSPApplicationURL": "/sap/bc/ui5_ui5/sap/nw_aps_apj",
+        "releaseName": "SAP S/4HANA Cloud 1611",
+        "releaseId": "S7",
+        "BusinessCatalog": "n/a",
+        "TechnicalCatalog": "SAP_TC_COMMON",
+        "detailsurl": "https://boma0d717969.hana.ondemand.com:443/sap/fix/externalViewer/services/SingleApp.xsodata/Details(fioriId='F2316',releaseId='S7')",
+        "isPublished": "Published",
+        "BSPPackage": "RS_BASIS_APS_UX_APJ",
+        "AppDocumentationLinkKW": "http://aiokeh.wdf.sap.corp:50000/SAPIrExtHelp/BCO_COMMON.asp?IWB_INDUSTRY=S4HANA_PC&TMP_IWB_TASK=PREVIEW2&_LOIO=F9FF06583AC69144E10000000A4450E5&RELEASE=1611&LANGUAGE=EN",
+        "BusinessRoleName": "n/a",
+        "BusinessGroupName": "n/a",
+        "BusinessGroupDescription": "n/a",
+        "PrimaryODataServiceName": "APJ_JOB_MANAGEMENT",
+        "SemanticObject": "ApplicationJob",
+        "SemanticAction": "show",
+        "FrontendSoftwareComponent": "SAPSCORE 106",
+        "TransactionCode": "n/a",
+        "URLParameters": "n/a",
+        "LPDCustInstance": "n/a",
+        "PrimaryODataPFCGRole": "SAP_BCR_SCM_MRPRUN",
+        "ExternalReleaseName": "SAP S/4HANA Cloud 1611",
+        "AppKey": "F2316/S7",
+        "ArtifactId": "nw.core.appjobs",
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303faf",
+        "uri": "https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps('F2315')/S7",
+        "fiori_intent": "n/a",
+        "appId": "F2315",
+        "AppName": "UI5 Library for Project Engagement Apps",
+        "ApplicationComponent": "CA-CPD-SS",
+        "RoleName": "Project Manager - Commercial",
+        "ApplicationType": "Reuse Component",
+        "BSPName": "CPM_REUSE_MS1",
+        "BSPApplicationURL": "/sap/bc/ui5_ui5/sap/cpm_reuse_ms1",
+        "releaseName": "SAP S/4HANA Cloud 1611",
+        "releaseId": "S7",
+        "BusinessCatalog": "SAP_PSP_BC_CUST_PROJ_MANAGE",
+        "TechnicalCatalog": "SAP_TC_CPM_COMMON",
+        "detailsurl": "https://boma0d717969.hana.ondemand.com:443/sap/fix/externalViewer/services/SingleApp.xsodata/Details(fioriId='F2315',releaseId='S7')",
+        "isPublished": "Published",
+        "BSPPackage": "CONTENT_CPM_REUSE_COMMON",
+        "AppDocumentationLinkKW": "n/a",
+        "BusinessRoleName": "SAP_BCR_PSP_CUST_PROJ_MANAGE",
+        "BusinessGroupName": "SAP_PSP_BCG_CUST_PROJ_MANAGE",
+        "BusinessGroupDescription": "n/a",
+        "PrimaryODataServiceName": "n/a",
+        "SemanticObject": "",
+        "SemanticAction": "",
+        "FrontendSoftwareComponent": "SAPSCORE 106",
+        "TransactionCode": "n/a",
+        "URLParameters": "n/a",
+        "LPDCustInstance": "n/a",
+        "PrimaryODataPFCGRole": "n/a",
+        "ExternalReleaseName": "SAP S/4HANA Cloud 1611",
+        "ArtifactId": "cus.cpm.lib.projectengagement",
+        "AppKey": "F2315/S7(i)",
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fb0",
+        "uri": "https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps('F2315')/S7",
+        "fiori_intent": "n/a",
+        "appId": "F2315",
+        "AppName": "UI5 Library for Project Engagement Apps",
+        "ApplicationComponent": "CA-CPD-SS",
+        "RoleName": "Project Manager - Commercial Services",
+        "ApplicationType": "Reuse Component",
+        "BSPName": "CPM_REUSE_MS1",
+        "BSPApplicationURL": "/sap/bc/ui5_ui5/sap/cpm_reuse_ms1",
+        "releaseName": "SAP S/4HANA Cloud 1611",
+        "releaseId": "S7",
+        "BusinessCatalog": "SAP_PSP_BC_CUST_PROJ_MANAGE",
+        "TechnicalCatalog": "SAP_TC_CPM_COMMON",
+        "detailsurl": "https://boma0d717969.hana.ondemand.com:443/sap/fix/externalViewer/services/SingleApp.xsodata/Details(fioriId='F2315',releaseId='S7')",
+        "isPublished": "Published",
+        "BSPPackage": "CONTENT_CPM_REUSE_COMMON",
+        "AppDocumentationLinkKW": "n/a",
+        "BusinessRoleName": "SAP_BCR_PSP_CUST_PROJ_MANAGE",
+        "BusinessGroupName": "SAP_PSP_BCG_CUST_PROJ_MANAGE",
+        "BusinessGroupDescription": "n/a",
+        "PrimaryODataServiceName": "n/a",
+        "SemanticObject": "",
+        "SemanticAction": "",
+        "FrontendSoftwareComponent": "SAPSCORE 106",
+        "TransactionCode": "n/a",
+        "URLParameters": "n/a",
+        "LPDCustInstance": "n/a",
+        "PrimaryODataPFCGRole": "n/a",
+        "ExternalReleaseName": "SAP S/4HANA Cloud 1611",
+        "AppKey": "F2315/S7",
+        "ArtifactId": "cus.cpm.lib.projectengagement",
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fb1",
+        "uri": "https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps('F2311')/S7",
+        "fiori_intent": "#MRPMaterial-analyzeStockIssues",
+        "appId": "F2311",
+        "AppName": "Stock Champion",
+        "ApplicationComponent": "PP-FIO-SC",
+        "RoleName": "Inventory Analyst",
+        "ApplicationType": "Analytical",
+        "BSPName": "STKCHMP_MONS1",
+        "BSPApplicationURL": "/sap/bc/ui5_ui5/sap/stkchmp_mons1",
+        "releaseName": "SAP S/4HANA Cloud 1611",
+        "releaseId": "S7",
+        "BusinessCatalog": "SAP_SCM_BC_STK_CHMP_PC",
+        "TechnicalCatalog": "SAP_TC_SCM_PP_COMMON",
+        "detailsurl": "https://boma0d717969.hana.ondemand.com:443/sap/fix/externalViewer/services/SingleApp.xsodata/Details(fioriId='F2311',releaseId='S7')",
+        "isPublished": "Published",
+        "BSPPackage": "UI_SCM_SC_STKCHMP",
+        "AppDocumentationLinkKW": "http://aiokeh.wdf.sap.corp:50000/SAPIrExtHelp/BCO_COMMON.asp?IWB_INDUSTRY=S4HANA_PC&TMP_IWB_TASK=PREVIEW2&_LOIO=5B6AEB5765C7BE12E10000000A4450E5&RELEASE=1611&LANGUAGE=EN",
+        "BusinessRoleName": "SAP_BR_INVENTORY_ANALYST",
+        "BusinessGroupName": "SAP_SCM_BCG_STK_CHMP_PC",
+        "BusinessGroupDescription": "Batch Management - Stock Champion",
+        "PrimaryODataServiceName": "PP_STOCKCHAMPION_SRV",
+        "SemanticObject": "MRPMaterial",
+        "SemanticAction": "analyzeStockIssues",
+        "FrontendSoftwareComponent": "SAPSCORE 106",
+        "TransactionCode": "n/a",
+        "URLParameters": "n/a",
+        "LPDCustInstance": "n/a",
+        "PrimaryODataPFCGRole": "n/a",
+        "ExternalReleaseName": "SAP S/4HANA Cloud 1611",
+        "ArtifactId": "i2d.pp.stockchampions1",
+        "AppKey": "F2311/S7(i)",
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fb3",
+        "uri": "https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps('/AIF/EDCHANGES')/S6OP",
+        "fiori_intent": "n/a",
+        "appId": "/AIF/EDCHANGES",
+        "AppName": "Error Handling Changes Log",
+        "ApplicationComponent": "CA-GTF-AIF",
+        "RoleName": "Administrator - Data Aging and Archiving",
+        "ApplicationType": "GUI",
+        "releaseName": "S/4HANA 1610",
+        "releaseId": "S6OP",
+        "BusinessCatalog": "SAP_CA_BC_COM",
+        "TechnicalCatalog": "SAP_TC_CA_AIF_BE_APPS:S4CA",
+        "AppKey": "/AIF/EDCHANGES/S6OP",
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fb2",
+        "uri": "https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps('XK99')/S6OP",
+        "fiori_intent": "#Supplier-massMaintSuppliers",
+        "appId": "XK99",
+        "AppName": "Mass maintenance, Supplier Master",
+        "ApplicationComponent": "LO-MD-BP-VM",
+        "RoleName": "Master Data Specialist - Business Partner Data",
+        "ApplicationType": "GUI",
+        "BSPName": "n/a",
+        "BSPApplicationURL": "n/a",
+        "releaseName": "S/4HANA 1610",
+        "releaseId": "S6OP",
+        "BusinessCatalog": "SAP_CMD_BC_SUPPLIER_MAINT",
+        "TechnicalCatalog": "SAP_TC_CA_BP_BE_APPS:S4CMD",
+        "detailsurl": "https://boma0d717969.hana.ondemand.com:443/sap/fix/externalViewer/services/SingleApp.xsodata/Details(fioriId='XK99',releaseId='S6OP')",
+        "isPublished": "Published",
+        "BSPPackage": "n/a",
+        "AppDocumentationLinkKW": "n/a",
+        "BusinessRoleName": "SAP_BR_BUPA_MASTER_SPECIALIST",
+        "BusinessGroupName": "SAP_CMD_BCG_SUPPLIER_MAINT",
+        "BusinessGroupDescription": "Master Data - Supplier Master",
+        "PrimaryODataServiceName": "n/a",
+        "SemanticObject": "Supplier",
+        "SemanticAction": "massMaintSuppliers",
+        "FrontendSoftwareComponent": "UIS4HOP1 200",
+        "TransactionCode": "XK99",
+        "URLParameters": "n/a",
+        "LPDCustInstance": "n/a",
+        "PrimaryODataPFCGRole": "n/a",
+        "ExternalReleaseName": "n/a",
+        "AppKey": "XK99/S6OP",
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fb4",
+        "uri": "https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps('/AIF/CUST')/S6OP",
+        "fiori_intent": "n/a",
+        "appId": "/AIF/CUST",
+        "AppName": "AIF Configuration",
+        "ApplicationComponent": "CA-GTF-AIF",
+        "RoleName": "Administrator - Data Aging and Archiving",
+        "ApplicationType": "GUI",
+        "releaseName": "S/4HANA 1610",
+        "releaseId": "S6OP",
+        "BusinessCatalog": "SAP_CA_BC_COM",
+        "TechnicalCatalog": "SAP_TC_CA_AIF_BE_APPS:S4CA",
+        "AppKey": "/AIF/CUST/S6OP",
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fb5",
+        "uri": "https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps('CBGLWB')/S6OP",
+        "fiori_intent": "#ProductLabel-manage",
+        "appId": "CBGLWB",
+        "AppName": "Manage Labels",
+        "ApplicationComponent": "EHS-SAF",
+        "RoleName": "Product Stewardship Specialist",
+        "ApplicationType": "GUI",
+        "BSPName": "n/a",
+        "BSPApplicationURL": "n/a",
+        "releaseName": "S/4HANA 1610",
+        "releaseId": "S6OP",
+        "BusinessCatalog": "SAP_PSS_BC_GLM",
+        "TechnicalCatalog": "SAP_TC_PSS_GLM_BE_APPS:S4PSS",
+        "detailsurl": "https://boma0d717969.hana.ondemand.com:443/sap/fix/externalViewer/services/SingleApp.xsodata/Details(fioriId='CBGLWB',releaseId='S6OP')",
+        "isPublished": "Published",
+        "BSPPackage": "n/a",
+        "AppDocumentationLinkKW": "n/a",
+        "BusinessRoleName": "SAP_BR_PROD_STWRDSHP_SPECLST",
+        "BusinessGroupName": "SAP_PSS_BCG_GLM",
+        "BusinessGroupDescription": "Global Label Management",
+        "PrimaryODataServiceName": "n/a",
+        "SemanticObject": "ProductLabel",
+        "SemanticAction": "manage",
+        "FrontendSoftwareComponent": "UIS4HOP1 200",
+        "TransactionCode": "CBGLWB",
+        "URLParameters": "n/a",
+        "LPDCustInstance": "n/a",
+        "PrimaryODataPFCGRole": "n/a",
+        "ExternalReleaseName": "n/a",
+        "AppKey": "CBGLWB/S6OP",
+        "UITechnology": "GUI",
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fb6",
+        "uri": "https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps('F1638')/W14",
+        "fiori_intent": "#ComplianceAlerts-manage",
+        "appId": "F1638",
+        "AppName": "Manage Alerts",
+        "ApplicationComponent": "GRC-FRA",
+        "RoleName": "Fraud Investigator",
+        "ApplicationType": "Transactional",
+        "BSPName": "FRA_ALERT_MAN",
+        "BSPApplicationURL": "/sap/bc/ui5_ui5/sap/fra_alert_man",
+        "releaseName": "Wave 14",
+        "releaseId": "W14",
+        "BusinessCatalog": "SAP_ACS_BC_MANAGE_ALERTS, SAP_ACS_BC_MANAGE_ALERTS, SAP_ACS_BC_MANAGE_ALERTS, SAP_ACS_BC_MANAGE_ALERTS, SAP_ACS_BC_MANAGE_ALERTS, SAP_ACS_BC_MANAGE_ALERTS",
+        "TechnicalCatalog": "SAP_TC_ACS_COMMON",
+        "detailsurl": "n/a",
+        "isPublished": "Published",
+        "BSPPackage": "FRA_UI_ALERT_APP",
+        "AppDocumentationLinkKW": "https://uacp2.hana.ondemand.com/http.svc/outputlink?product=SAP_ASSURANCE_AND_COMPLIANCE_SOFTWARE_-_SAP_FRAUD_MANAGEMENT&version=1.2.4.0&topic=3EF85556808CDE21E10000000A4450E5&state=DRAFT",
+        "BusinessRoleName": "SAP_BR_ACS_CE, SAP_BR_ACS_CM, SAP_BR_ACS_BA, SAP_BR_ACS_CRO, SAP_BR_ACS_INVESTIGATOR, SAP_BR_ACS_MANAGER",
+        "BusinessGroupName": "SAP_ACS_BCG_INVESTIGATION, SAP_ACS_BCG_INVESTIGATION, SAP_ACS_BCG_INVESTIGATION, SAP_ACS_BCG_INVESTIGATION, SAP_ACS_BCG_INVESTIGATION, SAP_ACS_BCG_INVESTIGATION",
+        "BusinessGroupDescription": "Alert investigation, Investigate Alerts, , , ,",
+        "PrimaryODataServiceName": "FRA_MANAGE_ALERTS_SRV",
+        "SemanticObject": "ComplianceAlerts",
+        "SemanticAction": "manage",
+        "FrontendSoftwareComponent": "UIACS 120",
+        "TransactionCode": "n/a",
+        "URLParameters": "n/a",
+        "LPDCustInstance": "n/a",
+        "PrimaryODataPFCGRole": "SAP_BPCM_CE,SAP_BPCM_CM,SAP_FRA_BUSINESS_ANALYST,SAP_FRA_CHIEF_RISK_OFFICER,SAP_FRA_FRAUD_INVESTIGATOR,SAP_FRA_FRAUD_MANAGER",
+        "ExternalReleaseName": "Delivery Q4/2016",
+        "ArtifactId": "grc.acs.fraud.alertworklist",
+        "AppKey": "F1638/W14",
+        "UITechnology": "UI5",
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fb8",
+        "uri": "https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps('S_ALR_87012394')/S6OP",
+        "fiori_intent": "#TaxReport-prepareSalesUseTaxesReportUSA",
+        "appId": "S_ALR_87012394",
+        "AppName": "PrepareTax Report",
+        "ApplicationComponent": "CA",
+        "RoleName": "General Ledger Accountant, General Ledger Accountant for Canada",
+        "ApplicationType": "GUI",
+        "BSPName": "n/a",
+        "BSPApplicationURL": "n/a",
+        "releaseName": "S/4HANA 1610",
+        "releaseId": "S6OP",
+        "BusinessCatalog": "SAP_FIN_BC_GL_REPORTING_CA,SAP_SFIN_BC_GL_REP_US",
+        "TechnicalCatalog": "SAP_TC_FIN_ACC_BE_APPS:S4FIN",
+        "detailsurl": "https://boma0d717969.hana.ondemand.com:443/sap/fix/externalViewer/services/SingleApp.xsodata/Details(fioriId='S_ALR_87012394',releaseId='S6OP')",
+        "isPublished": "Published",
+        "BSPPackage": "n/a",
+        "AppDocumentationLinkKW": "n/a",
+        "BusinessRoleName": "SAP_BR_GL_ACCOUNTANT_CA, SAP_BR_GL_ACCOUNTANT",
+        "BusinessGroupName": "SAP_SFIN_BCG_GL_REP_US,SAP_FIN_BCG_GL_REP_CA",
+        "BusinessGroupDescription": "Reporting United States,General Ledger - Reporting Canada",
+        "PrimaryODataServiceName": "n/a",
+        "SemanticObject": "TaxReport",
+        "SemanticAction": "prepareSalesUseTaxesReportUSA",
+        "FrontendSoftwareComponent": "UIS4HOP1 200",
+        "TransactionCode": "S_ALR_87012394",
+        "URLParameters": "n/a",
+        "LPDCustInstance": "n/a",
+        "PrimaryODataPFCGRole": "n/a",
+        "ExternalReleaseName": "n/a",
+        "AppKey": "S_ALR_87012394/S6OP",
+        "UITechnology": "GUI",
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fb7",
+        "uri": "https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps('GRM3')/S6OP",
+        "fiori_intent": "#WBSElement-assignToGroupingWBSElementCollectively",
+        "appId": "GRM3",
+        "AppName": "Assign WBS Elements Using List",
+        "ApplicationComponent": "PS-MAT",
+        "RoleName": "Without Role Assignment",
+        "ApplicationType": "GUI",
+        "BSPName": "n/a",
+        "BSPApplicationURL": "n/a",
+        "releaseName": "S/4HANA 1610",
+        "releaseId": "S6OP",
+        "BusinessCatalog": "Without Catalog Assignment",
+        "TechnicalCatalog": "SAP_TC_PS_BE_APPS:S4PS",
+        "detailsurl": "https://boma0d717969.hana.ondemand.com:443/sap/fix/externalViewer/services/SingleApp.xsodata/Details(fioriId='GRM3',releaseId='S6OP')",
+        "isPublished": "Published",
+        "BSPPackage": "n/a",
+        "AppDocumentationLinkKW": "n/a",
+        "BusinessRoleName": "n/a",
+        "BusinessGroupName": "n/a",
+        "BusinessGroupDescription": "n/a",
+        "PrimaryODataServiceName": "n/a",
+        "SemanticObject": "WBSElement",
+        "SemanticAction": "assignToGroupingWBSElementCollectively",
+        "FrontendSoftwareComponent": "UIS4HOP1 200",
+        "TransactionCode": "GRM3",
+        "URLParameters": "n/a",
+        "LPDCustInstance": "n/a",
+        "PrimaryODataPFCGRole": "n/a",
+        "ExternalReleaseName": "n/a",
+        "AppKey": "GRM3/S6OP",
+        "UITechnology": "GUI",
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fb9",
+        "AppKey": "/SAPAPO/MAT1/S6OP",
+        "AppName": "Maintain Product",
+        "ApplicationComponent": "SCM-BAS-MD-PR",
+        "ApplicationType": "GUI",
+        "BusinessCatalog": "Without Catalog Assignment",
+        "FrontendSoftwareComponent": "UIS4HOP1 200",
+        "RoleName": "Without Role Assignment",
+        "SemanticAction": "maintain",
+        "SemanticObject": "EWMProduct",
+        "TechnicalCatalog": "SAP_TC_SCM_EWM_BE_APPS:S4SCM",
+        "TransactionCode": "/SAPAPO/MAT1",
+        "UITechnology": "GUI",
+        "appId": "/SAPAPO/MAT1",
+        "detailsurl": "https://fioriappslibrary.hana.ondemand.com:443/sap/fix/externalViewer/services/SingleApp.xsodata/Details(fioriId='%2FSAPAPO%2FMAT1',releaseId='S6OP')",
+        "fiori_intent": "#EWMProduct-maintain",
+        "isPublished": "Published",
+        "releaseId": "S6OP",
+        "releaseName": "S/4HANA 1610",
+        "uri": "https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps('/SAPAPO/MAT1')/S6OP",
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fba",
+        "uri": "https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps('F0731')/W8",
+        "fiori_intent": "#GLAccount-manage",
+        "appId": "F0731",
+        "AppName": "Manage G/L Account Master Data",
+        "ApplicationComponent": "FI-FIO-GL",
+        "RoleName": "General Ledger Accountant",
+        "ApplicationType": "FPM/WebDynpro",
+        "BSPName": "n/a",
+        "BSPApplicationURL": "n/a",
+        "releaseName": "Delivery Q2/2015",
+        "releaseId": "W8",
+        "BusinessCatalog": "SAP_SFIN_BC_GLACCOUNTANT",
+        "TechnicalCatalog": "SAP_SFIN_TC_T_FI",
+        "detailsurl": "n/a",
+        "isPublished": "Published",
+        "BSPPackage": "n/a",
+        "AppDocumentationLinkKW": "http://aiokeh.wdf.sap.corp:50000/SAPIrExtHelp/BCO_COMMON.asp?IWB_INDUSTRY=FIORI_SFIN&TMP_IWB_TASK=PREVIEW2&_LOIO=1279A753B9CFDB72E10000000A4450E5&RELEASE=200_SP05&LANGUAGE=EN",
+        "BusinessRoleName": "SAP_SFIN_BCR_GLACCOUNTANT",
+        "BusinessGroupName": "SAP_SFIN_BCG_GLACCOUNTANT",
+        "BusinessGroupDescription": "G/L Accountant",
+        "PrimaryODataServiceName": "n/a",
+        "SemanticObject": "GLAccount",
+        "SemanticAction": "manage",
+        "FrontendSoftwareComponent": "UIAPFI70 200",
+        "TransactionCode": "FSP0, FSS0, KA01, KA02, KA03, KA04, KA05, KA06",
+        "URLParameters": "n/a",
+        "LPDCustInstance": "TRANSACTIONAL_FI",
+        "PrimaryODataPFCGRole": "n/a",
+        "ExternalReleaseName": "Delivery Q2/2015",
+        "ArtifactId": "n/a",
+        "AppKey": "F0731/W8",
+        "UITechnology": "WebDynpro",
+        "__v": 0
+      }
+    ]
+  },
+  "b186d0aa62073a3d4a4c7eecb3d67bb6": {
+    "op": "find",
+    "name": "r3tran",
+    "digest": "b186d0aa62073a3d4a4c7eecb3d67bb6",
+    "query": {},
+    "res": [
+      {
+        "_id": "59289d809f1ae34670303f86",
+        "tcode": "SOBJ",
+        "devclass": "SCTS_OBJ",
+        "transaction_description": "Maintenance Object Attributes",
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303f87",
+        "tcode": "SOBL_MODEL",
+        "devclass": "SOBL",
+        "transaction_description": "Model Data Object Relationships",
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303f88",
+        "tcode": "LICENSE_ATTRIBUTES",
+        "devclass": "SLIM",
+        "transaction_description": "Maintain License Attributes of Roles",
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303f89",
+        "tcode": "MI_SYNEWS",
+        "devclass": "S_ME_MESSAGES",
+        "transaction_description": "MI SystemNews",
+        "__v": 0
+      }
+    ]
+  },
+  "4bd84695733ee7d6c49371f6587fc857": {
+    "op": "find",
+    "name": "fioribecatalog",
+    "digest": "4bd84695733ee7d6c49371f6587fc857",
+    "query": {},
+    "res": [
+      {
+        "_id": "59289d809f1ae34670303fa5",
+        "objectkey": "42F2E9AFC3DF1EE6B4E5BC5789C5D3A8",
+        "BackendCatalogId": "SAP_TC_SD_EM_BE_APPS",
+        "Title": "Empties Balance",
+        "Tile_keywords": "/BEV1/EMA",
+        "SemanticObject": "Customer",
+        "SemanticAction": "createBalanceConfirmationForEmpties",
+        "fiori_intent": "#Customer-createBalanceConfirmationForEmpties",
+        "TransactionCode": "/BEV1/EMA",
+        "WebDynproApplication": "",
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fa6",
+        "objectkey": "42F2E9AFC3DF1EE6B4E5BC5789C5F3A8",
+        "BackendCatalogId": "SAP_TC_SD_EM_BE_APPS",
+        "Title": "Empties Evaluation",
+        "Tile_keywords": "/BEV1/EMS",
+        "SemanticObject": "Customer",
+        "SemanticAction": "evaluateEmptiesStock",
+        "fiori_intent": "#Customer-evaluateEmptiesStock",
+        "TransactionCode": "/BEV1/EMS",
+        "WebDynproApplication": "",
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fa7",
+        "objectkey": "005056BA19171EE5B381F18DDBC817D4",
+        "BackendCatalogId": "SAP_BASIS_TCR_BE_APPS",
+        "Title": "ILM Audit Area",
+        "Tile_keywords": "ILM_AUDIT_AREA",
+        "SemanticObject": "Document",
+        "SemanticAction": "maintainAuditArea",
+        "fiori_intent": "#Document-maintainAuditArea",
+        "TransactionCode": "",
+        "WebDynproApplication": "ILM_AUDIT_AREA",
+        "devclass": "IWP_UI",
+        "ApplicationComponent": "BC-ILM-RW",
+        "SoftwareComponent": "SAP_ABA",
+        "BusinessCatalog": "SAP_CORE_BC_ILM",
+        "TechnicalCatalogSystemAlias": "NW",
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fa8",
+        "objectkey": "005056A533E71EE5B5A67D9B20AC4CBB",
+        "BackendCatalogId": "SAP_NW_BE_APPS",
+        "Title": "ILM Policies",
+        "Tile_keywords": "ILM  Policies , ILM Rules",
+        "SemanticObject": "Document",
+        "SemanticAction": "maintainRules",
+        "fiori_intent": "#Document-maintainRules",
+        "TransactionCode": "",
+        "WebDynproApplication": "IRM_POLICIES",
+        "devclass": "S_LRM_UI",
+        "ApplicationComponent": "BC-ILM-IRM",
+        "SoftwareComponent": "SAP_BASIS",
+        "BusinessCatalog": "SAP_CORE_BC_ILM",
+        "TechnicalCatalogSystemAlias": "NW",
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fa9",
+        "objectkey": "FA163EDF73161EE685D7022AC6730468",
+        "BackendCatalogId": "SAP_TC_PS_BE_APPS",
+        "Title": "Assign WBS Elements Using List",
+        "Tile_keywords": "GRM3",
+        "SemanticObject": "WBSElement",
+        "SemanticAction": "assignToGroupingWBSElementCollectively",
+        "fiori_intent": "#WBSElement-assignToGroupingWBSElementCollectively",
+        "TransactionCode": "GRM3",
+        "WebDynproApplication": "",
+        "devclass": "ODATA_PS_APP_DESCRIPTORS",
+        "ApplicationComponent": "PS",
+        "SoftwareComponent": "S4CORE",
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303faa",
+        "objectkey": "FA163EDF73161EE59DCA93ED9A0B4DAE",
+        "BackendCatalogId": "SAP_TC_FIN_ACC_BE_APPS",
+        "Title": "PrepareTax Report",
+        "Tile_keywords": "S_ALR_87012394",
+        "SemanticObject": "TaxReport",
+        "SemanticAction": "prepareSalesUseTaxesReportUSA",
+        "fiori_intent": "#TaxReport-prepareSalesUseTaxesReportUSA",
+        "TransactionCode": "S_ALR_87012394",
+        "WebDynproApplication": "",
+        "devclass": "APPL_FIN_APP_DESCRIPTORS",
+        "ApplicationComponent": "FI-AR",
+        "SoftwareComponent": "S4CORE",
+        "BusinessCatalog": "SAP_FIN_BC_GL_REPORTING_US",
+        "TechnicalCatalogSystemAlias": "S4FIN",
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fab",
+        "objectkey": "42F2E9AFC5FF1EE69BEB34D34D794984",
+        "BackendCatalogId": "SAP_TC_FIN_GLO_AC_BE_APPS",
+        "Title": "Prepare Tax Report",
+        "Tile_keywords": "S_ALR_87012394",
+        "SemanticObject": "TaxReport",
+        "SemanticAction": "prepareSalesUseTaxesReportCA",
+        "fiori_intent": "#TaxReport-prepareSalesUseTaxesReportCA",
+        "TransactionCode": "S_ALR_87012394",
+        "WebDynproApplication": "",
+        "devclass": "ODATA_GLO_FIN_APP_DESCRIPTORS",
+        "ApplicationComponent": "FI-LOC-FI",
+        "SoftwareComponent": "S4CORE",
+        "BusinessCatalog": "SAP_FIN_BC_GL_REPORTING_CA_PC",
+        "TechnicalCatalogSystemAlias": "S4FIN",
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fac",
+        "objectkey": "42F2E9AFC3DF1EE6B7A89F7BD303D681",
+        "BackendCatalogId": "SAP_TC_LE_DSD_BE_APPS",
+        "Title": "Maintain Visit List",
+        "Tile_keywords": "/DSD/VC_VL",
+        "SemanticObject": "VisitList",
+        "SemanticAction": "maintain",
+        "fiori_intent": "#VisitList-maintain",
+        "TransactionCode": "/DSD/VC_VL",
+        "WebDynproApplication": "",
+        "__v": 0
+      }
+    ]
+  },
+  "947d8f1a1afb215c4977157340faee06": {
+    "op": "find",
+    "name": "iupac",
+    "digest": "947d8f1a1afb215c4977157340faee06",
+    "query": {},
+    "res": [
+      {
+        "_id": "59289d809f1ae34670303fc7",
+        "element_name": "hydrogen",
+        "element_symbol": "H",
+        "element_number": "1",
+        "atomic_weight": "[1.007 84, 1.008 11]",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fc8",
+        "element_name": "helium",
+        "element_symbol": "He",
+        "element_number": "2",
+        "atomic_weight": "4.002 602(2)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fc9",
+        "element_name": "lithium",
+        "element_symbol": "Li",
+        "element_number": "3",
+        "atomic_weight": "[6.938, 6.997]",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fca",
+        "element_name": "beryllium",
+        "element_symbol": "Be",
+        "element_number": "4",
+        "atomic_weight": "9.012 1831(5)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fcb",
+        "element_name": "boron",
+        "element_symbol": "B",
+        "element_number": "5",
+        "atomic_weight": "[10.806, 10.821]",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fcc",
+        "element_name": "carbon",
+        "element_symbol": "C",
+        "element_number": "6",
+        "atomic_weight": "[12.0096, 12.0116]",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fcd",
+        "element_name": "nitrogen",
+        "element_symbol": "N",
+        "element_number": "7",
+        "atomic_weight": "[14.006 43, 14.007 28]",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fce",
+        "element_name": "oxygen",
+        "element_symbol": "O",
+        "element_number": "8",
+        "atomic_weight": "[15.999 03, 15.999 77]",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fcf",
+        "element_name": "fluorine",
+        "element_symbol": "F",
+        "element_number": "9",
+        "atomic_weight": "18.998 403 163(6)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fd0",
+        "element_name": "neon",
+        "element_symbol": "Ne",
+        "element_number": "10",
+        "atomic_weight": "20.1797(6)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fd1",
+        "element_name": "sodium",
+        "element_symbol": "Na",
+        "element_number": "11",
+        "atomic_weight": "22.989 769 28(2)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fd2",
+        "element_name": "magnesium",
+        "element_symbol": "Mg",
+        "element_number": "12",
+        "atomic_weight": "[24.304, 24.307]",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fd5",
+        "element_name": "silicon",
+        "element_symbol": "Si",
+        "element_number": "14",
+        "atomic_weight": "[28.084, 28.086]",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fd6",
+        "element_name": "phosphorus",
+        "element_symbol": "P",
+        "element_number": "15",
+        "atomic_weight": "30.973 761 998(5)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fd7",
+        "element_name": "sulfur",
+        "element_symbol": "S",
+        "element_number": "16",
+        "atomic_weight": "[32.059, 32.076]",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fd8",
+        "element_name": "chlorine",
+        "element_symbol": "Cl",
+        "element_number": "17",
+        "atomic_weight": "[35.446, 35.457]",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fd9",
+        "element_name": "argon",
+        "element_symbol": "Ar",
+        "element_number": "18",
+        "atomic_weight": "39.948(1)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fda",
+        "element_name": "potassium",
+        "element_symbol": "K",
+        "element_number": "19",
+        "atomic_weight": "39.0983(1)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fdb",
+        "element_name": "calcium",
+        "element_symbol": "Ca",
+        "element_number": "20",
+        "atomic_weight": "40.078(4)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fdc",
+        "element_name": "scandium",
+        "element_symbol": "Sc",
+        "element_number": "21",
+        "atomic_weight": "44.955 908(5)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fdd",
+        "element_name": "titanium",
+        "element_symbol": "Ti",
+        "element_number": "22",
+        "atomic_weight": "47.867(1)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fde",
+        "element_name": "vanadium",
+        "element_symbol": "V",
+        "element_number": "23",
+        "atomic_weight": "50.9415(1)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fdf",
+        "element_name": "chromium",
+        "element_symbol": "Cr",
+        "element_number": "24",
+        "atomic_weight": "51.9961(6)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fe0",
+        "element_name": "manganese",
+        "element_symbol": "Mn",
+        "element_number": "25",
+        "atomic_weight": "54.938 044(3)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fe1",
+        "element_name": "iron",
+        "element_symbol": "Fe",
+        "element_number": "26",
+        "atomic_weight": "55.845(2)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fe2",
+        "element_name": "cobalt",
+        "element_symbol": "Co",
+        "element_number": "27",
+        "atomic_weight": "58.933 194(4)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fe3",
+        "element_name": "nickel",
+        "element_symbol": "Ni",
+        "element_number": "28",
+        "atomic_weight": "58.6934(4)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fe4",
+        "element_name": "copper",
+        "element_symbol": "Cu",
+        "element_number": "29",
+        "atomic_weight": "63.546(3)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fe5",
+        "element_name": "zinc",
+        "element_symbol": "Zn",
+        "element_number": "30",
+        "atomic_weight": "65.38(2)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fe6",
+        "element_name": "gallium",
+        "element_symbol": "Ga",
+        "element_number": "31",
+        "atomic_weight": "69.723(1)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fe7",
+        "element_name": "germanium",
+        "element_symbol": "Ge",
+        "element_number": "32",
+        "atomic_weight": "72.630(8)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fe8",
+        "element_name": "arsenic",
+        "element_symbol": "As",
+        "element_number": "33",
+        "atomic_weight": "74.921 595(6)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fe9",
+        "element_name": "selenium",
+        "element_symbol": "Se",
+        "element_number": "34",
+        "atomic_weight": "78.971(8)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fea",
+        "element_name": "bromine",
+        "element_symbol": "Br",
+        "element_number": "35",
+        "atomic_weight": "[79.901, 79.907]",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303feb",
+        "element_name": "krypton",
+        "element_symbol": "Kr",
+        "element_number": "36",
+        "atomic_weight": "83.798(2)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fed",
+        "element_name": "strontium",
+        "element_symbol": "Sr",
+        "element_number": "38",
+        "atomic_weight": "87.62(1)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fec",
+        "element_name": "rubidium",
+        "element_symbol": "Rb",
+        "element_number": "37",
+        "atomic_weight": "85.4678(3)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fee",
+        "element_name": "yttrium",
+        "element_symbol": "Y",
+        "element_number": "39",
+        "atomic_weight": "88.905 84(2)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303ff0",
+        "element_name": "niobium",
+        "element_symbol": "Nb",
+        "element_number": "41",
+        "atomic_weight": "92.906 37(2)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fef",
+        "element_name": "zirconium",
+        "element_symbol": "Zr",
+        "element_number": "40",
+        "atomic_weight": "91.224(2)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303ff1",
+        "element_name": "molybdenum",
+        "element_symbol": "Mo",
+        "element_number": "42",
+        "atomic_weight": "95.95(1)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303ff2",
+        "element_name": "technetium",
+        "element_symbol": "Tc",
+        "element_number": "43",
+        "atomic_weight": "–",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303ff3",
+        "element_name": "ruthenium",
+        "element_symbol": "Ru",
+        "element_number": "44",
+        "atomic_weight": "101.07(2)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303ff5",
+        "element_name": "palladium",
+        "element_symbol": "Pd",
+        "element_number": "46",
+        "atomic_weight": "106.42(1)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303ff4",
+        "element_name": "rhodium",
+        "element_symbol": "Rh",
+        "element_number": "45",
+        "atomic_weight": "102.905 50(2)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303ff6",
+        "element_name": "silver",
+        "element_symbol": "Ag",
+        "element_number": "47",
+        "atomic_weight": "107.8682(2)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303ff7",
+        "element_name": "cadmium",
+        "element_symbol": "Cd",
+        "element_number": "48",
+        "atomic_weight": "112.414(4)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303ff8",
+        "element_name": "indium",
+        "element_symbol": "In",
+        "element_number": "49",
+        "atomic_weight": "114.818(1)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303ffa",
+        "element_name": "antimony",
+        "element_symbol": "Sb",
+        "element_number": "51",
+        "atomic_weight": "121.760(1)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303ffb",
+        "element_name": "tellurium",
+        "element_symbol": "Te",
+        "element_number": "52",
+        "atomic_weight": "127.60(3)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303ff9",
+        "element_name": "tin",
+        "element_symbol": "Sn",
+        "element_number": "50",
+        "atomic_weight": "118.710(7)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303ffc",
+        "element_name": "iodine",
+        "element_symbol": "I",
+        "element_number": "53",
+        "atomic_weight": "126.904 47(3)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303ffd",
+        "element_name": "xenon",
+        "element_symbol": "Xe",
+        "element_number": "54",
+        "atomic_weight": "131.293(6)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304001",
+        "element_name": "lanthanum",
+        "element_symbol": "La",
+        "element_number": "57",
+        "atomic_weight": "138.905 47(7)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304000",
+        "element_name": "barium",
+        "element_symbol": "Ba",
+        "element_number": "56",
+        "atomic_weight": "137.327(7)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304002",
+        "element_name": "cerium",
+        "element_symbol": "Ce",
+        "element_number": "58",
+        "atomic_weight": "140.116(1)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304003",
+        "element_name": "praseodymium",
+        "element_symbol": "Pr",
+        "element_number": "59",
+        "atomic_weight": "140.907 66(2)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304004",
+        "element_name": "neodymium",
+        "element_symbol": "Nd",
+        "element_number": "60",
+        "atomic_weight": "144.242(3)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304006",
+        "element_name": "samarium",
+        "element_symbol": "Sm",
+        "element_number": "62",
+        "atomic_weight": "150.36(2)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304005",
+        "element_name": "promethium",
+        "element_symbol": "Pm",
+        "element_number": "61",
+        "atomic_weight": "–",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304007",
+        "element_name": "europium",
+        "element_symbol": "Eu",
+        "element_number": "63",
+        "atomic_weight": "151.964(1)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304008",
+        "element_name": "gadolinium",
+        "element_symbol": "Gd",
+        "element_number": "64",
+        "atomic_weight": "157.25(3)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304009",
+        "element_name": "terbium",
+        "element_symbol": "Tb",
+        "element_number": "65",
+        "atomic_weight": "158.925 35(2)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae3467030400a",
+        "element_name": "dysprosium",
+        "element_symbol": "Dy",
+        "element_number": "66",
+        "atomic_weight": "162.500(1)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae3467030400b",
+        "element_name": "holmium",
+        "element_symbol": "Ho",
+        "element_number": "67",
+        "atomic_weight": "164.930 33(2)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae3467030400c",
+        "element_name": "erbium",
+        "element_symbol": "Er",
+        "element_number": "68",
+        "atomic_weight": "167.259(3)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae3467030400d",
+        "element_name": "thulium",
+        "element_symbol": "Tm",
+        "element_number": "69",
+        "atomic_weight": "168.934 22(2)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae3467030400e",
+        "element_name": "ytterbium",
+        "element_symbol": "Yb",
+        "element_number": "70",
+        "atomic_weight": "173.054(5)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae3467030400f",
+        "element_name": "lutetium",
+        "element_symbol": "Lu",
+        "element_number": "71",
+        "atomic_weight": "174.9668(1)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304010",
+        "element_name": "hafnium",
+        "element_symbol": "Hf",
+        "element_number": "72",
+        "atomic_weight": "178.49(2)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304011",
+        "element_name": "tantalum",
+        "element_symbol": "Ta",
+        "element_number": "73",
+        "atomic_weight": "180.947 88(2)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304012",
+        "element_name": "tungsten",
+        "element_symbol": "W",
+        "element_number": "74",
+        "atomic_weight": "183.84(1)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304013",
+        "element_name": "rhenium",
+        "element_symbol": "Re",
+        "element_number": "75",
+        "atomic_weight": "186.207(1)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304014",
+        "element_name": "osmium",
+        "element_symbol": "Os",
+        "element_number": "76",
+        "atomic_weight": "190.23(3)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304015",
+        "element_name": "iridium",
+        "element_symbol": "Ir",
+        "element_number": "77",
+        "atomic_weight": "192.217(3)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304016",
+        "element_name": "platinum",
+        "element_symbol": "Pt",
+        "element_number": "78",
+        "atomic_weight": "195.084(9)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304017",
+        "element_name": "gold",
+        "element_symbol": "Au",
+        "element_number": "79",
+        "atomic_weight": "196.966 569(5)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304018",
+        "element_name": "mercury",
+        "element_symbol": "Hg",
+        "element_number": "80",
+        "atomic_weight": "200.592(3)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304019",
+        "element_name": "thallium",
+        "element_symbol": "Tl",
+        "element_number": "81",
+        "atomic_weight": "[204.382, 204.385]",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae3467030401a",
+        "element_name": "lead",
+        "element_symbol": "Pb",
+        "element_number": "82",
+        "atomic_weight": "207.2(1)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae3467030401b",
+        "element_name": "bismuth",
+        "element_symbol": "Bi",
+        "element_number": "83",
+        "atomic_weight": "208.980 40(1)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae3467030401c",
+        "element_name": "polonium",
+        "element_symbol": "Po",
+        "element_number": "84",
+        "atomic_weight": "–",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae3467030401d",
+        "element_name": "astatine",
+        "element_symbol": "At",
+        "element_number": "85",
+        "atomic_weight": "–",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae3467030401e",
+        "element_name": "radon",
+        "element_symbol": "Rn",
+        "element_number": "86",
+        "atomic_weight": "–",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae3467030401f",
+        "element_name": "francium",
+        "element_symbol": "Fr",
+        "element_number": "87",
+        "atomic_weight": "–",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304020",
+        "element_name": "radium",
+        "element_symbol": "Ra",
+        "element_number": "88",
+        "atomic_weight": "–",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304021",
+        "element_name": "actinium",
+        "element_symbol": "Ac",
+        "element_number": "89",
+        "atomic_weight": "–",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304022",
+        "element_name": "thorium",
+        "element_symbol": "Th",
+        "element_number": "90",
+        "atomic_weight": "232.0377(4)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304023",
+        "element_name": "protactinium",
+        "element_symbol": "Pa",
+        "element_number": "91",
+        "atomic_weight": "231.035 88(2)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304024",
+        "element_name": "uranium",
+        "element_symbol": "U",
+        "element_number": "92",
+        "atomic_weight": "238.028 91(3)",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304025",
+        "element_name": "neptunium",
+        "element_symbol": "Np",
+        "element_number": "93",
+        "atomic_weight": "–",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304026",
+        "element_name": "plutonium",
+        "element_symbol": "Pu",
+        "element_number": "94",
+        "atomic_weight": "–",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304027",
+        "element_name": "americium",
+        "element_symbol": "Am",
+        "element_number": "95",
+        "atomic_weight": "–",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304028",
+        "element_name": "curium",
+        "element_symbol": "Cm",
+        "element_number": "96",
+        "atomic_weight": "–",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304029",
+        "element_name": "berkelium",
+        "element_symbol": "Bk",
+        "element_number": "97",
+        "atomic_weight": "–",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae3467030402a",
+        "element_name": "californium",
+        "element_symbol": "Cf",
+        "element_number": "98",
+        "atomic_weight": "–",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae3467030402b",
+        "element_name": "einsteinium",
+        "element_symbol": "Es",
+        "element_number": "99",
+        "atomic_weight": "–",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae3467030402c",
+        "element_name": "fermium",
+        "element_symbol": "Fm",
+        "element_number": "100",
+        "atomic_weight": "–",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae3467030402d",
+        "element_name": "mendelevium",
+        "element_symbol": "Md",
+        "element_number": "101",
+        "atomic_weight": "–",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae3467030402e",
+        "element_name": "nobelium",
+        "element_symbol": "No",
+        "element_number": "102",
+        "atomic_weight": "–",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae3467030402f",
+        "element_name": "lawrencium",
+        "element_symbol": "Lr",
+        "element_number": "103",
+        "atomic_weight": "–",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304030",
+        "element_name": "rutherfordium",
+        "element_symbol": "Rf",
+        "element_number": "104",
+        "atomic_weight": "–",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304032",
+        "element_name": "seaborgium",
+        "element_symbol": "Sg",
+        "element_number": "106",
+        "atomic_weight": "–",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304031",
+        "element_name": "dubnium",
+        "element_symbol": "Db",
+        "element_number": "105",
+        "atomic_weight": "–",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304033",
+        "element_name": "bohrium",
+        "element_symbol": "Bh",
+        "element_number": "107",
+        "atomic_weight": "–",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304034",
+        "element_name": "hassium",
+        "element_symbol": "Hs",
+        "element_number": "108",
+        "atomic_weight": "–",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304035",
+        "element_name": "meitnerium",
+        "element_symbol": "Mt",
+        "element_number": "109",
+        "atomic_weight": "–",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304036",
+        "element_name": "darmstadtium",
+        "element_symbol": "Ds",
+        "element_number": "110",
+        "atomic_weight": "–",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304037",
+        "element_name": "roentgenium",
+        "element_symbol": "Rg",
+        "element_number": "111",
+        "atomic_weight": "–",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304038",
+        "element_name": "copernicium",
+        "element_symbol": "Cn",
+        "element_number": "112",
+        "atomic_weight": "–",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670304039",
+        "element_name": "nihonium",
+        "element_symbol": "Nh",
+        "element_number": "113",
+        "atomic_weight": "–",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae3467030403a",
+        "element_name": "flerovium",
+        "element_symbol": "Fl",
+        "element_number": "114",
+        "atomic_weight": "–",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae3467030403b",
+        "element_name": "moscovium",
+        "element_symbol": "Mc",
+        "element_number": "115",
+        "atomic_weight": "–",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae3467030403c",
+        "element_name": "livermorium",
+        "element_symbol": "Lv",
+        "element_number": "116",
+        "atomic_weight": "–",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae3467030403d",
+        "element_name": "tennesine",
+        "element_symbol": "Ts",
+        "element_number": "117",
+        "atomic_weight": "–",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae3467030403e",
+        "element_name": "oganesson",
+        "element_symbol": "Og",
+        "element_number": "118",
+        "atomic_weight": "–",
+        "_synonyms": [],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303fd3",
+        "element_name": "aluminium",
+        "element_symbol": "Al",
+        "element_number": "13",
+        "atomic_weight": "26.981 5385(7)",
+        "_synonyms": [
+          {
+            "category": "element name",
+            "fact": "aluminium",
+            "_id": "59289d809f1ae34670303fd4",
+            "synonyms": [
+              "aluminum"
+            ]
+          }
+        ],
+        "__v": 0
+      },
+      {
+        "_id": "59289d809f1ae34670303ffe",
+        "element_name": "caesium",
+        "element_symbol": "Cs",
+        "element_number": "55",
+        "atomic_weight": "132.905 451 96(6)",
+        "_synonyms": [
+          {
+            "category": "element name",
+            "fact": "caesium",
+            "_id": "59289d809f1ae34670303fff",
+            "synonyms": [
+              "cesium"
+            ]
+          }
+        ],
+        "__v": 0
+      }
+    ]
   }
 }

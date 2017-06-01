@@ -1,7 +1,9 @@
 node_modules
 docs
 logs
+coverage
 src
+test
 outpu
 outpu*
 tsconfig.json
@@ -10,5 +12,6 @@ README.md
 .npmignore
 .gitignore
 .travis.yml
+.vscode
 gulpfile.js
 

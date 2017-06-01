@@ -1,0 +1,11 @@
+node_modules
+docs
+info.lcov
+logs
+*.bak
+gen/*
+coverage
+testmodel/*.bak
+testmodel/graph/*
+testmodel/*.gv
+# we check in gen for coveralls source references
