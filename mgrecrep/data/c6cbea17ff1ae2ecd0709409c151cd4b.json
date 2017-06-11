@@ -1,20 +1,6 @@
 [
   {
-    "_id": "59289d809f1ae34670303fc6",
-    "object_name": "Sun",
-    "visual_luminosity": "n/a",
-    "orbit_radius": "1.016 - 0.983 AU, 152,100,000km - 14,.095,000km",
-    "mass": "333,000*earth, 1.989×10^30 kg",
-    "radius": "109*earth, 695700km",
-    "visual_magnitude": "-27",
-    "object_type": "star",
-    "distance": "1au; 1.496x10^8 km, 8min 19s at light speed",
-    "_url": "https://en.wikipedia.org/wiki/Sun",
-    "_synonyms": [],
-    "__v": 0
-  },
-  {
-    "_id": "59289d809f1ae34670303fbd",
+    "_id": "593c4c749e373d4330d84e54",
     "object_name": "Alpha Centauri B",
     "visual_luminosity": "0.445*sun",
     "mass": ".907*sun",
@@ -24,7 +10,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fc2",
+    "_id": "593c4c749e373d4330d84e59",
     "object_name": "Mars",
     "visual_luminosity": "n/a",
     "orbit_radius": "1.66AU-1.523679AU",
@@ -41,7 +27,21 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fbb",
+    "_id": "593c4c749e373d4330d84e5d",
+    "object_name": "Sun",
+    "visual_luminosity": "n/a",
+    "orbit_radius": "1.016 - 0.983 AU, 152,100,000km - 14,.095,000km",
+    "mass": "333,000*earth, 1.989×10^30 kg",
+    "radius": "109*earth, 695700km",
+    "visual_magnitude": "-27",
+    "object_type": "star",
+    "distance": "1au; 1.496x10^8 km, 8min 19s at light speed",
+    "_url": "https://en.wikipedia.org/wiki/Sun",
+    "_synonyms": [],
+    "__v": 0
+  },
+  {
+    "_id": "593c4c749e373d4330d84e52",
     "object_name": "Alpha Centauri A",
     "visual_magnitude": "-0.27",
     "visual_luminosity": "1.519*sun",
@@ -52,7 +52,7 @@
       {
         "category": "object name",
         "fact": "Alpha Centauri A",
-        "_id": "59289d809f1ae34670303fbc",
+        "_id": "593c4c749e373d4330d84e53",
         "synonyms": [
           "Rigil Kentaurus"
         ]
@@ -61,7 +61,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fbe",
+    "_id": "593c4c749e373d4330d84e55",
     "object_name": "Alpha Centauri C",
     "visual_luminosity": "-0.27",
     "mass": "n/a",
@@ -73,7 +73,7 @@
       {
         "category": "object name",
         "fact": "Alpha Centauri B",
-        "_id": "59289d809f1ae34670303fbf",
+        "_id": "593c4c749e373d4330d84e56",
         "synonyms": [
           "Proxima Centauri"
         ]
@@ -82,7 +82,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fc0",
+    "_id": "593c4c749e373d4330d84e57",
     "object_name": "Proxima Centauri b",
     "visual_luminosity": "n/a",
     "mass": "0.134*sun, 1.27*earth",
@@ -96,7 +96,7 @@
       {
         "category": "object name",
         "fact": "Proxima Centauri b",
-        "_id": "59289d809f1ae34670303fc1",
+        "_id": "593c4c749e373d4330d84e58",
         "synonyms": [
           "Proxima b"
         ]
@@ -105,7 +105,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fc3",
+    "_id": "593c4c749e373d4330d84e5a",
     "object_name": "earth",
     "visual_luminosity": "n/a",
     "orbit_radius": "1.016 - 0.983 AU, 152,100,000km - 14,.095,000km",
@@ -123,7 +123,7 @@
       {
         "category": "object name",
         "fact": "earth",
-        "_id": "59289d809f1ae34670303fc5",
+        "_id": "593c4c749e373d4330d84e5c",
         "synonyms": [
           "blue planet",
           "gaia"
@@ -132,7 +132,7 @@
       {
         "category": "orbits",
         "fact": "Sun",
-        "_id": "59289d809f1ae34670303fc4",
+        "_id": "593c4c749e373d4330d84e5b",
         "synonyms": [
           "Sol"
         ]

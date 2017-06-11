@@ -1,6 +1,6 @@
 [
   {
-    "_id": "59289d809f1ae34670303fc7",
+    "_id": "593c4c749e373d4330d84e5e",
     "element_name": "hydrogen",
     "element_symbol": "H",
     "element_number": "1",
@@ -9,7 +9,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fc8",
+    "_id": "593c4c749e373d4330d84e5f",
     "element_name": "helium",
     "element_symbol": "He",
     "element_number": "2",
@@ -18,7 +18,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fc9",
+    "_id": "593c4c749e373d4330d84e60",
     "element_name": "lithium",
     "element_symbol": "Li",
     "element_number": "3",
@@ -27,7 +27,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fca",
+    "_id": "593c4c749e373d4330d84e61",
     "element_name": "beryllium",
     "element_symbol": "Be",
     "element_number": "4",
@@ -36,7 +36,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fcb",
+    "_id": "593c4c749e373d4330d84e62",
     "element_name": "boron",
     "element_symbol": "B",
     "element_number": "5",
@@ -45,7 +45,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fcc",
+    "_id": "593c4c749e373d4330d84e63",
     "element_name": "carbon",
     "element_symbol": "C",
     "element_number": "6",
@@ -54,7 +54,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fcd",
+    "_id": "593c4c749e373d4330d84e64",
     "element_name": "nitrogen",
     "element_symbol": "N",
     "element_number": "7",
@@ -63,7 +63,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fce",
+    "_id": "593c4c749e373d4330d84e65",
     "element_name": "oxygen",
     "element_symbol": "O",
     "element_number": "8",
@@ -72,7 +72,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fcf",
+    "_id": "593c4c749e373d4330d84e66",
     "element_name": "fluorine",
     "element_symbol": "F",
     "element_number": "9",
@@ -81,7 +81,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fd0",
+    "_id": "593c4c749e373d4330d84e67",
     "element_name": "neon",
     "element_symbol": "Ne",
     "element_number": "10",
@@ -90,7 +90,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fd1",
+    "_id": "593c4c749e373d4330d84e68",
     "element_name": "sodium",
     "element_symbol": "Na",
     "element_number": "11",
@@ -99,7 +99,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fd2",
+    "_id": "593c4c749e373d4330d84e69",
     "element_name": "magnesium",
     "element_symbol": "Mg",
     "element_number": "12",
@@ -108,7 +108,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fd5",
+    "_id": "593c4c749e373d4330d84e6c",
     "element_name": "silicon",
     "element_symbol": "Si",
     "element_number": "14",
@@ -117,7 +117,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fd6",
+    "_id": "593c4c749e373d4330d84e6d",
     "element_name": "phosphorus",
     "element_symbol": "P",
     "element_number": "15",
@@ -126,7 +126,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fd7",
+    "_id": "593c4c749e373d4330d84e6e",
     "element_name": "sulfur",
     "element_symbol": "S",
     "element_number": "16",
@@ -135,7 +135,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fd8",
+    "_id": "593c4c749e373d4330d84e6f",
     "element_name": "chlorine",
     "element_symbol": "Cl",
     "element_number": "17",
@@ -144,7 +144,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fd9",
+    "_id": "593c4c749e373d4330d84e70",
     "element_name": "argon",
     "element_symbol": "Ar",
     "element_number": "18",
@@ -153,7 +153,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fda",
+    "_id": "593c4c749e373d4330d84e71",
     "element_name": "potassium",
     "element_symbol": "K",
     "element_number": "19",
@@ -162,7 +162,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fdb",
+    "_id": "593c4c749e373d4330d84e72",
     "element_name": "calcium",
     "element_symbol": "Ca",
     "element_number": "20",
@@ -171,7 +171,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fdc",
+    "_id": "593c4c749e373d4330d84e73",
     "element_name": "scandium",
     "element_symbol": "Sc",
     "element_number": "21",
@@ -180,16 +180,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fdd",
-    "element_name": "titanium",
-    "element_symbol": "Ti",
-    "element_number": "22",
-    "atomic_weight": "47.867(1)",
-    "_synonyms": [],
-    "__v": 0
-  },
-  {
-    "_id": "59289d809f1ae34670303fde",
+    "_id": "593c4c749e373d4330d84e75",
     "element_name": "vanadium",
     "element_symbol": "V",
     "element_number": "23",
@@ -198,7 +189,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fdf",
+    "_id": "593c4c749e373d4330d84e76",
     "element_name": "chromium",
     "element_symbol": "Cr",
     "element_number": "24",
@@ -207,7 +198,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fe0",
+    "_id": "593c4c749e373d4330d84e77",
     "element_name": "manganese",
     "element_symbol": "Mn",
     "element_number": "25",
@@ -216,7 +207,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fe1",
+    "_id": "593c4c749e373d4330d84e78",
     "element_name": "iron",
     "element_symbol": "Fe",
     "element_number": "26",
@@ -225,16 +216,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fe2",
-    "element_name": "cobalt",
-    "element_symbol": "Co",
-    "element_number": "27",
-    "atomic_weight": "58.933 194(4)",
-    "_synonyms": [],
-    "__v": 0
-  },
-  {
-    "_id": "59289d809f1ae34670303fe3",
+    "_id": "593c4c749e373d4330d84e7a",
     "element_name": "nickel",
     "element_symbol": "Ni",
     "element_number": "28",
@@ -243,7 +225,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fe4",
+    "_id": "593c4c749e373d4330d84e7b",
     "element_name": "copper",
     "element_symbol": "Cu",
     "element_number": "29",
@@ -252,7 +234,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fe5",
+    "_id": "593c4c749e373d4330d84e7c",
     "element_name": "zinc",
     "element_symbol": "Zn",
     "element_number": "30",
@@ -261,7 +243,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fe6",
+    "_id": "593c4c749e373d4330d84e7d",
     "element_name": "gallium",
     "element_symbol": "Ga",
     "element_number": "31",
@@ -270,16 +252,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fe7",
-    "element_name": "germanium",
-    "element_symbol": "Ge",
-    "element_number": "32",
-    "atomic_weight": "72.630(8)",
-    "_synonyms": [],
-    "__v": 0
-  },
-  {
-    "_id": "59289d809f1ae34670303fe8",
+    "_id": "593c4c749e373d4330d84e7f",
     "element_name": "arsenic",
     "element_symbol": "As",
     "element_number": "33",
@@ -288,7 +261,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fe9",
+    "_id": "593c4c749e373d4330d84e80",
     "element_name": "selenium",
     "element_symbol": "Se",
     "element_number": "34",
@@ -297,7 +270,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fea",
+    "_id": "593c4c749e373d4330d84e81",
     "element_name": "bromine",
     "element_symbol": "Br",
     "element_number": "35",
@@ -306,7 +279,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303feb",
+    "_id": "593c4c749e373d4330d84e82",
     "element_name": "krypton",
     "element_symbol": "Kr",
     "element_number": "36",
@@ -315,7 +288,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fed",
+    "_id": "593c4c749e373d4330d84e84",
     "element_name": "strontium",
     "element_symbol": "Sr",
     "element_number": "38",
@@ -324,16 +297,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fec",
-    "element_name": "rubidium",
-    "element_symbol": "Rb",
-    "element_number": "37",
-    "atomic_weight": "85.4678(3)",
-    "_synonyms": [],
-    "__v": 0
-  },
-  {
-    "_id": "59289d809f1ae34670303fee",
+    "_id": "593c4c749e373d4330d84e85",
     "element_name": "yttrium",
     "element_symbol": "Y",
     "element_number": "39",
@@ -342,7 +306,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303ff0",
+    "_id": "593c4c749e373d4330d84e87",
     "element_name": "niobium",
     "element_symbol": "Nb",
     "element_number": "41",
@@ -351,7 +315,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fef",
+    "_id": "593c4c749e373d4330d84e86",
     "element_name": "zirconium",
     "element_symbol": "Zr",
     "element_number": "40",
@@ -360,16 +324,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303ff1",
-    "element_name": "molybdenum",
-    "element_symbol": "Mo",
-    "element_number": "42",
-    "atomic_weight": "95.95(1)",
-    "_synonyms": [],
-    "__v": 0
-  },
-  {
-    "_id": "59289d809f1ae34670303ff2",
+    "_id": "593c4c749e373d4330d84e89",
     "element_name": "technetium",
     "element_symbol": "Tc",
     "element_number": "43",
@@ -378,7 +333,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303ff3",
+    "_id": "593c4c749e373d4330d84e8a",
     "element_name": "ruthenium",
     "element_symbol": "Ru",
     "element_number": "44",
@@ -387,16 +342,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303ff5",
-    "element_name": "palladium",
-    "element_symbol": "Pd",
-    "element_number": "46",
-    "atomic_weight": "106.42(1)",
-    "_synonyms": [],
-    "__v": 0
-  },
-  {
-    "_id": "59289d809f1ae34670303ff4",
+    "_id": "593c4c749e373d4330d84e8b",
     "element_name": "rhodium",
     "element_symbol": "Rh",
     "element_number": "45",
@@ -405,25 +351,16 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303ff6",
-    "element_name": "silver",
-    "element_symbol": "Ag",
-    "element_number": "47",
-    "atomic_weight": "107.8682(2)",
+    "_id": "593c4c749e373d4330d84e74",
+    "element_name": "titanium",
+    "element_symbol": "Ti",
+    "element_number": "22",
+    "atomic_weight": "47.867(1)",
     "_synonyms": [],
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303ff7",
-    "element_name": "cadmium",
-    "element_symbol": "Cd",
-    "element_number": "48",
-    "atomic_weight": "112.414(4)",
-    "_synonyms": [],
-    "__v": 0
-  },
-  {
-    "_id": "59289d809f1ae34670303ff8",
+    "_id": "593c4c749e373d4330d84e8f",
     "element_name": "indium",
     "element_symbol": "In",
     "element_number": "49",
@@ -432,43 +369,34 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303ffa",
-    "element_name": "antimony",
-    "element_symbol": "Sb",
-    "element_number": "51",
-    "atomic_weight": "121.760(1)",
+    "_id": "593c4c749e373d4330d84e8e",
+    "element_name": "cadmium",
+    "element_symbol": "Cd",
+    "element_number": "48",
+    "atomic_weight": "112.414(4)",
     "_synonyms": [],
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303ffb",
-    "element_name": "tellurium",
-    "element_symbol": "Te",
-    "element_number": "52",
-    "atomic_weight": "127.60(3)",
+    "_id": "593c4c749e373d4330d84e8c",
+    "element_name": "palladium",
+    "element_symbol": "Pd",
+    "element_number": "46",
+    "atomic_weight": "106.42(1)",
     "_synonyms": [],
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303ff9",
-    "element_name": "tin",
-    "element_symbol": "Sn",
-    "element_number": "50",
-    "atomic_weight": "118.710(7)",
+    "_id": "593c4c749e373d4330d84e79",
+    "element_name": "cobalt",
+    "element_symbol": "Co",
+    "element_number": "27",
+    "atomic_weight": "58.933 194(4)",
     "_synonyms": [],
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303ffc",
-    "element_name": "iodine",
-    "element_symbol": "I",
-    "element_number": "53",
-    "atomic_weight": "126.904 47(3)",
-    "_synonyms": [],
-    "__v": 0
-  },
-  {
-    "_id": "59289d809f1ae34670303ffd",
+    "_id": "593c4c749e373d4330d84e94",
     "element_name": "xenon",
     "element_symbol": "Xe",
     "element_number": "54",
@@ -477,43 +405,34 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670304001",
-    "element_name": "lanthanum",
-    "element_symbol": "La",
-    "element_number": "57",
-    "atomic_weight": "138.905 47(7)",
+    "_id": "593c4c749e373d4330d84e90",
+    "element_name": "tin",
+    "element_symbol": "Sn",
+    "element_number": "50",
+    "atomic_weight": "118.710(7)",
     "_synonyms": [],
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670304000",
-    "element_name": "barium",
-    "element_symbol": "Ba",
-    "element_number": "56",
-    "atomic_weight": "137.327(7)",
+    "_id": "593c4c749e373d4330d84e93",
+    "element_name": "iodine",
+    "element_symbol": "I",
+    "element_number": "53",
+    "atomic_weight": "126.904 47(3)",
     "_synonyms": [],
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670304002",
-    "element_name": "cerium",
-    "element_symbol": "Ce",
-    "element_number": "58",
-    "atomic_weight": "140.116(1)",
+    "_id": "593c4c749e373d4330d84e7e",
+    "element_name": "germanium",
+    "element_symbol": "Ge",
+    "element_number": "32",
+    "atomic_weight": "72.630(8)",
     "_synonyms": [],
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670304003",
-    "element_name": "praseodymium",
-    "element_symbol": "Pr",
-    "element_number": "59",
-    "atomic_weight": "140.907 66(2)",
-    "_synonyms": [],
-    "__v": 0
-  },
-  {
-    "_id": "59289d809f1ae34670304004",
+    "_id": "593c4c749e373d4330d84e9b",
     "element_name": "neodymium",
     "element_symbol": "Nd",
     "element_number": "60",
@@ -522,16 +441,25 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670304006",
-    "element_name": "samarium",
-    "element_symbol": "Sm",
-    "element_number": "62",
-    "atomic_weight": "150.36(2)",
+    "_id": "593c4c749e373d4330d84e97",
+    "element_name": "barium",
+    "element_symbol": "Ba",
+    "element_number": "56",
+    "atomic_weight": "137.327(7)",
     "_synonyms": [],
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670304005",
+    "_id": "593c4c749e373d4330d84e9a",
+    "element_name": "praseodymium",
+    "element_symbol": "Pr",
+    "element_number": "59",
+    "atomic_weight": "140.907 66(2)",
+    "_synonyms": [],
+    "__v": 0
+  },
+  {
+    "_id": "593c4c749e373d4330d84e9c",
     "element_name": "promethium",
     "element_symbol": "Pm",
     "element_number": "61",
@@ -540,25 +468,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670304007",
-    "element_name": "europium",
-    "element_symbol": "Eu",
-    "element_number": "63",
-    "atomic_weight": "151.964(1)",
-    "_synonyms": [],
-    "__v": 0
-  },
-  {
-    "_id": "59289d809f1ae34670304008",
-    "element_name": "gadolinium",
-    "element_symbol": "Gd",
-    "element_number": "64",
-    "atomic_weight": "157.25(3)",
-    "_synonyms": [],
-    "__v": 0
-  },
-  {
-    "_id": "59289d809f1ae34670304009",
+    "_id": "593c4c749e373d4330d84ea0",
     "element_name": "terbium",
     "element_symbol": "Tb",
     "element_number": "65",
@@ -567,43 +477,25 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae3467030400a",
-    "element_name": "dysprosium",
-    "element_symbol": "Dy",
-    "element_number": "66",
-    "atomic_weight": "162.500(1)",
+    "_id": "593c4c749e373d4330d84e9f",
+    "element_name": "gadolinium",
+    "element_symbol": "Gd",
+    "element_number": "64",
+    "atomic_weight": "157.25(3)",
     "_synonyms": [],
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae3467030400b",
-    "element_name": "holmium",
-    "element_symbol": "Ho",
-    "element_number": "67",
-    "atomic_weight": "164.930 33(2)",
+    "_id": "593c4c749e373d4330d84e91",
+    "element_name": "antimony",
+    "element_symbol": "Sb",
+    "element_number": "51",
+    "atomic_weight": "121.760(1)",
     "_synonyms": [],
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae3467030400c",
-    "element_name": "erbium",
-    "element_symbol": "Er",
-    "element_number": "68",
-    "atomic_weight": "167.259(3)",
-    "_synonyms": [],
-    "__v": 0
-  },
-  {
-    "_id": "59289d809f1ae3467030400d",
-    "element_name": "thulium",
-    "element_symbol": "Tm",
-    "element_number": "69",
-    "atomic_weight": "168.934 22(2)",
-    "_synonyms": [],
-    "__v": 0
-  },
-  {
-    "_id": "59289d809f1ae3467030400e",
+    "_id": "593c4c749e373d4330d84ea5",
     "element_name": "ytterbium",
     "element_symbol": "Yb",
     "element_number": "70",
@@ -612,34 +504,43 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae3467030400f",
-    "element_name": "lutetium",
-    "element_symbol": "Lu",
-    "element_number": "71",
-    "atomic_weight": "174.9668(1)",
+    "_id": "593c4c749e373d4330d84ea4",
+    "element_name": "thulium",
+    "element_symbol": "Tm",
+    "element_number": "69",
+    "atomic_weight": "168.934 22(2)",
     "_synonyms": [],
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670304010",
-    "element_name": "hafnium",
-    "element_symbol": "Hf",
-    "element_number": "72",
-    "atomic_weight": "178.49(2)",
+    "_id": "593c4c749e373d4330d84e98",
+    "element_name": "lanthanum",
+    "element_symbol": "La",
+    "element_number": "57",
+    "atomic_weight": "138.905 47(7)",
     "_synonyms": [],
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670304011",
-    "element_name": "tantalum",
-    "element_symbol": "Ta",
-    "element_number": "73",
-    "atomic_weight": "180.947 88(2)",
+    "_id": "593c4c749e373d4330d84ea1",
+    "element_name": "dysprosium",
+    "element_symbol": "Dy",
+    "element_number": "66",
+    "atomic_weight": "162.500(1)",
     "_synonyms": [],
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670304012",
+    "_id": "593c4c749e373d4330d84e9d",
+    "element_name": "samarium",
+    "element_symbol": "Sm",
+    "element_number": "62",
+    "atomic_weight": "150.36(2)",
+    "_synonyms": [],
+    "__v": 0
+  },
+  {
+    "_id": "593c4c749e373d4330d84ea9",
     "element_name": "tungsten",
     "element_symbol": "W",
     "element_number": "74",
@@ -648,7 +549,25 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670304013",
+    "_id": "593c4c749e373d4330d84ea6",
+    "element_name": "lutetium",
+    "element_symbol": "Lu",
+    "element_number": "71",
+    "atomic_weight": "174.9668(1)",
+    "_synonyms": [],
+    "__v": 0
+  },
+  {
+    "_id": "593c4c749e373d4330d84ea2",
+    "element_name": "holmium",
+    "element_symbol": "Ho",
+    "element_number": "67",
+    "atomic_weight": "164.930 33(2)",
+    "_synonyms": [],
+    "__v": 0
+  },
+  {
+    "_id": "593c4c749e373d4330d84eaa",
     "element_name": "rhenium",
     "element_symbol": "Re",
     "element_number": "75",
@@ -657,7 +576,16 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670304014",
+    "_id": "593c4c749e373d4330d84ea7",
+    "element_name": "hafnium",
+    "element_symbol": "Hf",
+    "element_number": "72",
+    "atomic_weight": "178.49(2)",
+    "_synonyms": [],
+    "__v": 0
+  },
+  {
+    "_id": "593c4c749e373d4330d84eab",
     "element_name": "osmium",
     "element_symbol": "Os",
     "element_number": "76",
@@ -666,7 +594,16 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670304015",
+    "_id": "593c4c749e373d4330d84e83",
+    "element_name": "rubidium",
+    "element_symbol": "Rb",
+    "element_number": "37",
+    "atomic_weight": "85.4678(3)",
+    "_synonyms": [],
+    "__v": 0
+  },
+  {
+    "_id": "593c4c749e373d4330d84eac",
     "element_name": "iridium",
     "element_symbol": "Ir",
     "element_number": "77",
@@ -675,16 +612,16 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670304016",
-    "element_name": "platinum",
-    "element_symbol": "Pt",
-    "element_number": "78",
-    "atomic_weight": "195.084(9)",
+    "_id": "593c4c749e373d4330d84e88",
+    "element_name": "molybdenum",
+    "element_symbol": "Mo",
+    "element_number": "42",
+    "atomic_weight": "95.95(1)",
     "_synonyms": [],
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670304017",
+    "_id": "593c4c749e373d4330d84eae",
     "element_name": "gold",
     "element_symbol": "Au",
     "element_number": "79",
@@ -693,7 +630,70 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670304018",
+    "_id": "593c4c749e373d4330d84e8d",
+    "element_name": "silver",
+    "element_symbol": "Ag",
+    "element_number": "47",
+    "atomic_weight": "107.8682(2)",
+    "_synonyms": [],
+    "__v": 0
+  },
+  {
+    "_id": "593c4c749e373d4330d84e92",
+    "element_name": "tellurium",
+    "element_symbol": "Te",
+    "element_number": "52",
+    "atomic_weight": "127.60(3)",
+    "_synonyms": [],
+    "__v": 0
+  },
+  {
+    "_id": "593c4c749e373d4330d84e99",
+    "element_name": "cerium",
+    "element_symbol": "Ce",
+    "element_number": "58",
+    "atomic_weight": "140.116(1)",
+    "_synonyms": [],
+    "__v": 0
+  },
+  {
+    "_id": "593c4c749e373d4330d84e9e",
+    "element_name": "europium",
+    "element_symbol": "Eu",
+    "element_number": "63",
+    "atomic_weight": "151.964(1)",
+    "_synonyms": [],
+    "__v": 0
+  },
+  {
+    "_id": "593c4c749e373d4330d84ea3",
+    "element_name": "erbium",
+    "element_symbol": "Er",
+    "element_number": "68",
+    "atomic_weight": "167.259(3)",
+    "_synonyms": [],
+    "__v": 0
+  },
+  {
+    "_id": "593c4c749e373d4330d84ea8",
+    "element_name": "tantalum",
+    "element_symbol": "Ta",
+    "element_number": "73",
+    "atomic_weight": "180.947 88(2)",
+    "_synonyms": [],
+    "__v": 0
+  },
+  {
+    "_id": "593c4c749e373d4330d84ead",
+    "element_name": "platinum",
+    "element_symbol": "Pt",
+    "element_number": "78",
+    "atomic_weight": "195.084(9)",
+    "_synonyms": [],
+    "__v": 0
+  },
+  {
+    "_id": "593c4c749e373d4330d84eaf",
     "element_name": "mercury",
     "element_symbol": "Hg",
     "element_number": "80",
@@ -702,7 +702,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670304019",
+    "_id": "593c4c749e373d4330d84eb0",
     "element_name": "thallium",
     "element_symbol": "Tl",
     "element_number": "81",
@@ -711,7 +711,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae3467030401a",
+    "_id": "593c4c749e373d4330d84eb1",
     "element_name": "lead",
     "element_symbol": "Pb",
     "element_number": "82",
@@ -720,7 +720,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae3467030401b",
+    "_id": "593c4c749e373d4330d84eb2",
     "element_name": "bismuth",
     "element_symbol": "Bi",
     "element_number": "83",
@@ -729,7 +729,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae3467030401c",
+    "_id": "593c4c749e373d4330d84eb3",
     "element_name": "polonium",
     "element_symbol": "Po",
     "element_number": "84",
@@ -738,7 +738,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae3467030401d",
+    "_id": "593c4c749e373d4330d84eb4",
     "element_name": "astatine",
     "element_symbol": "At",
     "element_number": "85",
@@ -747,7 +747,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae3467030401e",
+    "_id": "593c4c749e373d4330d84eb5",
     "element_name": "radon",
     "element_symbol": "Rn",
     "element_number": "86",
@@ -756,7 +756,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae3467030401f",
+    "_id": "593c4c749e373d4330d84eb6",
     "element_name": "francium",
     "element_symbol": "Fr",
     "element_number": "87",
@@ -765,7 +765,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670304020",
+    "_id": "593c4c749e373d4330d84eb7",
     "element_name": "radium",
     "element_symbol": "Ra",
     "element_number": "88",
@@ -774,7 +774,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670304021",
+    "_id": "593c4c749e373d4330d84eb8",
     "element_name": "actinium",
     "element_symbol": "Ac",
     "element_number": "89",
@@ -783,7 +783,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670304022",
+    "_id": "593c4c749e373d4330d84eb9",
     "element_name": "thorium",
     "element_symbol": "Th",
     "element_number": "90",
@@ -792,7 +792,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670304023",
+    "_id": "593c4c749e373d4330d84eba",
     "element_name": "protactinium",
     "element_symbol": "Pa",
     "element_number": "91",
@@ -801,7 +801,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670304024",
+    "_id": "593c4c749e373d4330d84ebb",
     "element_name": "uranium",
     "element_symbol": "U",
     "element_number": "92",
@@ -810,7 +810,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670304025",
+    "_id": "593c4c749e373d4330d84ebc",
     "element_name": "neptunium",
     "element_symbol": "Np",
     "element_number": "93",
@@ -819,7 +819,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670304026",
+    "_id": "593c4c749e373d4330d84ebd",
     "element_name": "plutonium",
     "element_symbol": "Pu",
     "element_number": "94",
@@ -828,7 +828,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670304027",
+    "_id": "593c4c749e373d4330d84ebe",
     "element_name": "americium",
     "element_symbol": "Am",
     "element_number": "95",
@@ -837,7 +837,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670304028",
+    "_id": "593c4c749e373d4330d84ebf",
     "element_name": "curium",
     "element_symbol": "Cm",
     "element_number": "96",
@@ -846,7 +846,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670304029",
+    "_id": "593c4c749e373d4330d84ec0",
     "element_name": "berkelium",
     "element_symbol": "Bk",
     "element_number": "97",
@@ -855,7 +855,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae3467030402a",
+    "_id": "593c4c749e373d4330d84ec1",
     "element_name": "californium",
     "element_symbol": "Cf",
     "element_number": "98",
@@ -864,7 +864,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae3467030402b",
+    "_id": "593c4c749e373d4330d84ec2",
     "element_name": "einsteinium",
     "element_symbol": "Es",
     "element_number": "99",
@@ -873,7 +873,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae3467030402c",
+    "_id": "593c4c749e373d4330d84ec3",
     "element_name": "fermium",
     "element_symbol": "Fm",
     "element_number": "100",
@@ -882,7 +882,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae3467030402d",
+    "_id": "593c4c749e373d4330d84ec4",
     "element_name": "mendelevium",
     "element_symbol": "Md",
     "element_number": "101",
@@ -891,7 +891,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae3467030402e",
+    "_id": "593c4c749e373d4330d84ec5",
     "element_name": "nobelium",
     "element_symbol": "No",
     "element_number": "102",
@@ -900,7 +900,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae3467030402f",
+    "_id": "593c4c749e373d4330d84ec6",
     "element_name": "lawrencium",
     "element_symbol": "Lr",
     "element_number": "103",
@@ -909,7 +909,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670304030",
+    "_id": "593c4c749e373d4330d84ec7",
     "element_name": "rutherfordium",
     "element_symbol": "Rf",
     "element_number": "104",
@@ -918,16 +918,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670304032",
-    "element_name": "seaborgium",
-    "element_symbol": "Sg",
-    "element_number": "106",
-    "atomic_weight": "–",
-    "_synonyms": [],
-    "__v": 0
-  },
-  {
-    "_id": "59289d809f1ae34670304031",
+    "_id": "593c4c749e373d4330d84ec8",
     "element_name": "dubnium",
     "element_symbol": "Db",
     "element_number": "105",
@@ -936,7 +927,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670304033",
+    "_id": "593c4c749e373d4330d84eca",
     "element_name": "bohrium",
     "element_symbol": "Bh",
     "element_number": "107",
@@ -945,7 +936,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670304034",
+    "_id": "593c4c749e373d4330d84ecb",
     "element_name": "hassium",
     "element_symbol": "Hs",
     "element_number": "108",
@@ -954,7 +945,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670304035",
+    "_id": "593c4c749e373d4330d84ecc",
     "element_name": "meitnerium",
     "element_symbol": "Mt",
     "element_number": "109",
@@ -963,25 +954,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670304036",
-    "element_name": "darmstadtium",
-    "element_symbol": "Ds",
-    "element_number": "110",
-    "atomic_weight": "–",
-    "_synonyms": [],
-    "__v": 0
-  },
-  {
-    "_id": "59289d809f1ae34670304037",
-    "element_name": "roentgenium",
-    "element_symbol": "Rg",
-    "element_number": "111",
-    "atomic_weight": "–",
-    "_synonyms": [],
-    "__v": 0
-  },
-  {
-    "_id": "59289d809f1ae34670304038",
+    "_id": "593c4c749e373d4330d84ecf",
     "element_name": "copernicium",
     "element_symbol": "Cn",
     "element_number": "112",
@@ -990,7 +963,16 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670304039",
+    "_id": "593c4c749e373d4330d84ecd",
+    "element_name": "darmstadtium",
+    "element_symbol": "Ds",
+    "element_number": "110",
+    "atomic_weight": "–",
+    "_synonyms": [],
+    "__v": 0
+  },
+  {
+    "_id": "593c4c749e373d4330d84ed0",
     "element_name": "nihonium",
     "element_symbol": "Nh",
     "element_number": "113",
@@ -999,7 +981,16 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae3467030403a",
+    "_id": "593c4c749e373d4330d84ec9",
+    "element_name": "seaborgium",
+    "element_symbol": "Sg",
+    "element_number": "106",
+    "atomic_weight": "–",
+    "_synonyms": [],
+    "__v": 0
+  },
+  {
+    "_id": "593c4c749e373d4330d84ed1",
     "element_name": "flerovium",
     "element_symbol": "Fl",
     "element_number": "114",
@@ -1008,25 +999,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae3467030403b",
-    "element_name": "moscovium",
-    "element_symbol": "Mc",
-    "element_number": "115",
-    "atomic_weight": "–",
-    "_synonyms": [],
-    "__v": 0
-  },
-  {
-    "_id": "59289d809f1ae3467030403c",
-    "element_name": "livermorium",
-    "element_symbol": "Lv",
-    "element_number": "116",
-    "atomic_weight": "–",
-    "_synonyms": [],
-    "__v": 0
-  },
-  {
-    "_id": "59289d809f1ae3467030403d",
+    "_id": "593c4c749e373d4330d84ed4",
     "element_name": "tennesine",
     "element_symbol": "Ts",
     "element_number": "117",
@@ -1035,7 +1008,25 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae3467030403e",
+    "_id": "593c4c749e373d4330d84ed2",
+    "element_name": "moscovium",
+    "element_symbol": "Mc",
+    "element_number": "115",
+    "atomic_weight": "–",
+    "_synonyms": [],
+    "__v": 0
+  },
+  {
+    "_id": "593c4c749e373d4330d84ece",
+    "element_name": "roentgenium",
+    "element_symbol": "Rg",
+    "element_number": "111",
+    "atomic_weight": "–",
+    "_synonyms": [],
+    "__v": 0
+  },
+  {
+    "_id": "593c4c749e373d4330d84ed5",
     "element_name": "oganesson",
     "element_symbol": "Og",
     "element_number": "118",
@@ -1044,7 +1035,16 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303fd3",
+    "_id": "593c4c749e373d4330d84ed3",
+    "element_name": "livermorium",
+    "element_symbol": "Lv",
+    "element_number": "116",
+    "atomic_weight": "–",
+    "_synonyms": [],
+    "__v": 0
+  },
+  {
+    "_id": "593c4c749e373d4330d84e6a",
     "element_name": "aluminium",
     "element_symbol": "Al",
     "element_number": "13",
@@ -1053,7 +1053,7 @@
       {
         "category": "element name",
         "fact": "aluminium",
-        "_id": "59289d809f1ae34670303fd4",
+        "_id": "593c4c749e373d4330d84e6b",
         "synonyms": [
           "aluminum"
         ]
@@ -1062,7 +1062,7 @@
     "__v": 0
   },
   {
-    "_id": "59289d809f1ae34670303ffe",
+    "_id": "593c4c749e373d4330d84e95",
     "element_name": "caesium",
     "element_symbol": "Cs",
     "element_number": "55",
@@ -1071,7 +1071,7 @@
       {
         "category": "element name",
         "fact": "caesium",
-        "_id": "59289d809f1ae34670303fff",
+        "_id": "593c4c749e373d4330d84e96",
         "synonyms": [
           "cesium"
         ]

@@ -17,6 +17,9 @@ var mypath = Constants.MONGOOSE_RECORD_REPLAY_FOLDER; // require().resolve('mgnl
 var mongooseMock = mongoose_record_replay.instrumentMongoose(mongoose, mypath, // 'node_modules/mgnlq_testmodel_replay/mgrecrep/',
 mode);
 var aPromise = undefined;
+function loadModel() {
+    return mgnlq_model_1.Model.loadModelsOpeningConnection(mongooseMock, Constants.MONGO_DBURL, Constants.MODEL_PATH);
+}
 /**
  * Obtain a model instance,
  *
@@ -27,10 +30,10 @@ function getTestModel() {
     if (mode === 'REPLAY') {
         // determine mode
         // in replax mode, using a singleton is sufficient
-        aPromise = aPromise || mgnlq_model_1.Model.loadModelsOpeningConnection(mongooseMock, Constants.MONGO_DBURL, Constants.MONGOOSE_RECORD_REPLAY_FOLDER);
+        aPromise = aPromise || loadModel();
         return aPromise;
     }
-    return mgnlq_model_1.Model.loadModelsOpeningConnection(mongooseMock, Constants.MONGO_DBURL, Constants.MODEL_PATH);
+    return loadModel();
 }
 exports.getTestModel = getTestModel;
 

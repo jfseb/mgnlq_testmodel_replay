@@ -1,0 +1,341 @@
+[
+  {
+    "_id": "593c4c749e373d4330d84e21",
+    "TransportObject": "LRCC",
+    "Shorttext": "LRepository cross-client content",
+    "clientSpecific": false,
+    "Object_name_length": 40,
+    "TranslationRelevant": true,
+    "category": "n/a",
+    "Type": "n/a",
+    "_tables": {
+      "Table": "/UIF/LREPDCONT",
+      "TableTransportKeySpec": "/&",
+      "PrimaryTable": true,
+      "_id": "593c4c749e373d4330d84e28"
+    },
+    "__v": 0
+  },
+  {
+    "_id": "593c4c749e373d4330d84e21",
+    "TransportObject": "LRCC",
+    "Shorttext": "LRepository cross-client content",
+    "clientSpecific": false,
+    "Object_name_length": 40,
+    "TranslationRelevant": true,
+    "category": "n/a",
+    "Type": "n/a",
+    "_tables": {
+      "Table": "/UIF/LREPDATTR",
+      "TableTransportKeySpec": "/&/*",
+      "PrimaryTable": false,
+      "_id": "593c4c749e373d4330d84e27"
+    },
+    "__v": 0
+  },
+  {
+    "_id": "593c4c749e373d4330d84e21",
+    "TransportObject": "LRCC",
+    "Shorttext": "LRepository cross-client content",
+    "clientSpecific": false,
+    "Object_name_length": 40,
+    "TranslationRelevant": true,
+    "category": "n/a",
+    "Type": "n/a",
+    "_tables": {
+      "Table": "/UIF/LREPDREF",
+      "TableTransportKeySpec": "/&/*",
+      "PrimaryTable": false,
+      "_id": "593c4c749e373d4330d84e26"
+    },
+    "__v": 0
+  },
+  {
+    "_id": "593c4c749e373d4330d84e21",
+    "TransportObject": "LRCC",
+    "Shorttext": "LRepository cross-client content",
+    "clientSpecific": false,
+    "Object_name_length": 40,
+    "TranslationRelevant": true,
+    "category": "n/a",
+    "Type": "n/a",
+    "_tables": {
+      "Table": "/UIF/LREPDEREF",
+      "TableTransportKeySpec": "/&/*",
+      "PrimaryTable": false,
+      "_id": "593c4c749e373d4330d84e25"
+    },
+    "__v": 0
+  },
+  {
+    "_id": "593c4c749e373d4330d84e21",
+    "TransportObject": "LRCC",
+    "Shorttext": "LRepository cross-client content",
+    "clientSpecific": false,
+    "Object_name_length": 40,
+    "TranslationRelevant": true,
+    "category": "n/a",
+    "Type": "n/a",
+    "_tables": {
+      "Table": "/UIF/LREPDSTXT",
+      "TableTransportKeySpec": "/&/L/*",
+      "PrimaryTable": false,
+      "_id": "593c4c749e373d4330d84e24"
+    },
+    "__v": 0
+  },
+  {
+    "_id": "593c4c749e373d4330d84e21",
+    "TransportObject": "LRCC",
+    "Shorttext": "LRepository cross-client content",
+    "clientSpecific": false,
+    "Object_name_length": 40,
+    "TranslationRelevant": true,
+    "category": "n/a",
+    "Type": "n/a",
+    "_tables": {
+      "Table": "/UIF/LREPDLTXT",
+      "TableTransportKeySpec": "/&/L/*",
+      "PrimaryTable": false,
+      "_id": "593c4c749e373d4330d84e23"
+    },
+    "__v": 0
+  },
+  {
+    "_id": "593c4c749e373d4330d84e21",
+    "TransportObject": "LRCC",
+    "Shorttext": "LRepository cross-client content",
+    "clientSpecific": false,
+    "Object_name_length": 40,
+    "TranslationRelevant": true,
+    "category": "n/a",
+    "Type": "n/a",
+    "_tables": {
+      "Table": "/UIF/LREPDTEXT",
+      "TableTransportKeySpec": "/&/*",
+      "_id": "593c4c749e373d4330d84e22"
+    },
+    "__v": 0
+  },
+  {
+    "_id": "593c4c749e373d4330d84e29",
+    "TransportObject": "LRCD",
+    "Shorttext": "LRepository client-dependent content",
+    "TranslationRelevant": true,
+    "clientSpecific": true,
+    "Object_name_length": 40,
+    "category": "n/a",
+    "Type": "n/a",
+    "_tables": {
+      "Table": "/UIF/LREPDCONTCD",
+      "TableTransportKeySpec": "/C/&",
+      "PrimaryTable": true,
+      "_id": "593c4c749e373d4330d84e30"
+    },
+    "__v": 0
+  },
+  {
+    "_id": "593c4c749e373d4330d84e29",
+    "TransportObject": "LRCD",
+    "Shorttext": "LRepository client-dependent content",
+    "TranslationRelevant": true,
+    "clientSpecific": true,
+    "Object_name_length": 40,
+    "category": "n/a",
+    "Type": "n/a",
+    "_tables": {
+      "Table": "/UIF/LREPDATTRCD",
+      "TableTransportKeySpec": "/C/&/*",
+      "PrimaryTable": false,
+      "_id": "593c4c749e373d4330d84e2f"
+    },
+    "__v": 0
+  },
+  {
+    "_id": "593c4c749e373d4330d84e29",
+    "TransportObject": "LRCD",
+    "Shorttext": "LRepository client-dependent content",
+    "TranslationRelevant": true,
+    "clientSpecific": true,
+    "Object_name_length": 40,
+    "category": "n/a",
+    "Type": "n/a",
+    "_tables": {
+      "Table": "/UIF/LREPDREFCD",
+      "TableTransportKeySpec": "/C/&/*",
+      "PrimaryTable": false,
+      "_id": "593c4c749e373d4330d84e2e"
+    },
+    "__v": 0
+  },
+  {
+    "_id": "593c4c749e373d4330d84e29",
+    "TransportObject": "LRCD",
+    "Shorttext": "LRepository client-dependent content",
+    "TranslationRelevant": true,
+    "clientSpecific": true,
+    "Object_name_length": 40,
+    "category": "n/a",
+    "Type": "n/a",
+    "_tables": {
+      "Table": "/UIF/LREPDEREFCD",
+      "TableTransportKeySpec": "/C/&/*",
+      "PrimaryTable": false,
+      "_id": "593c4c749e373d4330d84e2d"
+    },
+    "__v": 0
+  },
+  {
+    "_id": "593c4c749e373d4330d84e29",
+    "TransportObject": "LRCD",
+    "Shorttext": "LRepository client-dependent content",
+    "TranslationRelevant": true,
+    "clientSpecific": true,
+    "Object_name_length": 40,
+    "category": "n/a",
+    "Type": "n/a",
+    "_tables": {
+      "Table": "/UIF/LREPDSTXTCD",
+      "TableTransportKeySpec": "/C/&/L/*",
+      "PrimaryTable": false,
+      "_id": "593c4c749e373d4330d84e2c"
+    },
+    "__v": 0
+  },
+  {
+    "_id": "593c4c749e373d4330d84e29",
+    "TransportObject": "LRCD",
+    "Shorttext": "LRepository client-dependent content",
+    "TranslationRelevant": true,
+    "clientSpecific": true,
+    "Object_name_length": 40,
+    "category": "n/a",
+    "Type": "n/a",
+    "_tables": {
+      "Table": "/UIF/LREPDLTXTCD",
+      "TableTransportKeySpec": "/C/&/L/*",
+      "PrimaryTable": false,
+      "_id": "593c4c749e373d4330d84e2b"
+    },
+    "__v": 0
+  },
+  {
+    "_id": "593c4c749e373d4330d84e29",
+    "TransportObject": "LRCD",
+    "Shorttext": "LRepository client-dependent content",
+    "TranslationRelevant": true,
+    "clientSpecific": true,
+    "Object_name_length": 40,
+    "category": "n/a",
+    "Type": "n/a",
+    "_tables": {
+      "Table": "/UIF/LREPDTEXTCD",
+      "TableTransportKeySpec": "/C/&/*",
+      "PrimaryTable": false,
+      "_id": "593c4c749e373d4330d84e2a"
+    },
+    "__v": 0
+  },
+  {
+    "_id": "593c4c749e373d4330d84e31",
+    "TransportObject": "LTHR",
+    "Shorttext": "ALV: HTML Templates (Raw Version)",
+    "TranslationRelevant": false,
+    "clientSpecific": false,
+    "Object_name_length": 20,
+    "category": "n/a",
+    "Type": "n/a",
+    "_tables": {
+      "Table": "LTDHTRAW",
+      "TableTransportKeySpec": "/&/*",
+      "PrimaryTable": true,
+      "_id": "593c4c749e373d4330d84e32"
+    },
+    "__v": 0
+  },
+  {
+    "_id": "593c4c749e373d4330d84e33",
+    "TransportObject": "LTHT",
+    "Shorttext": "ALV: HTML Templates (Translated Templates)",
+    "TranslationRelevant": true,
+    "clientSpecific": false,
+    "Object_name_length": 20,
+    "category": "n/a",
+    "Type": "n/a",
+    "_tables": {
+      "Table": "LTDHTTMPL",
+      "TableTransportKeySpec": "/L/&/*",
+      "PrimaryTable": true,
+      "_id": "593c4c749e373d4330d84e34"
+    },
+    "__v": 0
+  },
+  {
+    "_id": "593c4c749e373d4330d84e35",
+    "TransportObject": "LTRC",
+    "Shorttext": "Landscape Transformation Repository: Object Version",
+    "TranslationRelevant": false,
+    "category": "n/a",
+    "clientSpecific": false,
+    "Object_name_length": 40,
+    "Type": "n/a",
+    "_tables": {
+      "PrimaryTable": true,
+      "Table": "LTR_REPOSITORY",
+      "TableTransportKeySpec": "AA/&/*",
+      "_id": "593c4c749e373d4330d84e36"
+    },
+    "__v": 0
+  },
+  {
+    "_id": "593c4c749e373d4330d84e37",
+    "TransportObject": "SOBJ",
+    "Shorttext": "Business object types",
+    "Object_name_length": 10,
+    "category": "n/a",
+    "TranslationRelevant": true,
+    "clientSpecific": false,
+    "Type": "n/a",
+    "_tables": {
+      "Table": "SWOTDQ",
+      "PrimaryTable": true,
+      "TableTransportKeySpec": "/&/*",
+      "_id": "593c4c749e373d4330d84e39"
+    },
+    "__v": 0
+  },
+  {
+    "_id": "593c4c749e373d4330d84e37",
+    "TransportObject": "SOBJ",
+    "Shorttext": "Business object types",
+    "Object_name_length": 10,
+    "category": "n/a",
+    "TranslationRelevant": true,
+    "clientSpecific": false,
+    "Type": "n/a",
+    "_tables": {
+      "Table": "SWOTDI",
+      "TableTransportKeySpec": "/&/*",
+      "PrimaryTable": false,
+      "_id": "593c4c749e373d4330d84e38"
+    },
+    "__v": 0
+  },
+  {
+    "_id": "593c4c749e373d4330d84e3a",
+    "TransportObject": "01DY",
+    "Object_name_length": 79,
+    "Shorttext": "Screen sequence for rental units transport object",
+    "TranslationRelevant": false,
+    "clientSpecific": true,
+    "category": "n/a",
+    "Type": "n/a",
+    "_tables": {
+      "Table": "TZS02",
+      "TableTransportKeySpec": "/C/&",
+      "PrimaryTable": true,
+      "_id": "593c4c749e373d4330d84e3b"
+    },
+    "__v": 0
+  }
+]
