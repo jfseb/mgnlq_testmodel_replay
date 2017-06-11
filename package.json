@@ -1,6 +1,6 @@
 {
   "name": "mgnlq_testmodel_replay",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "sample mongoose mock data replay",
   "main": "js/index.js",
   "typings": "js/index",

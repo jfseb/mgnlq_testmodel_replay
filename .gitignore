@@ -1,10 +1,12 @@
 node_modules
 docs
 info.lcov
+*.tgz
 logs
 *.bak
 gen/*
 coverage
+testmodel/_cache.js.zip
 testmodel/*.bak
 testmodel/graph/*
 testmodel/*.gv
