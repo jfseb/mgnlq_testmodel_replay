@@ -42,6 +42,14 @@
             "_m_category": "exactmatch",
             "type": "Boolean"
           },
+          "showURIRank": {
+            "_m_category": "showURIRank",
+            "type": "Number"
+          },
+          "showURI": {
+            "_m_category": "showURI",
+            "type": "Boolean"
+          },
           "wordindex": {
             "_m_category": "wordindex",
             "type": "Boolean"

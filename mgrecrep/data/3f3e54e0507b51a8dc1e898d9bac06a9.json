@@ -9,7 +9,7 @@
         "wordindex": true,
         "category_description": "element name",
         "category": "element name",
-        "_id": "593c4c739e373d4330d84d10",
+        "_id": "594831627e10822598e5b18d",
         "QBEColumnProps": {
           "LUNRIndex": true,
           "QBE": true,
@@ -23,7 +23,7 @@
         "wordindex": true,
         "category_description": "element symbol",
         "category": "element symbol",
-        "_id": "593c4c739e373d4330d84d0f",
+        "_id": "594831627e10822598e5b18c",
         "QBEColumnProps": {
           "LUNRIndex": true,
           "QBE": true,
@@ -36,7 +36,7 @@
       {
         "category_description": "weigth of the element",
         "category": "atomic weight",
-        "_id": "593c4c739e373d4330d84d0e",
+        "_id": "594831627e10822598e5b18b",
         "QBEColumnProps": {
           "QBE": true,
           "defaultWidth": 80
@@ -49,7 +49,7 @@
         "wordindex": true,
         "category_description": "weigth of the element",
         "category": "element number",
-        "_id": "593c4c739e373d4330d84d0d",
+        "_id": "594831627e10822598e5b18a",
         "QBEColumnProps": {
           "LUNRIndex": true,
           "QBE": true,

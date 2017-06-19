@@ -12,7 +12,7 @@
       "wordindex": false,
       "category_description": "link to domain description",
       "category": "uri",
-      "_id": "593c4c739e373d4330d84d0c",
+      "_id": "594831627e10822598e5b189",
       "QBEColumnProps": {
         "QBE": true
       },
@@ -42,7 +42,7 @@
       "wordindex": true,
       "category_description": "a technical key, combination of appId and releaseId",
       "category": "domain",
-      "_id": "593c4c739e373d4330d84d0b",
+      "_id": "594831627e10822598e5b188",
       "QBEColumnProps": {
         "LUNRIndex": true,
         "QBE": true
@@ -72,7 +72,7 @@
       "exactmatch": true,
       "category_description": "a technical key, combination of appId and releaseId",
       "category": "domain description",
-      "_id": "593c4c739e373d4330d84d0a",
+      "_id": "594831627e10822598e5b187",
       "QBEColumnProps": {
         "QBE": true
       },
@@ -101,7 +101,7 @@
       "wordindex": true,
       "category_description": "Object property",
       "category": "category",
-      "_id": "593c4c739e373d4330d84d09",
+      "_id": "594831627e10822598e5b186",
       "QBEColumnProps": {
         "LUNRIndex": true,
         "QBE": true
@@ -130,7 +130,57 @@
     "_categories": {
       "category_description": "Description of the category",
       "category": "category description",
-      "_id": "593c4c739e373d4330d84d08",
+      "_id": "594831627e10822598e5b185",
+      "category_synonyms": []
+    },
+    "columns": [
+      "domain",
+      "category",
+      "exactmatch",
+      "domain description",
+      "category description"
+    ],
+    "domain_synonyms": [
+      "meta model"
+    ]
+  },
+  {
+    "_id": "5925e323d3f66454a8cb6e00",
+    "modelname": "metamodels",
+    "__v": 0,
+    "collectionname": "metamodels",
+    "mongoosemodelname": "metamodel",
+    "domain": "metamodel",
+    "domain_description": "metamodel",
+    "_categories": {
+      "category_description": "Category indicates a sort criteria for URI",
+      "category": "showURIRank",
+      "_id": "594831627e10822598e5b184",
+      "category_synonyms": []
+    },
+    "columns": [
+      "domain",
+      "category",
+      "exactmatch",
+      "domain description",
+      "category description"
+    ],
+    "domain_synonyms": [
+      "meta model"
+    ]
+  },
+  {
+    "_id": "5925e323d3f66454a8cb6e00",
+    "modelname": "metamodels",
+    "__v": 0,
+    "collectionname": "metamodels",
+    "mongoosemodelname": "metamodel",
+    "domain": "metamodel",
+    "domain_description": "metamodel",
+    "_categories": {
+      "category_description": "Category is a URI to display on the \"Show me ...\" command",
+      "category": "showURI",
+      "_id": "594831627e10822598e5b183",
       "category_synonyms": []
     },
     "columns": [
@@ -155,7 +205,7 @@
     "_categories": {
       "category_description": "whether to include the category in QBE tables",
       "category": "QBE",
-      "_id": "593c4c739e373d4330d84d07",
+      "_id": "594831627e10822598e5b182",
       "category_synonyms": []
     },
     "columns": [
@@ -180,7 +230,7 @@
     "_categories": {
       "category_description": "whether to include the category in a LUNR Index",
       "category": "LUNRIndex",
-      "_id": "593c4c739e373d4330d84d06",
+      "_id": "594831627e10822598e5b181",
       "category_synonyms": []
     },
     "columns": [
@@ -205,7 +255,7 @@
     "_categories": {
       "category_description": "whether to include the category in a LUNR Index",
       "category": "wordindex",
-      "_id": "593c4c739e373d4330d84d05",
+      "_id": "594831627e10822598e5b180",
       "category_synonyms": []
     },
     "columns": [
@@ -230,7 +280,7 @@
     "_categories": {
       "category_description": "whether a match on a given value has to be precise",
       "category": "exactmatch",
-      "_id": "593c4c739e373d4330d84d04",
+      "_id": "594831627e10822598e5b17f",
       "category_synonyms": []
     },
     "columns": [
@@ -255,7 +305,7 @@
     "_categories": {
       "category_description": "synonyms for the category",
       "category": "category synonyms",
-      "_id": "593c4c739e373d4330d84d03",
+      "_id": "594831627e10822598e5b17e",
       "category_synonyms": []
     },
     "columns": [
@@ -280,7 +330,7 @@
     "_categories": {
       "category_description": "the columns in order which are shon in a table",
       "category": "columns",
-      "_id": "593c4c739e373d4330d84d02",
+      "_id": "594831627e10822598e5b17d",
       "category_synonyms": []
     },
     "columns": [
@@ -303,7 +353,7 @@
       "wordindex": true,
       "category_description": "element name",
       "category": "element name",
-      "_id": "593c4c739e373d4330d84d10",
+      "_id": "594831627e10822598e5b18d",
       "QBEColumnProps": {
         "LUNRIndex": true,
         "QBE": true,
@@ -328,7 +378,7 @@
       "wordindex": true,
       "category_description": "element symbol",
       "category": "element symbol",
-      "_id": "593c4c739e373d4330d84d0f",
+      "_id": "594831627e10822598e5b18c",
       "QBEColumnProps": {
         "LUNRIndex": true,
         "QBE": true,
@@ -352,7 +402,7 @@
     "_categories": {
       "category_description": "weigth of the element",
       "category": "atomic weight",
-      "_id": "593c4c739e373d4330d84d0e",
+      "_id": "594831627e10822598e5b18b",
       "QBEColumnProps": {
         "QBE": true,
         "defaultWidth": 80
@@ -376,7 +426,7 @@
       "wordindex": true,
       "category_description": "weigth of the element",
       "category": "element number",
-      "_id": "593c4c739e373d4330d84d0d",
+      "_id": "594831627e10822598e5b18a",
       "QBEColumnProps": {
         "LUNRIndex": true,
         "QBE": true,
@@ -400,7 +450,7 @@
       "wordindex": true,
       "category_description": "name of the philosophical element",
       "category": "element name",
-      "_id": "593c4c739e373d4330d84d12",
+      "_id": "594831627e10822598e5b18f",
       "category_synonyms": [
         "name"
       ]
@@ -415,7 +465,7 @@
     "domain_description": "Philosophical elements, a trivial model to create some ambiguities, notably \"earth\", which is also a key of the domain cosmos",
     "_categories": {
       "category": "element properties",
-      "_id": "593c4c739e373d4330d84d11",
+      "_id": "594831627e10822598e5b18e",
       "category_synonyms": []
     },
     "columns": []
@@ -425,12 +475,12 @@
     "modelname": "cosmos",
     "__v": 0,
     "domain": "Cosmos",
-    "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a differnt model",
+    "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a different model",
     "_categories": {
       "wordindex": true,
       "category_description": "name of the comsmological object, e.g. star, start system, galaxy or planet",
       "category": "object name",
-      "_id": "593c4c739e373d4330d84d1f",
+      "_id": "594831627e10822598e5b19c",
       "category_synonyms": []
     },
     "columns": []
@@ -440,11 +490,11 @@
     "modelname": "cosmos",
     "__v": 0,
     "domain": "Cosmos",
-    "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a differnt model",
+    "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a different model",
     "_categories": {
       "wordindex": true,
       "category": "visual magnitude",
-      "_id": "593c4c739e373d4330d84d1e",
+      "_id": "594831627e10822598e5b19b",
       "category_synonyms": []
     },
     "columns": []
@@ -454,10 +504,10 @@
     "modelname": "cosmos",
     "__v": 0,
     "domain": "Cosmos",
-    "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a differnt model",
+    "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a different model",
     "_categories": {
       "category": "visual luminosity",
-      "_id": "593c4c739e373d4330d84d1d",
+      "_id": "594831627e10822598e5b19a",
       "category_synonyms": []
     },
     "columns": []
@@ -467,11 +517,11 @@
     "modelname": "cosmos",
     "__v": 0,
     "domain": "Cosmos",
-    "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a differnt model",
+    "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a different model",
     "_categories": {
       "category_description": "mass of an object",
       "category": "mass",
-      "_id": "593c4c739e373d4330d84d1c",
+      "_id": "594831627e10822598e5b199",
       "category_synonyms": []
     },
     "columns": []
@@ -481,10 +531,10 @@
     "modelname": "cosmos",
     "__v": 0,
     "domain": "Cosmos",
-    "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a differnt model",
+    "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a different model",
     "_categories": {
       "category": "radius",
-      "_id": "593c4c739e373d4330d84d1b",
+      "_id": "594831627e10822598e5b198",
       "category_synonyms": []
     },
     "columns": []
@@ -494,12 +544,12 @@
     "modelname": "cosmos",
     "__v": 0,
     "domain": "Cosmos",
-    "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a differnt model",
+    "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a different model",
     "_categories": {
       "wordindex": true,
       "category_description": "type of object, e.g. \"star\", \"planet\".",
       "category": "object type",
-      "_id": "593c4c739e373d4330d84d1a",
+      "_id": "594831627e10822598e5b197",
       "category_synonyms": []
     },
     "columns": []
@@ -509,12 +559,12 @@
     "modelname": "cosmos",
     "__v": 0,
     "domain": "Cosmos",
-    "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a differnt model",
+    "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a different model",
     "_categories": {
       "wordindex": true,
       "category_description": "for planets, name of the central entity",
       "category": "orbits",
-      "_id": "593c4c739e373d4330d84d19",
+      "_id": "594831627e10822598e5b196",
       "category_synonyms": []
     },
     "columns": []
@@ -524,11 +574,11 @@
     "modelname": "cosmos",
     "__v": 0,
     "domain": "Cosmos",
-    "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a differnt model",
+    "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a different model",
     "_categories": {
       "category_description": "distance from earth",
       "category": "distance",
-      "_id": "593c4c739e373d4330d84d18",
+      "_id": "594831627e10822598e5b195",
       "category_synonyms": []
     },
     "columns": []
@@ -538,10 +588,11 @@
     "modelname": "cosmos",
     "__v": 0,
     "domain": "Cosmos",
-    "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a differnt model",
+    "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a different model",
     "_categories": {
+      "showURI": true,
       "category": "_url",
-      "_id": "593c4c739e373d4330d84d17",
+      "_id": "594831627e10822598e5b194",
       "category_synonyms": []
     },
     "columns": []
@@ -551,10 +602,10 @@
     "modelname": "cosmos",
     "__v": 0,
     "domain": "Cosmos",
-    "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a differnt model",
+    "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a different model",
     "_categories": {
       "category": "orbit radius",
-      "_id": "593c4c739e373d4330d84d16",
+      "_id": "594831627e10822598e5b193",
       "category_synonyms": []
     },
     "columns": []
@@ -564,10 +615,10 @@
     "modelname": "cosmos",
     "__v": 0,
     "domain": "Cosmos",
-    "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a differnt model",
+    "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a different model",
     "_categories": {
       "category": "eccentricity",
-      "_id": "593c4c739e373d4330d84d15",
+      "_id": "594831627e10822598e5b192",
       "category_synonyms": []
     },
     "columns": []
@@ -577,10 +628,10 @@
     "modelname": "cosmos",
     "__v": 0,
     "domain": "Cosmos",
-    "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a differnt model",
+    "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a different model",
     "_categories": {
       "category": "orbital period",
-      "_id": "593c4c739e373d4330d84d14",
+      "_id": "594831627e10822598e5b191",
       "category_synonyms": []
     },
     "columns": []
@@ -590,10 +641,10 @@
     "modelname": "cosmos",
     "__v": 0,
     "domain": "Cosmos",
-    "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a differnt model",
+    "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a different model",
     "_categories": {
       "category": "albedo",
-      "_id": "593c4c739e373d4330d84d13",
+      "_id": "594831627e10822598e5b190",
       "category_synonyms": []
     },
     "columns": []
@@ -608,7 +659,7 @@
       "wordindex": true,
       "category_description": "SAP Transaction code",
       "category": "tcode",
-      "_id": "593c4c739e373d4330d84d24",
+      "_id": "594831627e10822598e5b1a1",
       "category_synonyms": []
     },
     "columns": []
@@ -623,7 +674,7 @@
       "wordindex": true,
       "category_description": "Development class (Package) in system",
       "category": "devclass",
-      "_id": "593c4c739e373d4330d84d23",
+      "_id": "594831627e10822598e5b1a0",
       "category_synonyms": []
     },
     "columns": []
@@ -636,7 +687,7 @@
     "domain_description": "An extract of SAP Basis transactions",
     "_categories": {
       "category": "systemId",
-      "_id": "593c4c739e373d4330d84d22",
+      "_id": "594831627e10822598e5b19f",
       "category_synonyms": []
     },
     "columns": []
@@ -649,7 +700,7 @@
     "domain_description": "An extract of SAP Basis transactions",
     "_categories": {
       "category": "client",
-      "_id": "593c4c739e373d4330d84d21",
+      "_id": "594831627e10822598e5b19e",
       "category_synonyms": []
     },
     "columns": []
@@ -663,7 +714,7 @@
     "_categories": {
       "category_description": "English text of the transaction",
       "category": "transaction description",
-      "_id": "593c4c739e373d4330d84d20",
+      "_id": "594831627e10822598e5b19d",
       "category_synonyms": []
     },
     "columns": []
@@ -675,11 +726,56 @@
     "domain": "FioriBOM",
     "domain_description": "Information about Fiori apps with links to the Fiori Reference apps library",
     "_categories": {
+      "showURI": true,
       "category_description": "link to fiori app reference library",
       "category": "uri",
-      "_id": "593c4c739e373d4330d84d43",
+      "_id": "594831627e10822598e5b1c1",
       "QBEColumnProps": {
         "QBEInclude": true
+      },
+      "category_synonyms": []
+    },
+    "columns": [
+      "AppKey",
+      "ArtifactId",
+      "appId",
+      "fiori intent",
+      "AppName",
+      "ApplicationComponent",
+      "RoleName",
+      "ApplicationType",
+      "BSPName",
+      "BSPApplicationURL",
+      "releaseName",
+      "BSPPackage",
+      "BusinessRoleName",
+      "BusinessGroupName",
+      "PrimaryODataServiceName",
+      "SemanticObject",
+      "SemanticAction",
+      "FrontendSoftwareComponent",
+      "TransactionCode",
+      "ExternalReleaseName",
+      "BusinessCatalog",
+      "TechnicalCatalog"
+    ],
+    "domain_synonyms": [
+      "fiori bom"
+    ]
+  },
+  {
+    "_id": "5925e323d3f66454a8cb6e0a",
+    "modelname": "fioriapps",
+    "__v": 0,
+    "domain": "FioriBOM",
+    "domain_description": "Information about Fiori apps with links to the Fiori Reference apps library",
+    "_categories": {
+      "showURIRank": 1,
+      "category_description": "Sort criteria for URI",
+      "category": "uri_rank",
+      "_id": "594831627e10822598e5b1c0",
+      "QBEColumnProps": {
+        "QBEInclude": false
       },
       "category_synonyms": []
     },
@@ -721,7 +817,7 @@
       "exactmatch": true,
       "category_description": "a technical key, combination of appId and releaseId",
       "category": "AppKey",
-      "_id": "593c4c739e373d4330d84d42",
+      "_id": "594831627e10822598e5b1bf",
       "QBEColumnProps": {
         "QBE": true
       },
@@ -765,7 +861,7 @@
       "wordindex": true,
       "category_description": "for UI5 based applications, name of the UI5 Component, e.g. \"ui.s2p.mm.supconf.monitors1\".",
       "category": "ArtifactId",
-      "_id": "593c4c739e373d4330d84d41",
+      "_id": "594831627e10822598e5b1be",
       "QBEColumnProps": {
         "LUNRIndex": true,
         "QBE": true
@@ -818,7 +914,7 @@
       "wordindex": true,
       "category_description": "the Fiori appId, note that multiple records exists, as the same ID may change over time with verions",
       "category": "appId",
-      "_id": "593c4c739e373d4330d84d40",
+      "_id": "594831627e10822598e5b1bd",
       "QBEColumnProps": {
         "LUNRIndex": true,
         "QBE": true,
@@ -864,7 +960,7 @@
       "wordindex": true,
       "category_description": "A combination of \"#\" <SemanticObject> - <Semanticaction> which appears in the URL of the Fiori Launchpad when addressing the application",
       "category": "fiori intent",
-      "_id": "593c4c739e373d4330d84d3f",
+      "_id": "594831627e10822598e5b1bc",
       "QBEColumnProps": {
         "LUNRIndex": true,
         "QBE": true,
@@ -914,7 +1010,7 @@
       "wordindex": true,
       "category_description": "Human legible Application name",
       "category": "AppName",
-      "_id": "593c4c739e373d4330d84d3e",
+      "_id": "594831627e10822598e5b1bb",
       "QBEColumnProps": {
         "LUNRIndex": true,
         "QBE": true,
@@ -963,7 +1059,7 @@
       "wordindex": true,
       "category_description": "Support component for the Frontend application, typically",
       "category": "ApplicationComponent",
-      "_id": "593c4c739e373d4330d84d3d",
+      "_id": "594831627e10822598e5b1ba",
       "QBEColumnProps": {
         "LUNRIndex": true,
         "QBE": true,
@@ -1016,7 +1112,7 @@
       "wordindex": true,
       "category_description": "A business role name, e.g. \"Purchaser\", for a technical role (PFCG), try BusinessRoleName",
       "category": "RoleName",
-      "_id": "593c4c739e373d4330d84d3c",
+      "_id": "594831627e10822598e5b1b9",
       "QBEColumnProps": {
         "LUNRIndex": true,
         "QBE": true
@@ -1065,7 +1161,7 @@
       "wordindex": true,
       "category_description": "Whether the application is classical or not",
       "category": "ApplicationType",
-      "_id": "593c4c739e373d4330d84d3b",
+      "_id": "594831627e10822598e5b1b8",
       "QBEColumnProps": {
         "LUNRIndex": true,
         "QBE": true,
@@ -1112,7 +1208,7 @@
       "wordindex": true,
       "category_description": "Name of the Business Server Page",
       "category": "BSPName",
-      "_id": "593c4c739e373d4330d84d3a",
+      "_id": "594831627e10822598e5b1b7",
       "QBEColumnProps": {
         "LUNRIndex": true,
         "QBE": true
@@ -1161,7 +1257,7 @@
       "wordindex": true,
       "category_description": "url of the BSP application in an ABAP system, see BSP name for the technical storage  /sab/bc/ui5_ui5/..",
       "category": "BSPApplicationURL",
-      "_id": "593c4c739e373d4330d84d39",
+      "_id": "594831627e10822598e5b1b6",
       "QBEColumnProps": {
         "LUNRIndex": true,
         "QBE": true
@@ -1212,7 +1308,7 @@
       "wordindex": true,
       "category_description": "release name",
       "category": "releaseName",
-      "_id": "593c4c739e373d4330d84d38",
+      "_id": "594831627e10822598e5b1b5",
       "QBEColumnProps": {
         "LUNRIndex": true,
         "QBE": true
@@ -1257,7 +1353,7 @@
       "exactmatch": true,
       "wordindex": true,
       "category": "releaseId",
-      "_id": "593c4c739e373d4330d84d37",
+      "_id": "594831627e10822598e5b1b4",
       "category_synonyms": []
     },
     "columns": [
@@ -1299,7 +1395,7 @@
       "wordindex": true,
       "category_description": "The SAP Business catalog which references the application in a \"TechnicalCatalog\" or \"BackendCatalog\" (for GUI/WDA transactions",
       "category": "BusinessCatalog",
-      "_id": "593c4c739e373d4330d84d36",
+      "_id": "594831627e10822598e5b1b3",
       "QBEColumnProps": {
         "LUNRIndex": true
       },
@@ -1344,7 +1440,7 @@
       "wordindex": true,
       "category_description": "Technical catalog, basic definition of \"TargetMapping\" and \"Tile\" for fiori (UI5) Applications",
       "category": "TechnicalCatalog",
-      "_id": "593c4c739e373d4330d84d35",
+      "_id": "594831627e10822598e5b1b2",
       "QBEColumnProps": {
         "LUNRIndex": true
       },
@@ -1387,7 +1483,7 @@
     "_categories": {
       "hidden": true,
       "category": "detailsurl",
-      "_id": "593c4c739e373d4330d84d34",
+      "_id": "594831627e10822598e5b1b1",
       "category_synonyms": []
     },
     "columns": [
@@ -1426,7 +1522,7 @@
     "domain_description": "Information about Fiori apps with links to the Fiori Reference apps library",
     "_categories": {
       "category": "isPublished",
-      "_id": "593c4c739e373d4330d84d33",
+      "_id": "594831627e10822598e5b1b0",
       "category_synonyms": []
     },
     "columns": [
@@ -1468,7 +1564,7 @@
       "wordindex": true,
       "category_description": "Package (DevClass) of the BSP Application",
       "category": "BSPPackage",
-      "_id": "593c4c739e373d4330d84d32",
+      "_id": "594831627e10822598e5b1af",
       "QBEColumnProps": {
         "LUNRIndex": true,
         "QBE": true
@@ -1511,7 +1607,7 @@
     "domain_description": "Information about Fiori apps with links to the Fiori Reference apps library",
     "_categories": {
       "category": "AppDocumentationLinkKW",
-      "_id": "593c4c739e373d4330d84d31",
+      "_id": "594831627e10822598e5b1ae",
       "category_synonyms": []
     },
     "columns": [
@@ -1553,7 +1649,7 @@
       "wordindex": true,
       "category_description": "Package (DevClass) of the BSP Application",
       "category": "BusinessRoleName",
-      "_id": "593c4c739e373d4330d84d30",
+      "_id": "594831627e10822598e5b1ad",
       "QBEColumnProps": {
         "LUNRIndex": true,
         "QBE": true
@@ -1602,7 +1698,7 @@
       "wordindex": true,
       "category_description": "Package (DevClass) of the BSP Application",
       "category": "BusinessGroupName",
-      "_id": "593c4c739e373d4330d84d2f",
+      "_id": "594831627e10822598e5b1ac",
       "QBEColumnProps": {
         "LUNRIndex": true,
         "QBE": true
@@ -1646,7 +1742,7 @@
     "_categories": {
       "wordindex": true,
       "category": "BusinessGroupDescription",
-      "_id": "593c4c739e373d4330d84d2e",
+      "_id": "594831627e10822598e5b1ab",
       "category_synonyms": []
     },
     "columns": [
@@ -1688,7 +1784,7 @@
       "wordindex": true,
       "category_description": "OData service : Technical name of the OData Service operating on a Gateway server (and implemented in the R/3 Backend) serving data for UI5 based Fiori Apps",
       "category": "PrimaryODataServiceName",
-      "_id": "593c4c739e373d4330d84d2d",
+      "_id": "594831627e10822598e5b1aa",
       "QBEColumnProps": {
         "LUNRIndex": true,
         "QBE": true
@@ -1738,7 +1834,7 @@
       "wordindex": true,
       "category_description": "The first part of the \"fiori intent\", identifying the Business entity, e.g. \"SalesOrder\",\"GLAcount\" used for generic navigation",
       "category": "SemanticObject",
-      "_id": "593c4c739e373d4330d84d2c",
+      "_id": "594831627e10822598e5b1a9",
       "QBEColumnProps": {
         "LUNRIndex": true,
         "QBE": true,
@@ -1786,7 +1882,7 @@
       "wordindex": true,
       "category_description": "The second part of the \"fiori intent\", identifying the action, e.g. \"maintain\", \"create\"",
       "category": "SemanticAction",
-      "_id": "593c4c739e373d4330d84d2b",
+      "_id": "594831627e10822598e5b1a8",
       "QBEColumnProps": {
         "LUNRIndex": true,
         "QBE": true
@@ -1834,7 +1930,7 @@
       "wordindex": true,
       "category_description": "Frontend Software Component",
       "category": "FrontendSoftwareComponent",
-      "_id": "593c4c739e373d4330d84d2a",
+      "_id": "594831627e10822598e5b1a7",
       "QBEColumnProps": {
         "LUNRIndex": true,
         "QBE": true
@@ -1880,7 +1976,7 @@
       "wordindex": true,
       "category_description": "For GUI based transaction, the transaciton code behind intent, a classical R/3 SAPGUi transaction",
       "category": "TransactionCode",
-      "_id": "593c4c739e373d4330d84d29",
+      "_id": "594831627e10822598e5b1a6",
       "QBEColumnProps": {
         "LUNRIndex": true,
         "QBE": true,
@@ -1928,7 +2024,7 @@
     "domain_description": "Information about Fiori apps with links to the Fiori Reference apps library",
     "_categories": {
       "category": "URLParameters",
-      "_id": "593c4c739e373d4330d84d28",
+      "_id": "594831627e10822598e5b1a5",
       "category_synonyms": []
     },
     "columns": [
@@ -1969,7 +2065,7 @@
       "exactmatch": true,
       "wordindex": true,
       "category": "LPDCustInstance",
-      "_id": "593c4c739e373d4330d84d27",
+      "_id": "594831627e10822598e5b1a4",
       "category_synonyms": []
     },
     "columns": [
@@ -2010,7 +2106,7 @@
       "exactmatch": true,
       "wordindex": true,
       "category": "PrimaryODataPFCGRole",
-      "_id": "593c4c739e373d4330d84d26",
+      "_id": "594831627e10822598e5b1a3",
       "category_synonyms": []
     },
     "columns": [
@@ -2052,7 +2148,7 @@
       "wordindex": true,
       "category_description": "External Release name",
       "category": "ExternalReleaseName",
-      "_id": "593c4c739e373d4330d84d25",
+      "_id": "594831627e10822598e5b1a2",
       "QBEColumnProps": {
         "LUNRIndex": true,
         "QBE": true
@@ -2095,7 +2191,7 @@
     "domain_description": "R/3 Transport objects and associated tables. This domains allows to quickly lookup up if and in what transport object a given table content is transported, e.g. \"What is the Transport Object, Primary Table for /UIF/LREPDCONT\" ",
     "_categories": {
       "category": "recordKey",
-      "_id": "593c4c739e373d4330d84d4e",
+      "_id": "594831627e10822598e5b1cc",
       "category_synonyms": []
     },
     "columns": []
@@ -2109,7 +2205,7 @@
     "_categories": {
       "category_description": "The transport object key (SOBJ)",
       "category": "TransportObject",
-      "_id": "593c4c739e373d4330d84d4d",
+      "_id": "594831627e10822598e5b1cb",
       "category_synonyms": [
         "SOBJ",
         "Transport Key"
@@ -2126,7 +2222,7 @@
     "_categories": {
       "category_description": "Short text of transport object",
       "category": "Shorttext",
-      "_id": "593c4c739e373d4330d84d4c",
+      "_id": "594831627e10822598e5b1ca",
       "category_synonyms": []
     },
     "columns": []
@@ -2142,7 +2238,7 @@
       "wordindex": true,
       "category_description": "The DDIC Table",
       "category": "Table",
-      "_id": "593c4c739e373d4330d84d4b",
+      "_id": "594831627e10822598e5b1c9",
       "category_synonyms": [
         "Tables",
         "Database Table",
@@ -2161,7 +2257,7 @@
       "exactmatch": true,
       "category_description": "Key specification for the table",
       "category": "TableTransportKeySpec",
-      "_id": "593c4c739e373d4330d84d4a",
+      "_id": "594831627e10822598e5b1c8",
       "category_synonyms": []
     },
     "columns": []
@@ -2177,7 +2273,7 @@
       "wordindex": true,
       "category_description": "Primary table of transport object, if existing",
       "category": "PrimaryTable",
-      "_id": "593c4c739e373d4330d84d49",
+      "_id": "594831627e10822598e5b1c7",
       "category_synonyms": [
         "Primary Table"
       ]
@@ -2195,7 +2291,7 @@
       "wordindex": true,
       "category_description": "Whether the object is client specific",
       "category": "clientSpecific",
-      "_id": "593c4c739e373d4330d84d48",
+      "_id": "594831627e10822598e5b1c6",
       "category_synonyms": []
     },
     "columns": []
@@ -2210,7 +2306,7 @@
       "exactmatch": true,
       "category_description": "Length of transport key",
       "category": "Object name length",
-      "_id": "593c4c739e373d4330d84d47",
+      "_id": "594831627e10822598e5b1c5",
       "category_synonyms": []
     },
     "columns": []
@@ -2225,7 +2321,7 @@
       "exactmatch": true,
       "category_description": "Category of the transport",
       "category": "category",
-      "_id": "593c4c739e373d4330d84d46",
+      "_id": "594831627e10822598e5b1c4",
       "category_synonyms": []
     },
     "columns": []
@@ -2241,7 +2337,7 @@
       "wordindex": true,
       "category_description": "Boolean (\"true\",\"false\") whether object is translation relevant",
       "category": "TranslationRelevant",
-      "_id": "593c4c739e373d4330d84d45",
+      "_id": "594831627e10822598e5b1c3",
       "category_synonyms": []
     },
     "columns": []
@@ -2255,7 +2351,7 @@
     "_categories": {
       "exactmatch": true,
       "category": "Type",
-      "_id": "593c4c739e373d4330d84d44",
+      "_id": "594831627e10822598e5b1c2",
       "category_synonyms": []
     },
     "columns": []
@@ -2270,7 +2366,7 @@
       "wordindex": true,
       "category_description": "A combination of \"#\" <SemanticObject> - <Semanticaction> which appears in the URL of the Fiori Launchpad when addressing the application",
       "category": "fiori intent",
-      "_id": "593c4c739e373d4330d84d59",
+      "_id": "594831627e10822598e5b1d7",
       "category_synonyms": [
         "fiori intents",
         "intents",
@@ -2289,7 +2385,7 @@
       "wordindex": true,
       "category_description": "Support component for the Backend catalog entry, (the Package associated with the UIAD Transport record containing the Catalog Definition (SUI_TM_MM_APPS table). This is the component repsonsible for the Catalog, (not necessarily for the legacy application!)",
       "category": "ApplicationComponent",
-      "_id": "593c4c739e373d4330d84d58",
+      "_id": "594831627e10822598e5b1d6",
       "category_synonyms": [
         "Application Component",
         "Application components",
@@ -2310,7 +2406,7 @@
       "wordindex": true,
       "category_description": "Name of the web dynpro application",
       "category": "WebDynproApplication",
-      "_id": "593c4c739e373d4330d84d57",
+      "_id": "594831627e10822598e5b1d5",
       "category_synonyms": []
     },
     "columns": []
@@ -2325,7 +2421,7 @@
       "wordindex": true,
       "category_description": "devclass ( Package) of the backend catalog record (not necessarily the transaction",
       "category": "devclass",
-      "_id": "593c4c739e373d4330d84d56",
+      "_id": "594831627e10822598e5b1d4",
       "category_synonyms": []
     },
     "columns": []
@@ -2340,7 +2436,7 @@
       "wordindex": true,
       "category_description": "Name of the technical catalog (_TC_..._BE_), (same as FioriBOM Technical Catalog) (identical to entry in /UI2/SYSALIASCAT), \n(in /UI2/PB_C_CHIP.REFERENCEID  *ADCAT*...)",
       "category": "BackendCatalogId",
-      "_id": "593c4c739e373d4330d84d55",
+      "_id": "594831627e10822598e5b1d3",
       "category_synonyms": [
         "Fiori Backend Catalog",
         "Fiori Backend Catalogs",
@@ -2358,7 +2454,7 @@
     "_categories": {
       "category_description": "Name of the System alias associated with this Technical catalog (entry delivered in /UI2/SYSALIASCAT)",
       "category": "TechnicalCatalogSystemAlias",
-      "_id": "593c4c739e373d4330d84d54",
+      "_id": "594831627e10822598e5b1d2",
       "category_synonyms": []
     },
     "columns": []
@@ -2372,7 +2468,7 @@
     "_categories": {
       "category_description": "Name of the Business Catalog referencing this catalog (in /UI2/PB_C_CACHE.ID *CATALOGPAGE:*  _BC_ ..",
       "category": "BusinessCatalog",
-      "_id": "593c4c739e373d4330d84d53",
+      "_id": "594831627e10822598e5b1d1",
       "category_synonyms": []
     },
     "columns": []
@@ -2387,7 +2483,7 @@
       "wordindex": true,
       "category_description": "The first part of the \"fiori intent\", identifying the Business entity, e.g. \"SalesOrder\",\"GLAcount\" used for generic navigation",
       "category": "SemanticObject",
-      "_id": "593c4c739e373d4330d84d52",
+      "_id": "594831627e10822598e5b1d0",
       "category_synonyms": []
     },
     "columns": []
@@ -2402,7 +2498,7 @@
       "wordindex": true,
       "category_description": "The second part of the \"fiori intent\", identifying the action, e.g. \"maintain\", \"create\"",
       "category": "SemanticAction",
-      "_id": "593c4c739e373d4330d84d51",
+      "_id": "594831627e10822598e5b1cf",
       "category_synonyms": []
     },
     "columns": []
@@ -2417,7 +2513,7 @@
       "exactmatch": true,
       "category_description": "Software component containing the Backend catalog",
       "category": "SoftwareComponent",
-      "_id": "593c4c739e373d4330d84d50",
+      "_id": "594831627e10822598e5b1ce",
       "category_synonyms": []
     },
     "columns": []
@@ -2433,7 +2529,7 @@
       "exactmatch": true,
       "category_description": "For GUI based transaction, the transaction code behind intent, a classical R/3 SAPGUi transaction",
       "category": "TransactionCode",
-      "_id": "593c4c739e373d4330d84d4f",
+      "_id": "594831627e10822598e5b1cd",
       "category_synonyms": [
         "Transactions",
         "TransactionCode",

@@ -1,7 +1,8 @@
 [
   {
-    "_id": "593c4c749e373d4330d84e44",
+    "_id": "594831637e10822598e5b2c2",
     "uri": "https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps('W0052')/S7",
+    "uri_rank": 10,
     "fiori_intent": "#Project-analyzeProjectProfitability",
     "appId": "W0052",
     "AppName": "Project Profitability",
@@ -35,7 +36,7 @@
     "__v": 0
   },
   {
-    "_id": "593c4c749e373d4330d84e45",
+    "_id": "594831637e10822598e5b2c3",
     "uri": "https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps('F2316')/S7",
     "fiori_intent": "#ApplicationJob-show",
     "appId": "F2316",
@@ -70,8 +71,9 @@
     "__v": 0
   },
   {
-    "_id": "593c4c749e373d4330d84e46",
+    "_id": "594831637e10822598e5b2c4",
     "uri": "https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps('F2315')/S7",
+    "uri_rank": 100,
     "fiori_intent": "n/a",
     "appId": "F2315",
     "AppName": "UI5 Library for Project Engagement Apps",
@@ -105,8 +107,9 @@
     "__v": 0
   },
   {
-    "_id": "593c4c749e373d4330d84e47",
-    "uri": "https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps('F2315')/S7",
+    "_id": "594831637e10822598e5b2c5",
+    "uri": "https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps('F2315')/S7XXXX",
+    "uri_rank": 3,
     "fiori_intent": "n/a",
     "appId": "F2315",
     "AppName": "UI5 Library for Project Engagement Apps",
@@ -140,7 +143,7 @@
     "__v": 0
   },
   {
-    "_id": "593c4c749e373d4330d84e48",
+    "_id": "594831637e10822598e5b2c6",
     "uri": "https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps('F2311')/S7",
     "fiori_intent": "#MRPMaterial-analyzeStockIssues",
     "appId": "F2311",
@@ -175,7 +178,7 @@
     "__v": 0
   },
   {
-    "_id": "593c4c749e373d4330d84e49",
+    "_id": "594831637e10822598e5b2c7",
     "uri": "https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps('XK99')/S6OP",
     "fiori_intent": "#Supplier-massMaintSuppliers",
     "appId": "XK99",
@@ -209,7 +212,7 @@
     "__v": 0
   },
   {
-    "_id": "593c4c749e373d4330d84e4a",
+    "_id": "594831637e10822598e5b2c8",
     "uri": "https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps('/AIF/EDCHANGES')/S6OP",
     "fiori_intent": "n/a",
     "appId": "/AIF/EDCHANGES",
@@ -225,7 +228,7 @@
     "__v": 0
   },
   {
-    "_id": "593c4c749e373d4330d84e4b",
+    "_id": "594831637e10822598e5b2c9",
     "uri": "https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps('/AIF/CUST')/S6OP",
     "fiori_intent": "n/a",
     "appId": "/AIF/CUST",
@@ -241,7 +244,7 @@
     "__v": 0
   },
   {
-    "_id": "593c4c749e373d4330d84e4c",
+    "_id": "594831637e10822598e5b2ca",
     "uri": "https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps('CBGLWB')/S6OP",
     "fiori_intent": "#ProductLabel-manage",
     "appId": "CBGLWB",
@@ -276,7 +279,7 @@
     "__v": 0
   },
   {
-    "_id": "593c4c749e373d4330d84e4d",
+    "_id": "594831637e10822598e5b2cb",
     "uri": "https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps('F1638')/W14",
     "fiori_intent": "#ComplianceAlerts-manage",
     "appId": "F1638",
@@ -312,7 +315,7 @@
     "__v": 0
   },
   {
-    "_id": "593c4c749e373d4330d84e4e",
+    "_id": "594831637e10822598e5b2cc",
     "uri": "https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps('GRM3')/S6OP",
     "fiori_intent": "#WBSElement-assignToGroupingWBSElementCollectively",
     "appId": "GRM3",
@@ -347,7 +350,7 @@
     "__v": 0
   },
   {
-    "_id": "593c4c749e373d4330d84e4f",
+    "_id": "594831637e10822598e5b2cd",
     "uri": "https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps('S_ALR_87012394')/S6OP",
     "fiori_intent": "#TaxReport-prepareSalesUseTaxesReportUSA",
     "appId": "S_ALR_87012394",
@@ -382,7 +385,7 @@
     "__v": 0
   },
   {
-    "_id": "593c4c749e373d4330d84e50",
+    "_id": "594831637e10822598e5b2ce",
     "AppKey": "/SAPAPO/MAT1/S6OP",
     "AppName": "Maintain Product",
     "ApplicationComponent": "SCM-BAS-MD-PR",
@@ -405,7 +408,7 @@
     "__v": 0
   },
   {
-    "_id": "593c4c749e373d4330d84e51",
+    "_id": "594831637e10822598e5b2cf",
     "uri": "https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps('F0731')/W8",
     "fiori_intent": "#GLAccount-manage",
     "appId": "F0731",

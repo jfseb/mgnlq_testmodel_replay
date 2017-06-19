@@ -1,6 +1,6 @@
 [
   {
-    "_id": "593c4c73b4ac9330f2fde03f",
+    "_id": "5948316238723de2a9186f58",
     "modelname": "fioriapps",
     "__v": 0,
     "domain": "FioriBOM",
@@ -188,6 +188,11 @@
         "_m_category": "AppKey",
         "trim": true,
         "type": "String"
+      },
+      "uri_rank": {
+        "_m_category": "uri_rank",
+        "trim": true,
+        "type": "Number"
       },
       "uri": {
         "_m_category": "uri",

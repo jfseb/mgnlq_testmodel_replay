@@ -1,6 +1,6 @@
 [
   {
-    "_id": "593c4c749e373d4330d84e54",
+    "_id": "594831637e10822598e5b2d2",
     "object_name": "Alpha Centauri B",
     "visual_luminosity": "0.445*sun",
     "mass": ".907*sun",
@@ -10,7 +10,7 @@
     "__v": 0
   },
   {
-    "_id": "593c4c749e373d4330d84e59",
+    "_id": "594831637e10822598e5b2d7",
     "object_name": "Mars",
     "visual_luminosity": "n/a",
     "orbit_radius": "1.66AU-1.523679AU",
@@ -27,7 +27,7 @@
     "__v": 0
   },
   {
-    "_id": "593c4c749e373d4330d84e5d",
+    "_id": "594831637e10822598e5b2db",
     "object_name": "Sun",
     "visual_luminosity": "n/a",
     "orbit_radius": "1.016 - 0.983 AU, 152,100,000km - 14,.095,000km",
@@ -41,7 +41,7 @@
     "__v": 0
   },
   {
-    "_id": "593c4c749e373d4330d84e52",
+    "_id": "594831637e10822598e5b2d0",
     "object_name": "Alpha Centauri A",
     "visual_magnitude": "-0.27",
     "visual_luminosity": "1.519*sun",
@@ -52,7 +52,7 @@
       {
         "category": "object name",
         "fact": "Alpha Centauri A",
-        "_id": "593c4c749e373d4330d84e53",
+        "_id": "594831637e10822598e5b2d1",
         "synonyms": [
           "Rigil Kentaurus"
         ]
@@ -61,7 +61,7 @@
     "__v": 0
   },
   {
-    "_id": "593c4c749e373d4330d84e55",
+    "_id": "594831637e10822598e5b2d3",
     "object_name": "Alpha Centauri C",
     "visual_luminosity": "-0.27",
     "mass": "n/a",
@@ -73,7 +73,7 @@
       {
         "category": "object name",
         "fact": "Alpha Centauri B",
-        "_id": "593c4c749e373d4330d84e56",
+        "_id": "594831637e10822598e5b2d4",
         "synonyms": [
           "Proxima Centauri"
         ]
@@ -82,7 +82,7 @@
     "__v": 0
   },
   {
-    "_id": "593c4c749e373d4330d84e57",
+    "_id": "594831637e10822598e5b2d5",
     "object_name": "Proxima Centauri b",
     "visual_luminosity": "n/a",
     "mass": "0.134*sun, 1.27*earth",
@@ -96,7 +96,7 @@
       {
         "category": "object name",
         "fact": "Proxima Centauri b",
-        "_id": "593c4c749e373d4330d84e58",
+        "_id": "594831637e10822598e5b2d6",
         "synonyms": [
           "Proxima b"
         ]
@@ -105,7 +105,7 @@
     "__v": 0
   },
   {
-    "_id": "593c4c749e373d4330d84e5a",
+    "_id": "594831637e10822598e5b2d8",
     "object_name": "earth",
     "visual_luminosity": "n/a",
     "orbit_radius": "1.016 - 0.983 AU, 152,100,000km - 14,.095,000km",
@@ -123,7 +123,7 @@
       {
         "category": "object name",
         "fact": "earth",
-        "_id": "593c4c749e373d4330d84e5c",
+        "_id": "594831637e10822598e5b2da",
         "synonyms": [
           "blue planet",
           "gaia"
@@ -132,7 +132,7 @@
       {
         "category": "orbits",
         "fact": "Sun",
-        "_id": "593c4c749e373d4330d84e5b",
+        "_id": "594831637e10822598e5b2d9",
         "synonyms": [
           "Sol"
         ]

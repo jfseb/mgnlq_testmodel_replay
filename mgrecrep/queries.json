@@ -171,7 +171,7 @@
         }
       ]
     ],
-    "res": 88
+    "res": 91
   },
   "146d459ce5273ba06af90ee5ddc9f121": {
     "op": "distinct",
@@ -381,7 +381,7 @@
     "name": "metamodel",
     "digest": "9e215601bf4f7de417b5bd577976e209",
     "query": "_categories.category",
-    "res": 78
+    "res": 81
   },
   "5b9df3bb875738c46eafa4bbaf903012": {
     "op": "distinct",
@@ -1929,7 +1929,7 @@
         }
       ]
     ],
-    "res": 31
+    "res": 32
   },
   "b35a8b41c849c4d9e8dcee0bb797a166": {
     "op": "aggregate",
@@ -3008,5 +3008,121 @@
       ]
     ],
     "res": 12
+  },
+  "da1cdc147c884c6d2d11857d11e02215": {
+    "op": "aggregate",
+    "name": "cosmo",
+    "digest": "da1cdc147c884c6d2d11857d11e02215",
+    "query": [
+      [
+        {
+          "$match": {}
+        },
+        {
+          "$group": {
+            "_id": {
+              "_url": "$_url",
+              "orbits": "$orbits"
+            },
+            "_url": {
+              "$first": "$_url"
+            },
+            "orbits": {
+              "$first": "$orbits"
+            }
+          }
+        },
+        {
+          "$project": {
+            "_id": 0,
+            "_url": 1,
+            "orbits": 1
+          }
+        },
+        {
+          "$sort": {
+            "_url": 1,
+            "orbits": 1
+          }
+        }
+      ]
+    ],
+    "res": 6
+  },
+  "e0929a5aa29a4c598a07b53842f8fad8": {
+    "op": "aggregate",
+    "name": "cosmo",
+    "digest": "e0929a5aa29a4c598a07b53842f8fad8",
+    "query": [
+      [
+        {
+          "$match": {}
+        },
+        {
+          "$group": {
+            "_id": {
+              "orbits": "$orbits"
+            },
+            "orbits": {
+              "$first": "$orbits"
+            }
+          }
+        },
+        {
+          "$project": {
+            "_id": 0,
+            "orbits": 1
+          }
+        },
+        {
+          "$sort": {
+            "orbits": 1
+          }
+        }
+      ]
+    ],
+    "res": 4
+  },
+  "72973dd107201158a9079338d78e769d": {
+    "op": "aggregate",
+    "name": "cosmo",
+    "digest": "72973dd107201158a9079338d78e769d",
+    "query": [
+      [
+        {
+          "$match": {
+            "object_name": "earth"
+          }
+        },
+        {
+          "$group": {
+            "_id": {
+              "_url": "$_url",
+              "orbits": "$orbits"
+            },
+            "_url": {
+              "$first": "$_url"
+            },
+            "orbits": {
+              "$first": "$orbits"
+            }
+          }
+        },
+        {
+          "$project": {
+            "_id": 0,
+            "_url": 1,
+            "orbits": 1
+          }
+        },
+        {
+          "$sort": {
+            "_url": 1,
+            "orbits": 1
+          }
+        }
+      ]
+    ],
+    "res": 1
   }
 }

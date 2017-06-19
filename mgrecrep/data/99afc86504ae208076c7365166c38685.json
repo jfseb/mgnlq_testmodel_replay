@@ -91,5 +91,8 @@
   },
   {
     "category": "uri"
+  },
+  {
+    "category": "uri_rank"
   }
 ]
