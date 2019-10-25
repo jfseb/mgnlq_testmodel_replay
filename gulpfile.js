@@ -15,7 +15,7 @@ var testDir = 'test';
 
 gulp.task('watch', function () {
   gulp.watch([srcDir + '/**/*.js', testDir + '/**/*.js', srcDir + '/**/*.tsx', srcDir + '/**/*.ts', 'gulpfile.js'],
-    ['tsc', 'babel', 'eslint']);
+    ['tsc', 'eslint']);
 });
 
 /**
@@ -47,17 +47,11 @@ gulp.task('tsc', function () {
 });
 
 
-var jsdoc = require('gulp-jsdoc3');
-
-gulp.task('doc', ['test'], function (cb) {
-  gulp.src([srcDir + '/**/*.js', 'README.md', './js/**/*.js'], { read: false })
-    .pipe(jsdoc(cb));
-});
 
 var nodeunit = require('gulp-nodeunit');
 
-gulp.task('test', ['tsc'], function () {
-  gulp.src(['test/**/*.js'])
+gulp.task('test', gulp.series('tsc', function () {
+  return gulp.src(['test/**/*.js'])
     .pipe(nodeunit({
       reporter: 'minimal'
     // reporterOptions: {
@@ -65,10 +59,10 @@ gulp.task('test', ['tsc'], function () {
     // }
     })).on('error', function (err) { console.log('This is weird: ' + err.message); })
     .pipe(gulp.dest('./out/lcov.info'));
-});
+}));
 
-gulp.task('testhome', ['test'], function () {
-  gulp.src(['testdb/**/*.js'])
+gulp.task('testhome', gulp.series('test', function () {
+  return gulp.src(['testdb/**/*.js'])
     .pipe(nodeunit({
       reporter: 'minimal'
     // reporterOptions: {
@@ -76,7 +70,15 @@ gulp.task('testhome', ['test'], function () {
     // }
     })).on('error', function (err) { console.log('This is weird: ' + err.message); })
     .pipe(gulp.dest('./out/lcov.info'));
-});
+}));
+
+
+var jsdoc = require('gulp-jsdoc3');
+
+gulp.task('doc', gulp.series( 'test', function (cb) {
+  return gulp.src([srcDir + '/**/*.js', 'README.md', './js/**/*.js'], { read: false })
+    .pipe(jsdoc(cb));
+}));
 
 const eslint = require('gulp-eslint');
 
@@ -99,5 +101,5 @@ gulp.task('eslint', () => {
 
 
 // Default Task
-gulp.task('default', ['tsc', 'eslint', 'test', 'doc' ]);
-gulp.task('build', ['tsc', 'eslint']);
+gulp.task('default', gulp.series('tsc', 'eslint', 'test', 'doc'));
+gulp.task('build', gulp.series('tsc', 'eslint'));

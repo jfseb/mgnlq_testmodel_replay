@@ -10,8 +10,15 @@ var mode = 'REPLAY';
 if (process.env[Constants.ENV_NAME_MONGO_RECORD_REPLAY] === "RECORD") {
     mode = 'RECORD';
 }
-if (process.env[Constants.ENV_NAME_MONGO_RECORD_REPLAY] === "OFF") {
+else if (process.env[Constants.ENV_NAME_MONGO_RECORD_REPLAY] === "OFF") {
     mode = undefined;
+}
+else if (!process.env[Constants.ENV_NAME_MONGO_RECORD_REPLAY]
+    || process.env[Constants.ENV_NAME_MONGO_RECORD_REPLAY] === "REPLAY") {
+    mode = undefined;
+}
+else {
+    throw new Error(`illegal value ${process.env[Constants.ENV_NAME_MONGO_RECORD_REPLAY]}  for ${Constants.ENV_NAME_MONGO_RECORD_REPLAY}, epxected one of "REPLAY", "RECORD", "OFF" or not set`);
 }
 var mypath = Constants.MONGOOSE_RECORD_REPLAY_FOLDER; // require().resolve('mgnlq_testmodel_replay');
 var mongooseMock = mongoose_record_replay.instrumentMongoose(mongoose, mypath, // 'node_modules/mgnlq_testmodel_replay/mgrecrep/',
