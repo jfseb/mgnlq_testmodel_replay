@@ -11192,28 +11192,7 @@
     "name": "sobj_tables",
     "digest": "94333b5ee872827a8f1eefe8e2d64b61",
     "query": "_tables.Table",
-    "res": [
-      "/UIF/LREPDATTR",
-      "/UIF/LREPDCONT",
-      "/UIF/LREPDEREF",
-      "/UIF/LREPDLTXT",
-      "/UIF/LREPDREF",
-      "/UIF/LREPDSTXT",
-      "/UIF/LREPDTEXT",
-      "/UIF/LREPDATTRCD",
-      "/UIF/LREPDCONTCD",
-      "/UIF/LREPDEREFCD",
-      "/UIF/LREPDLTXTCD",
-      "/UIF/LREPDREFCD",
-      "/UIF/LREPDSTXTCD",
-      "/UIF/LREPDTEXTCD",
-      "LTDHTRAW",
-      "LTDHTTMPL",
-      "LTR_REPOSITORY",
-      "TZS02",
-      "SWOTDI",
-      "SWOTDQ"
-    ]
+    "res": 20
   },
   "20f66b3aac497d232b0a688e8ac1c47a": {
     "op": "distinct",
@@ -11276,10 +11255,7 @@
     "name": "sobj_tables",
     "digest": "516222f42ce7b65c1d51958d06604c47",
     "query": "clientSpecific",
-    "res": [
-      false,
-      true
-    ]
+    "res": 2
   },
   "e8c47f76a07725fe2fc026ea9912d999": {
     "op": "distinct",
@@ -11342,10 +11318,7 @@
     "name": "sobj_tables",
     "digest": "2fc9cefd1f2d711c440a4a5348413d94",
     "query": "_tables.PrimaryTable",
-    "res": [
-      false,
-      true
-    ]
+    "res": 2
   },
   "d4f36066f1d2d1f26c28f531ffec3e04": {
     "op": "distinct",
@@ -11464,10 +11437,7 @@
     "name": "sobj_tables",
     "digest": "9d58dcef4e28ea886de158d8f36e0341",
     "query": "TranslationRelevant",
-    "res": [
-      false,
-      true
-    ]
+    "res": 2
   },
   "aeca31cd6c9491931466bd607d32178f": {
     "op": "aggregate",
@@ -11963,5 +11933,37 @@
     "digest": "6afd67c2d559c1557ad33448f6fdf851",
     "query": {},
     "res": 1
+  },
+  "b65a79682b47c66a79ee3f84749b5631": {
+    "op": "aggregate",
+    "name": "sobj_tables",
+    "digest": "b65a79682b47c66a79ee3f84749b5631",
+    "query": [
+      [
+        {
+          "$match": {
+            "_synonyms.0": {
+              "$exists": true
+            }
+          }
+        },
+        {
+          "$project": {
+            "_synonyms": 1
+          }
+        },
+        {
+          "$unwind": "$_synonyms"
+        },
+        {
+          "$project": {
+            "category": "$_synonyms.category",
+            "fact": "$_synonyms.fact",
+            "synonyms": "$_synonyms.synonyms"
+          }
+        }
+      ]
+    ],
+    "res": 0
   }
 }
