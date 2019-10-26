@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "5925e323d3f66454a8cb6e03",
+    "modelname": "philoelements",
+    "__v": 0,
+    "domain": "Philosophers elements",
+    "domain_description": "Philosophical elements, a trivial model to create some ambiguities, notably \"earth\", which is also a key of the domain cosmos",
+    "_categories": [
+      {
+        "wordindex": true,
+        "category_description": "name of the philosophical element",
+        "category": "element name",
+        "_id": "594831627e10822598e5b18f",
+        "category_synonyms": [
+          "name"
+        ]
+      },
+      {
+        "category": "element properties",
+        "_id": "594831627e10822598e5b18e",
+        "category_synonyms": []
+      }
+    ],
+    "columns": []
+  }
+]

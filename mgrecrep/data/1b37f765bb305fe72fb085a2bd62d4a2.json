@@ -1,0 +1,43 @@
+[
+  {
+    "_id": "594831637e10822598e5b2d0",
+    "category": "object name",
+    "fact": "Alpha Centauri A",
+    "synonyms": [
+      "Rigil Kentaurus"
+    ]
+  },
+  {
+    "_id": "594831637e10822598e5b2d3",
+    "category": "object name",
+    "fact": "Alpha Centauri B",
+    "synonyms": [
+      "Proxima Centauri"
+    ]
+  },
+  {
+    "_id": "594831637e10822598e5b2d5",
+    "category": "object name",
+    "fact": "Proxima Centauri b",
+    "synonyms": [
+      "Proxima b"
+    ]
+  },
+  {
+    "_id": "594831637e10822598e5b2d8",
+    "category": "object name",
+    "fact": "earth",
+    "synonyms": [
+      "blue planet",
+      "gaia"
+    ]
+  },
+  {
+    "_id": "594831637e10822598e5b2d8",
+    "category": "orbits",
+    "fact": "Sun",
+    "synonyms": [
+      "Sol"
+    ]
+  }
+]
