@@ -41,7 +41,7 @@
     "typescript": "^3.6.4"
   },
   "dependencies": {
-    "mgnlq_model": "^0.0.6",
+    "mgnlq_model": "0.0.8",
     "mongoose_record_replay": "^0.0.8"
   }
 }
