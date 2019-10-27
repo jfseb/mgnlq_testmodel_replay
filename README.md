@@ -52,8 +52,8 @@ MGNLQ_TESTMODEL_REPLAY
 control the mode.
 
 1. REPLAY (default)
-2. REPLAY
-3. OFF
+2. RECORD
+3. OFF     (access db)
 
 
 

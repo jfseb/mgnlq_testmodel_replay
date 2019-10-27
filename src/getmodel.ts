@@ -13,7 +13,7 @@ if (process.env[Constants.ENV_NAME_MONGO_RECORD_REPLAY] === "RECORD") {
   mode = undefined;
 } else if ( !process.env[Constants.ENV_NAME_MONGO_RECORD_REPLAY]
  || process.env[Constants.ENV_NAME_MONGO_RECORD_REPLAY] === "REPLAY") {
-  mode = undefined;
+  mode = 'REPLAY';
 } else  {
   throw new Error(`illegal value ${process.env[Constants.ENV_NAME_MONGO_RECORD_REPLAY]}  for ${ Constants.ENV_NAME_MONGO_RECORD_REPLAY }, epxected one of "REPLAY", "RECORD", "OFF" or not set`);
 }

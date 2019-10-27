@@ -3,13 +3,14 @@ docs
 logs
 coverage
 test
-
+post_sort
+test1x.json
+*.txt
 *.tgz
 logs
 *.bak
 gen/*
 coverage
-testmodel/_cache.js.zip
 testmodel/*.bak
 testmodel/graph/*
 testmodel/*.gv

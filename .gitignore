@@ -5,6 +5,9 @@ info.lcov
 logs
 *.bak
 gen/*
+*.txt
+post_sort
+test1x.json
 coverage
 testmodel/_cache.js.zip
 testmodel/*.bak
