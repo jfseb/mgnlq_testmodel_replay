@@ -8,8 +8,6 @@
   "domain",
   "domain description",
   "exactmatch",
-  "showURI",
-  "showURIRank",
   "uri",
   "wordindex",
   "atomic weight",
@@ -79,5 +77,12 @@
   "BackendCatalogId",
   "SoftwareComponent",
   "TechnicalCatalogSystemAlias",
-  "WebDynproApplication"
+  "WebDynproApplication",
+  "besitzer",
+  "betriebsende",
+  "gründungsjahr",
+  "nachfolger",
+  "sender",
+  "sendertyp",
+  "standort"
 ]

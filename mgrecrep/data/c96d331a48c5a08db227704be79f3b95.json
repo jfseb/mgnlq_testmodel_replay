@@ -7,79 +7,78 @@
     "domain_description": "a model with a small subset of cosmological entities. Main purpose is to test \na)properties which occur multiple times (e.g. \"Sun\" in \"object name\" as key and in \"orbits\"; \nb) \"earth\" as a property which is also present in a different model",
     "_categories": [
       {
-        "wordindex": true,
-        "category_description": "name of the comsmological object, e.g. star, start system, galaxy or planet",
+        "category_synonyms": [],
+        "_id": "5db88a175b66759cfc56bb20",
         "category": "object name",
-        "_id": "594831627e10822598e5b19c",
-        "category_synonyms": []
+        "category_description": "name of the comsmological object, e.g. star, start system, galaxy or planet",
+        "wordindex": true
       },
       {
-        "wordindex": true,
+        "category_synonyms": [],
+        "_id": "5db88a175b66759cfc56bb1f",
         "category": "visual magnitude",
-        "_id": "594831627e10822598e5b19b",
-        "category_synonyms": []
+        "wordindex": true
       },
       {
-        "category": "visual luminosity",
-        "_id": "594831627e10822598e5b19a",
-        "category_synonyms": []
+        "category_synonyms": [],
+        "_id": "5db88a175b66759cfc56bb1e",
+        "category": "visual luminosity"
       },
       {
-        "category_description": "mass of an object",
+        "category_synonyms": [],
+        "_id": "5db88a175b66759cfc56bb1d",
         "category": "mass",
-        "_id": "594831627e10822598e5b199",
-        "category_synonyms": []
+        "category_description": "mass of an object"
       },
       {
-        "category": "radius",
-        "_id": "594831627e10822598e5b198",
-        "category_synonyms": []
+        "category_synonyms": [],
+        "_id": "5db88a175b66759cfc56bb1c",
+        "category": "radius"
       },
       {
-        "wordindex": true,
-        "category_description": "type of object, e.g. \"star\", \"planet\".",
+        "category_synonyms": [],
+        "_id": "5db88a175b66759cfc56bb1b",
         "category": "object type",
-        "_id": "594831627e10822598e5b197",
-        "category_synonyms": []
+        "category_description": "type of object, e.g. \"star\", \"planet\".",
+        "wordindex": true
       },
       {
-        "wordindex": true,
-        "category_description": "for planets, name of the central entity",
+        "category_synonyms": [],
+        "_id": "5db88a175b66759cfc56bb1a",
         "category": "orbits",
-        "_id": "594831627e10822598e5b196",
-        "category_synonyms": []
+        "category_description": "for planets, name of the central entity",
+        "wordindex": true
       },
       {
-        "category_description": "distance from earth",
+        "category_synonyms": [],
+        "_id": "5db88a175b66759cfc56bb19",
         "category": "distance",
-        "_id": "594831627e10822598e5b195",
-        "category_synonyms": []
+        "category_description": "distance from earth"
       },
       {
-        "showURI": true,
-        "category": "_url",
-        "_id": "594831627e10822598e5b194",
-        "category_synonyms": []
+        "category_synonyms": [],
+        "_id": "5db88a175b66759cfc56bb18",
+        "category": "_url"
       },
       {
-        "category": "orbit radius",
-        "_id": "594831627e10822598e5b193",
-        "category_synonyms": []
+        "category_synonyms": [],
+        "_id": "5db88a175b66759cfc56bb17",
+        "category": "orbit radius"
       },
       {
-        "category": "eccentricity",
-        "_id": "594831627e10822598e5b192",
-        "category_synonyms": []
+        "category_synonyms": [],
+        "_id": "5db88a175b66759cfc56bb16",
+        "category": "eccentricity"
       },
       {
-        "category": "orbital period",
-        "_id": "594831627e10822598e5b191",
-        "category_synonyms": []
+        "category_synonyms": [],
+        "_id": "5db88a175b66759cfc56bb15",
+        "category": "orbital period"
       },
       {
-        "category": "albedo",
-        "_id": "594831627e10822598e5b190",
-        "category_synonyms": []
+        "category_synonyms": [],
+        "_id": "5db88a175b66759cfc56bb14",
+        "category": "albedo"
       }
     ],
     "columns": []

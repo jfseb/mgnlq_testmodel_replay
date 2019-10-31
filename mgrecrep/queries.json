@@ -10878,7 +10878,7 @@
     "name": "mongonlq_eschemas",
     "digest": "807d3ce983c2f3f55bca0f31c3601ec1",
     "query": "modelname",
-    "res": 8
+    "res": 9
   },
   "9500a309933f286947c6717653aeb3ae": {
     "op": "find",
@@ -11185,7 +11185,7 @@
     "name": "metamodels",
     "digest": "ee1e238d09baade11389e033b882e02d",
     "query": "domain",
-    "res": 8
+    "res": 9
   },
   "94333b5ee872827a8f1eefe8e2d64b61": {
     "op": "distinct",
@@ -11311,7 +11311,7 @@
     "name": "metamodels",
     "digest": "d7f270ba3e08f3ad6be2bb468fe4de80",
     "query": "_categories.category",
-    "res": 81
+    "res": 86
   },
   "2fc9cefd1f2d711c440a4a5348413d94": {
     "op": "distinct",
@@ -11938,6 +11938,98 @@
     "op": "aggregate",
     "name": "sobj_tables",
     "digest": "b65a79682b47c66a79ee3f84749b5631",
+    "query": [
+      [
+        {
+          "$match": {
+            "_synonyms.0": {
+              "$exists": true
+            }
+          }
+        },
+        {
+          "$project": {
+            "_synonyms": 1
+          }
+        },
+        {
+          "$unwind": "$_synonyms"
+        },
+        {
+          "$project": {
+            "category": "$_synonyms.category",
+            "fact": "$_synonyms.fact",
+            "synonyms": "$_synonyms.synonyms"
+          }
+        }
+      ]
+    ],
+    "res": 0
+  },
+  "ca7a00a452b18e002ca17d2bda43d5ca": {
+    "op": "find",
+    "name": "mongonlq_eschemas",
+    "digest": "ca7a00a452b18e002ca17d2bda43d5ca",
+    "query": {
+      "modelname": "demomdls"
+    },
+    "res": 1
+  },
+  "1439d1c83b84e93793a0e812e90eb16a": {
+    "op": "find",
+    "name": "metamodels",
+    "digest": "1439d1c83b84e93793a0e812e90eb16a",
+    "query": {
+      "modelname": "demomdls"
+    },
+    "res": 1
+  },
+  "bf90b77e51104a68142ab67aeedc4da5": {
+    "op": "distinct",
+    "name": "demomdls",
+    "digest": "bf90b77e51104a68142ab67aeedc4da5",
+    "query": "sendertyp",
+    "res": 6
+  },
+  "7f2ba5eb8536e49c8386c09d16e13756": {
+    "op": "distinct",
+    "name": "demomdls",
+    "digest": "7f2ba5eb8536e49c8386c09d16e13756",
+    "query": "betriebsende",
+    "res": 2
+  },
+  "2301c28b178ccba7f2d588f8c5c20844": {
+    "op": "distinct",
+    "name": "demomdls",
+    "digest": "2301c28b178ccba7f2d588f8c5c20844",
+    "query": "besitzer",
+    "res": 2
+  },
+  "415f07414c5de8a356be69c62f15a047": {
+    "op": "distinct",
+    "name": "demomdls",
+    "digest": "415f07414c5de8a356be69c62f15a047",
+    "query": "sender",
+    "res": 8
+  },
+  "8d8e02fb04aa546533d4522a23e2cd77": {
+    "op": "distinct",
+    "name": "demomdls",
+    "digest": "8d8e02fb04aa546533d4522a23e2cd77",
+    "query": "nachfolger",
+    "res": 2
+  },
+  "6b6e644ca4499b3561fc68980710d7f6": {
+    "op": "distinct",
+    "name": "demomdls",
+    "digest": "6b6e644ca4499b3561fc68980710d7f6",
+    "query": "gründungsjahr",
+    "res": 4
+  },
+  "20ac4fe8037163e82fb8d0dcfc8a6ee3": {
+    "op": "aggregate",
+    "name": "demomdls",
+    "digest": "20ac4fe8037163e82fb8d0dcfc8a6ee3",
     "query": [
       [
         {

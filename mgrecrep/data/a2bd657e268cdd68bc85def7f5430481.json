@@ -1,45 +1,45 @@
 [
   {
-    "_id": "5948316238723de2a9186f57",
+    "_id": "5db88a170f684a20a047b5af",
     "modelname": "r3trans",
     "__v": 0,
-    "domain": "SAP Transaction Codes",
-    "mongoosemodelname": "r3tran",
-    "collectionname": "r3trans",
+    "index": {
+      "transaction_description": "text",
+      "tcode": "text",
+      "devclass": "text"
+    },
     "props": {
-      "transaction_description": {
-        "index": true,
-        "_m_category": "transaction description",
+      "tcode": {
+        "type": "String",
         "trim": true,
-        "type": "String"
-      },
-      "client": {
-        "_m_category": "client",
-        "trim": true,
-        "type": "String"
-      },
-      "systemId": {
-        "_m_category": "systemId",
-        "trim": true,
-        "type": "String"
+        "_m_category": "tcode",
+        "index": true
       },
       "devclass": {
-        "index": true,
+        "type": "String",
+        "trim": true,
         "_m_category": "devclass",
-        "trim": true,
-        "type": "String"
+        "index": true
       },
-      "tcode": {
-        "index": true,
-        "_m_category": "tcode",
+      "systemId": {
+        "type": "String",
         "trim": true,
-        "type": "String"
+        "_m_category": "systemId"
+      },
+      "client": {
+        "type": "String",
+        "trim": true,
+        "_m_category": "client"
+      },
+      "transaction_description": {
+        "type": "String",
+        "trim": true,
+        "_m_category": "transaction description",
+        "index": true
       }
     },
-    "index": {
-      "devclass": "text",
-      "tcode": "text",
-      "transaction_description": "text"
-    }
+    "collectionname": "r3trans",
+    "mongoosemodelname": "r3trans",
+    "domain": "SAP Transaction Codes"
   }
 ]

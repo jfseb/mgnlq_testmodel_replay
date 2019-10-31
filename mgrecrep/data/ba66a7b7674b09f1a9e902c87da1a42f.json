@@ -4,107 +4,95 @@
     "modelname": "metamodels",
     "__v": 0,
     "collectionname": "metamodels",
-    "mongoosemodelname": "metamodel",
+    "mongoosemodelname": "metamodels",
     "domain": "metamodel",
     "domain_description": "metamodel",
     "_categories": [
       {
-        "exactmatch": false,
-        "wordindex": false,
-        "category_description": "link to domain description",
+        "category_synonyms": [],
+        "_id": "5db88a0f5b66759cfc56bb0d",
         "category": "uri",
-        "_id": "594831627e10822598e5b189",
+        "category_description": "link to domain description",
         "QBEColumnProps": {
           "QBE": true
         },
-        "category_synonyms": []
+        "wordindex": false,
+        "exactmatch": false
       },
       {
-        "exactmatch": false,
-        "wordindex": true,
-        "category_description": "a technical key, combination of appId and releaseId",
+        "category_synonyms": [],
+        "_id": "5db88a0f5b66759cfc56bb0c",
         "category": "domain",
-        "_id": "594831627e10822598e5b188",
-        "QBEColumnProps": {
-          "LUNRIndex": true,
-          "QBE": true
-        },
-        "category_synonyms": []
-      },
-      {
-        "exactmatch": true,
         "category_description": "a technical key, combination of appId and releaseId",
-        "category": "domain description",
-        "_id": "594831627e10822598e5b187",
         "QBEColumnProps": {
-          "QBE": true
+          "QBE": true,
+          "LUNRIndex": true
         },
-        "category_synonyms": []
-      },
-      {
         "wordindex": true,
-        "category_description": "Object property",
-        "category": "category",
-        "_id": "594831627e10822598e5b186",
+        "exactmatch": false
+      },
+      {
+        "category_synonyms": [],
+        "_id": "5db88a0f5b66759cfc56bb0b",
+        "category": "domain description",
+        "category_description": "a technical key, combination of appId and releaseId",
         "QBEColumnProps": {
-          "LUNRIndex": true,
           "QBE": true
         },
-        "category_synonyms": []
+        "exactmatch": true
       },
       {
-        "category_description": "Description of the category",
+        "category_synonyms": [],
+        "_id": "5db88a0f5b66759cfc56bb0a",
+        "category": "category",
+        "category_description": "Object property",
+        "QBEColumnProps": {
+          "QBE": true,
+          "LUNRIndex": true
+        },
+        "wordindex": true
+      },
+      {
+        "category_synonyms": [],
+        "_id": "5db88a0f5b66759cfc56bb09",
         "category": "category description",
-        "_id": "594831627e10822598e5b185",
-        "category_synonyms": []
+        "category_description": "Description of the category"
       },
       {
-        "category_description": "Category indicates a sort criteria for URI",
-        "category": "showURIRank",
-        "_id": "594831627e10822598e5b184",
-        "category_synonyms": []
-      },
-      {
-        "category_description": "Category is a URI to display on the \"Show me ...\" command",
-        "category": "showURI",
-        "_id": "594831627e10822598e5b183",
-        "category_synonyms": []
-      },
-      {
-        "category_description": "whether to include the category in QBE tables",
+        "category_synonyms": [],
+        "_id": "5db88a0f5b66759cfc56bb08",
         "category": "QBE",
-        "_id": "594831627e10822598e5b182",
-        "category_synonyms": []
+        "category_description": "whether to include the category in QBE tables"
       },
       {
-        "category_description": "whether to include the category in a LUNR Index",
+        "category_synonyms": [],
+        "_id": "5db88a0f5b66759cfc56bb07",
         "category": "LUNRIndex",
-        "_id": "594831627e10822598e5b181",
-        "category_synonyms": []
+        "category_description": "whether to include the category in a LUNR Index"
       },
       {
-        "category_description": "whether to include the category in a LUNR Index",
+        "category_synonyms": [],
+        "_id": "5db88a0f5b66759cfc56bb06",
         "category": "wordindex",
-        "_id": "594831627e10822598e5b180",
-        "category_synonyms": []
+        "category_description": "whether to include the category in a LUNR Index"
       },
       {
-        "category_description": "whether a match on a given value has to be precise",
+        "category_synonyms": [],
+        "_id": "5db88a0f5b66759cfc56bb05",
         "category": "exactmatch",
-        "_id": "594831627e10822598e5b17f",
-        "category_synonyms": []
+        "category_description": "whether a match on a given value has to be precise"
       },
       {
-        "category_description": "synonyms for the category",
+        "category_synonyms": [],
+        "_id": "5db88a0f5b66759cfc56bb04",
         "category": "category synonyms",
-        "_id": "594831627e10822598e5b17e",
-        "category_synonyms": []
+        "category_description": "synonyms for the category"
       },
       {
-        "category_description": "the columns in order which are shon in a table",
+        "category_synonyms": [],
+        "_id": "5db88a0f5b66759cfc56bb03",
         "category": "columns",
-        "_id": "594831627e10822598e5b17d",
-        "category_synonyms": []
+        "category_description": "the columns in order which are shon in a table"
       }
     ],
     "columns": [

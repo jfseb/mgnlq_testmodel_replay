@@ -1,86 +1,114 @@
 [
   {
-    "_id": "594831627e10822598e5b1d8",
+    "_id": "5db88a175b66759cfc56bb64",
     "operators": {
-      "having": {
+      "containing": {
+        "arity": 2,
         "argcategory": [
           [
             "category"
           ],
           [
-            "category"
+            "_fragment"
           ]
-        ],
-        "arity": 2
+        ]
       },
-      "being": {
+      "starting with": {
+        "arity": 2,
         "argcategory": [
           [
             "category"
           ],
           [
-            "category"
+            "_fragment"
           ]
-        ],
-        "arity": 2
+        ]
+      },
+      "ending with": {
+        "arity": 2,
+        "argcategory": [
+          [
+            "category"
+          ],
+          [
+            "_fragment"
+          ]
+        ]
       },
       "excluding": {
+        "arity": 1,
         "argcategory": [
           [
             "fact"
           ]
-        ],
-        "arity": 1
+        ]
       },
-      "ending with": {
+      "being": {
+        "arity": 2,
         "argcategory": [
           [
             "category"
           ],
           [
-            "_fragment"
+            "category"
           ]
-        ],
-        "arity": 2
+        ]
       },
-      "starting with": {
+      "having": {
+        "arity": 2,
         "argcategory": [
           [
             "category"
           ],
           [
-            "_fragment"
+            "category"
           ]
-        ],
-        "arity": 2
+        ]
       },
-      "containing": {
+      "with more than": {
+        "arity": 2,
+        "operatorpos": -1,
         "argcategory": [
           [
-            "category"
+            "number"
           ],
           [
-            "_fragment"
+            "category"
           ]
-        ],
-        "arity": 2
+        ]
+      },
+      "with less than": {
+        "arity": 2,
+        "operatorpos": -1,
+        "argcategory": [
+          [
+            "number"
+          ],
+          [
+            "category"
+          ]
+        ]
+      },
+      "with exactly": {
+        "arity": 2,
+        "operatorpos": -1,
+        "argcategory": [
+          [
+            "number"
+          ],
+          [
+            "category"
+          ]
+        ]
       }
     },
     "synonyms": {
-      "having": [
-        "has a",
-        "has an"
-      ],
-      "containing": [
-        "contains"
-      ],
-      "being": [
-        "is",
-        "beeing",
-        "beeing a",
-        "beeing an",
-        "is a",
-        "is an"
+      "starting with": [
+        "starts with",
+        "begins with",
+        "begin with",
+        "which begin with",
+        "which begins with"
       ],
       "ending with": [
         "ends with",
@@ -91,12 +119,20 @@
         "which terminates with",
         "which ends with a"
       ],
-      "starting with": [
-        "starts with",
-        "begins with",
-        "begin with",
-        "which begin with",
-        "which begins with"
+      "being": [
+        "is",
+        "beeing",
+        "beeing a",
+        "beeing an",
+        "is a",
+        "is an"
+      ],
+      "containing": [
+        "contains"
+      ],
+      "having": [
+        "has a",
+        "has an"
       ]
     },
     "__v": 0

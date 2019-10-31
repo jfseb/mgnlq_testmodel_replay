@@ -1,101 +1,101 @@
 [
   {
-    "_id": "5948316238723de2a9186f59",
+    "_id": "5db88a170f684a20a047b5b2",
     "modelname": "fioribecatalogs",
     "__v": 0,
-    "domain": "Fiori Backend Catalogs",
-    "mongoosemodelname": "fioribecatalog",
-    "collectionname": "fioribecatalogs",
+    "index": {
+      "WebDynproApplication": "text",
+      "SemanticObject": "text",
+      "SemanticAction": "text",
+      "fiori_intent": "text",
+      "ApplicationComponent": "text",
+      "BackendCatalogId": "text"
+    },
     "props": {
-      "TransactionCode": {
-        "index": true,
-        "_m_category": "TransactionCode",
+      "fiori_intent": {
+        "type": "String",
         "trim": true,
-        "type": "String"
-      },
-      "SoftwareComponent": {
-        "_m_category": "SoftwareComponent",
-        "trim": true,
-        "type": "String"
-      },
-      "Title": {
-        "index": false,
-        "_m_category": "Title",
-        "trim": true,
-        "type": "String"
-      },
-      "objectkey": {
-        "index": false,
-        "_m_category": "objectkey",
-        "trim": true,
-        "type": "String"
-      },
-      "Tile_keywords": {
-        "index": false,
-        "_m_category": "Tile keywords",
-        "trim": true,
-        "type": "String"
-      },
-      "SemanticAction": {
-        "index": true,
-        "_m_category": "SemanticAction",
-        "trim": true,
-        "type": "String"
-      },
-      "SemanticObject": {
-        "index": true,
-        "_m_category": "SemanticObject",
-        "trim": true,
-        "type": "String"
-      },
-      "BusinessCatalog": {
-        "_m_category": "BusinessCatalog",
-        "trim": true,
-        "type": "String"
-      },
-      "TechnicalCatalogSystemAlias": {
-        "_m_category": "TechnicalCatalogSystemAlias",
-        "trim": true,
-        "type": "String"
-      },
-      "BackendCatalogId": {
-        "index": true,
-        "_m_category": "BackendCatalogId",
-        "trim": true,
-        "type": "String"
-      },
-      "devclass": {
-        "index": true,
-        "_m_category": "devclass",
-        "trim": true,
-        "type": "String"
-      },
-      "WebDynproApplication": {
-        "index": true,
-        "_m_category": "WebDynproApplication",
-        "trim": true,
-        "type": "String"
+        "_m_category": "fiori intent",
+        "index": true
       },
       "ApplicationComponent": {
-        "index": true,
+        "type": "String",
+        "trim": true,
         "_m_category": "ApplicationComponent",
-        "trim": true,
-        "type": "String"
+        "index": true
       },
-      "fiori_intent": {
-        "index": true,
-        "_m_category": "fiori intent",
+      "WebDynproApplication": {
+        "type": "String",
         "trim": true,
-        "type": "String"
+        "_m_category": "WebDynproApplication",
+        "index": true
+      },
+      "devclass": {
+        "type": "String",
+        "trim": true,
+        "_m_category": "devclass",
+        "index": true
+      },
+      "BackendCatalogId": {
+        "type": "String",
+        "trim": true,
+        "_m_category": "BackendCatalogId",
+        "index": true
+      },
+      "TechnicalCatalogSystemAlias": {
+        "type": "String",
+        "trim": true,
+        "_m_category": "TechnicalCatalogSystemAlias"
+      },
+      "BusinessCatalog": {
+        "type": "String",
+        "trim": true,
+        "_m_category": "BusinessCatalog"
+      },
+      "SemanticObject": {
+        "type": "String",
+        "trim": true,
+        "_m_category": "SemanticObject",
+        "index": true
+      },
+      "SemanticAction": {
+        "type": "String",
+        "trim": true,
+        "_m_category": "SemanticAction",
+        "index": true
+      },
+      "Tile_keywords": {
+        "type": "String",
+        "trim": true,
+        "_m_category": "Tile keywords",
+        "index": false
+      },
+      "objectkey": {
+        "type": "String",
+        "trim": true,
+        "_m_category": "objectkey",
+        "index": false
+      },
+      "Title": {
+        "type": "String",
+        "trim": true,
+        "_m_category": "Title",
+        "index": false
+      },
+      "SoftwareComponent": {
+        "type": "String",
+        "trim": true,
+        "_m_category": "SoftwareComponent"
+      },
+      "TransactionCode": {
+        "type": "String",
+        "trim": true,
+        "_m_category": "TransactionCode",
+        "index": true
       }
     },
-    "index": {
-      "BackendCatalogId": "text",
-      "ApplicationComponent": "text",
-      "fiori_intent": "text",
-      "SemanticAction": "text",
-      "SemanticObject": "text",
-      "WebDynproApplication": "text"
-    }
+    "collectionname": "fioribecatalogs",
+    "mongoosemodelname": "fioribecatalogs",
+    "domain": "Fiori Backend Catalogs"
   }
 ]

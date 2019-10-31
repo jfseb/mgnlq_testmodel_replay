@@ -5,6 +5,7 @@
   "cosmos",
   "r3trans",
   "fioriapps",
+  "sobj_tables",
   "fioribecatalogs",
-  "sobj_tables"
+  "demomdls"
 ]

@@ -4,122 +4,114 @@
     "modelname": "metamodels",
     "__v": 0,
     "domain": "metamodel",
-    "mongoosemodelname": "metamodel",
+    "mongoosemodelname": "metamodels",
     "collectionname": "metamodels",
     "props": {
-      "_categories": [
+      "modelname": {
+        "type": "String",
+        "trim": true,
+        "required": true,
+        "_m_category": "modelname"
+      },
+      "mongoosemodelname": {
+        "type": "String",
+        "trim": true,
+        "_m_category": "mongoosemodelname"
+      },
+      "collectionname": {
+        "type": "String",
+        "trim": true,
+        "_m_category": "collectionname"
+      },
+      "domain": {
+        "type": "String",
+        "trim": true,
+        "_m_category": "domain"
+      },
+      "uri": {
+        "type": "String",
+        "trim": true,
+        "_m_category": "uri"
+      },
+      "domain_description": {
+        "type": "String",
+        "trim": true,
+        "required": true,
+        "_m_category": "domain description",
+        "index": true
+      },
+      "domain_synonyms": [
         {
-          "QBEColumnProps": {
-            "LUNRIndex": {
-              "_m_category": "LUNRIndex",
-              "type": "Boolean"
-            },
-            "QBEInclude": {
-              "_m_category": "QBEInclude",
-              "type": "Boolean"
-            },
-            "QBE": {
-              "_m_category": "QBE",
-              "type": "Boolean"
-            },
-            "defaultWidth": {
-              "_m_category": "defaultWidth",
-              "type": "Number"
-            }
-          },
-          "category_synonyms": [
-            {
-              "_m_category": "category synonyms",
-              "trim": true,
-              "type": "String"
-            }
-          ],
-          "hidden": {
-            "_m_category": "hidden",
-            "type": "Boolean"
-          },
-          "exactmatch": {
-            "_m_category": "exactmatch",
-            "type": "Boolean"
-          },
-          "showURIRank": {
-            "_m_category": "showURIRank",
-            "type": "Number"
-          },
-          "showURI": {
-            "_m_category": "showURI",
-            "type": "Boolean"
-          },
-          "wordindex": {
-            "_m_category": "wordindex",
-            "type": "Boolean"
-          },
-          "category_description": {
-            "_m_category": "category description",
-            "trim": true,
-            "type": "String"
-          },
-          "category": {
-            "_m_category": "category",
-            "trim": true,
-            "type": "String"
-          }
+          "type": "String",
+          "trim": true,
+          "_m_category": "domain synonyms"
         }
       ],
       "columns": [
         {
-          "_m_category": "columns",
+          "type": "String",
           "trim": true,
-          "type": "String"
+          "_m_category": "columns"
         }
       ],
-      "domain_synonyms": [
+      "_categories": [
         {
-          "_m_category": "domain synonyms",
-          "trim": true,
-          "type": "String"
+          "category": {
+            "type": "String",
+            "trim": true,
+            "_m_category": "category"
+          },
+          "category_description": {
+            "type": "String",
+            "trim": true,
+            "_m_category": "category description"
+          },
+          "wordindex": {
+            "type": "Boolean",
+            "_m_category": "wordindex"
+          },
+          "exactmatch": {
+            "type": "Boolean",
+            "_m_category": "exactmatch"
+          },
+          "hidden": {
+            "type": "Boolean",
+            "_m_category": "hidden"
+          },
+          "category_synonyms": [
+            {
+              "type": "String",
+              "trim": true,
+              "_m_category": "category synonyms"
+            }
+          ],
+          "QBEColumnProps": {
+            "defaultWidth": {
+              "type": "Number",
+              "_m_category": "defaultWidth"
+            },
+            "QBE": {
+              "type": "Boolean",
+              "_m_category": "QBE"
+            },
+            "QBEInclude": {
+              "type": "Boolean",
+              "_m_category": "QBEInclude"
+            },
+            "LUNRIndex": {
+              "type": "Boolean",
+              "_m_category": "LUNRIndex"
+            }
+          }
         }
-      ],
-      "domain_description": {
-        "index": true,
-        "_m_category": "domain description",
-        "required": true,
-        "trim": true,
-        "type": "String"
-      },
-      "uri": {
-        "_m_category": "uri",
-        "trim": true,
-        "type": "String"
-      },
-      "domain": {
-        "_m_category": "domain",
-        "trim": true,
-        "type": "String"
-      },
-      "collectionname": {
-        "_m_category": "collectionname",
-        "trim": true,
-        "type": "String"
-      },
-      "mongoosemodelname": {
-        "_m_category": "mongoosemodelname",
-        "trim": true,
-        "type": "String"
-      },
-      "modelname": {
-        "_m_category": "modelname",
-        "required": true,
-        "trim": true,
-        "type": "String"
-      }
+      ]
     },
     "index": {
-      "category": "text",
-      "domain": "text",
-      "domain_description": "text",
+      "category_synonym": "text",
       "domain_synonyms": "text",
-      "category_synonym": "text"
+      "domain_description": "text",
+      "domain": "text",
+      "category": "text"
     }
   }
 ]
