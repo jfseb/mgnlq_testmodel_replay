@@ -2,7 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const path = require('path');
 exports.MONGO_DBURL = 'mongodb://localhost/testdb';
-exports.MONGOOSE_RECORD_REPLAY_FOLDER = path.normalize('./test/data/mongoose_record_replay/testmodel/'); // path.normalize(__dirname + '/../mgrecrep/');
+// relative for current project!
+exports.MONGOOSE_RECORD_REPLAY_FOLDER = './test/data/mongoose_record_replay/testmodel/'; // path.normalize(__dirname + '/../mgrecrep/');
 exports.ENV_NAME_MONGO_RECORD_REPLAY = 'MGNLQ_TESTMODEL_REPLAY';
 // not in use for record/replay
 // used to load data into model

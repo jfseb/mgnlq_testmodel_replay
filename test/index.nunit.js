@@ -7,6 +7,7 @@ var Model = require('mgnlq_model').Model;
 exports.testgetModel = function(test) {
   TMRep.getTestModel().then( theModel => {
     test.deepEqual(theModel.domains, [ 'Cosmos',
+      'demomdls',
       'FioriBOM',
       'Fiori Backend Catalogs',
       'IUPAC',
