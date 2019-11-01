@@ -1,6 +1,6 @@
 {
   "name": "mgnlq_testmodel_replay",
-  "version": "0.0.15",
+  "version": "0.1.2",
   "description": "sample mongoose mock data replay",
   "main": "js/index.js",
   "typings": "js/index",
@@ -41,7 +41,7 @@
     "typescript": "^3.6.4"
   },
   "dependencies": {
-    "mgnlq_model": "^0.0.12",
+    "mgnlq_model": "0.0.14",
     "mongoose_record_replay": "^0.0.8"
   }
 }

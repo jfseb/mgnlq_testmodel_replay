@@ -1,6 +1,6 @@
 [
   {
-    "_id": "5db88a175b66759cfc56bb64",
+    "_id": "5dbc49e604edbc147889aab4",
     "operators": {
       "containing": {
         "arity": 2,
@@ -65,7 +65,7 @@
           ]
         ]
       },
-      "with more than": {
+      "more than": {
         "arity": 2,
         "operatorpos": -1,
         "argcategory": [
@@ -77,7 +77,7 @@
           ]
         ]
       },
-      "with less than": {
+      "less than": {
         "arity": 2,
         "operatorpos": -1,
         "argcategory": [
@@ -89,7 +89,7 @@
           ]
         ]
       },
-      "with exactly": {
+      "exactly": {
         "arity": 2,
         "operatorpos": -1,
         "argcategory": [
@@ -133,6 +133,15 @@
       "having": [
         "has a",
         "has an"
+      ],
+      "more than": [
+        "which has more than"
+      ],
+      "less than": [
+        "which has less than"
+      ],
+      "exactly": [
+        "which has exactly"
       ]
     },
     "__v": 0

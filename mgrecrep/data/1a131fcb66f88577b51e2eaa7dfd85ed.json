@@ -9,7 +9,7 @@
         "category_synonyms": [
           "name"
         ],
-        "_id": "5db88a175b66759cfc56bb11",
+        "_id": "5dbc49e604edbc147889aa61",
         "category": "element name",
         "category_description": "element name",
         "QBEColumnProps": {
@@ -23,7 +23,7 @@
         "category_synonyms": [
           "symbol"
         ],
-        "_id": "5db88a175b66759cfc56bb10",
+        "_id": "5dbc49e604edbc147889aa60",
         "category": "element symbol",
         "category_description": "element symbol",
         "QBEColumnProps": {
@@ -37,7 +37,7 @@
         "category_synonyms": [
           "element weight"
         ],
-        "_id": "5db88a175b66759cfc56bb0f",
+        "_id": "5dbc49e604edbc147889aa5f",
         "category": "atomic weight",
         "category_description": "weigth of the element",
         "QBEColumnProps": {
@@ -47,7 +47,7 @@
       },
       {
         "category_synonyms": [],
-        "_id": "5db88a175b66759cfc56bb0e",
+        "_id": "5dbc49e604edbc147889aa5e",
         "category": "element number",
         "category_description": "weigth of the element",
         "QBEColumnProps": {

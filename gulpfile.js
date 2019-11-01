@@ -38,8 +38,8 @@ gulp.task('tsc', function () {
         return 'ABC';
       },
       mapSources: function (src) {
-        console.log('here we remap' + src);
-        return '/projects/nodejs/botbuilder/mgnlq_model/' + src;
+        //console.log('here we remap' + src);
+        return src; // '/projects/nodejs/botbuilder/mgnlq_model/' + src;
       }}
     )) // ,  { sourceRoot: './' } ))
     // Now the sourcemaps are added to the .js file

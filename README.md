@@ -65,7 +65,14 @@ Similar, in RECORD mode, mgrecrep/queries.json and mgrecrep/data may be extened 
 
 # Tasks to maintain the model
 ## Rebuilding the model from scratch (raw files)
-  todo
+
+  goto mgnlq_model
+  run
+  env_reset.cmd
+  npm run load_data
 
 ## Updating the queries
-  todo
+
+# changliest
+
+starting wiht 0.1.1 files are located in the current dir  /test/data/mongoose_record_replay/testmodel/ ..

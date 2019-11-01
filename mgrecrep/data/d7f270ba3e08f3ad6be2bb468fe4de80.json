@@ -8,6 +8,8 @@
   "domain",
   "domain description",
   "exactmatch",
+  "showURI",
+  "showURIRank",
   "uri",
   "wordindex",
   "atomic weight",
