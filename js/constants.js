@@ -11,3 +11,5 @@ exports.RAW_MODEL_PATH = path.normalize(__dirname + '/../testmodel');
 exports.MODEL_PATH = path.normalize(__dirname + '/../testmodel');
 
 //# sourceMappingURL=constants.js.map
+
+//# sourceMappingURL=constants.js.map

@@ -13,39 +13,74 @@ var sourcemaps = require('gulp-sourcemaps');
 var srcDir = 'src';
 var testDir = 'test';
 
+var sourcemaproot = '/projects/nodejs/botbuilder/mgnlq_testmodel_replay/';
+
 gulp.task('watch', function () {
   gulp.watch([srcDir + '/**/*.js', testDir + '/**/*.js', srcDir + '/**/*.tsx', srcDir + '/**/*.ts', 'gulpfile.js'],
     ['tsc', 'eslint']);
 });
 
+
+var merge = require('merge-stream');
 /**
  * compile tsc (including srcmaps)
  * @input srcDir
- * @output genDir
+ * @output js
  */
 gulp.task('tsc', function () {
-  var tsProject = ts.createProject('tsconfig.json', { inlineSourceMap: true
-  });
+  var tsProject = ts.createProject('tsconfig.json', { declaration: true, sourceMap : false, inlineSourceMap: true });
   var tsResult = tsProject.src() // gulp.src('lib/*.ts')
     .pipe(sourcemaps.init()) // This means sourcemaps will be generated
     .pipe(tsProject());
-
-  return tsResult.js
+  return merge(tsResult, tsResult.js)
     .pipe(sourcemaps.write('.', {
       sourceRoot: function (file) {
-        file.sourceMap.sources[0] = '/projects/nodejs/botbuilder/mongoose_record_replay/src/' + file.sourceMap.sources[0];
+        file.sourceMap.sources[0] = sourcemaproot + 'src/' + file.sourceMap.sources[0];
         // console.log('here is************* file' + JSON.stringify(file, undefined, 2))
         return 'ABC';
       },
       mapSources: function (src) {
         //console.log('here we remap' + src);
-        return src; // '/projects/nodejs/botbuilder/mgnlq_model/' + src;
+        return src;
       }}
     )) // ,  { sourceRoot: './' } ))
     // Now the sourcemaps are added to the .js file
     .pipe(gulp.dest('js'));
 });
 
+var del = require('del');
+
+gulp.task('clean:models', function () {
+  return del([
+    'test/data/mongoose_record_replay/testmodel/data/*',
+    'test/data/mongoose_record_replay/testmodel/queries.json',
+    'sensitive/_cachefalse.js.zip',
+    'testmodel2/_cachefalse.js.zip',
+    'testmodel/_cachefalse.js.zip',
+    'sensitive/_cachetrue.js.zip',
+    'testmodel2/_cachetrue.js.zip',
+    'testmodel/_cachetrue.js.zip',
+  // here we use a globbing pattern to match everything inside the `mobile` folder
+  //  'dist/mobile/**/*',
+  // we don't want to clean this file though so we negate the pattern
+  //    '!dist/mobile/deploy.json'
+  ],  { });
+});
+
+gulp.task('clean_testmodel_cache', function () {
+  return del([
+    '../mgnlq_testmodel_replay/mgrecrep/data/*',
+    '../mgnlq_testmodel_replay/testmodel/_cache.js.zip',
+    '../mgnlq_testmodel/testmodel/_cache.js.zip'
+  // here we use a globbing pattern to match everything inside the `mobile` folder
+  //  'dist/mobile/**/*',
+  // we don't want to clean this file though so we negate the pattern
+  //    '!dist/mobile/deploy.json'
+  ],{ force : true});
+});
+
+
+gulp.task('clean', gulp.series('clean:models'));
 
 
 var nodeunit = require('gulp-nodeunit');

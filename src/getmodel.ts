@@ -26,7 +26,7 @@ var mongooseMock = mongoose_record_replay.instrumentMongoose(mongoose,
 
 var aPromise = undefined;
 
-function loadModel() {
+function loadModel() : Promise<IFModel.IModels> {
   return Model.loadModelsOpeningConnection(mongooseMock, Constants.MONGO_DBURL, Constants.MODEL_PATH);
 }
 /**
