@@ -1,9 +1,9 @@
 {
   "name": "mgnlq_testmodel_replay",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "sample mongoose mock data replay",
   "main": "js/index.js",
-  "typings": "js/index",
+  "typings": "js/index,d.ts",
   "scripts": {
     "build": "gulp && tsc",
     "test": "gulp test",
@@ -16,6 +16,7 @@
     "url": "git+https://github.com/jfseb/mgnlq_testmodel_replay.git"
   },
   "keywords": [
+    "mgnlq",
     "mongoose_record_replay",
     "mgnlq_testmodel"
   ],
