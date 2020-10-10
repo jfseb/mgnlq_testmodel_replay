@@ -4,9 +4,9 @@
 var TMRep = require('../js/getmodel.js');
 var Model = require('mgnlq_model').Model;
 
-exports.testgetModel = function(test) {
+it('testgetModel', done => {
   TMRep.getTestModel().then( theModel => {
-    test.deepEqual(theModel.domains, [ 'Cosmos',
+    expect(theModel.domains).toEqual([ 'Cosmos',
       'demomdls',
       'FioriBOM',
       'Fiori Backend Catalogs',
@@ -16,7 +16,7 @@ exports.testgetModel = function(test) {
       'SAP Transaction Codes',
       'SOBJ Tables' ]);
 
-    test.done();
+    done();
     Model.releaseModel(theModel);
   });
-};
+});

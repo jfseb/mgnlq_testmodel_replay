@@ -6,7 +6,6 @@ import * as Constants from './constants';
 import { Model as Model, IFModel as IFModel } from 'mgnlq_model';
 
 var mode = 'REPLAY';
-// MGNLQ_TESTMODEL2_REPLAY
 if (process.env[Constants.ENV_NAME_MONGO_RECORD_REPLAY] === "RECORD") {
   mode = 'RECORD';
 } else if (process.env[Constants.ENV_NAME_MONGO_RECORD_REPLAY] === "OFF") {
@@ -18,7 +17,7 @@ if (process.env[Constants.ENV_NAME_MONGO_RECORD_REPLAY] === "RECORD") {
   throw new Error(`illegal value ${process.env[Constants.ENV_NAME_MONGO_RECORD_REPLAY]}  for ${ Constants.ENV_NAME_MONGO_RECORD_REPLAY }, epxected one of "REPLAY", "RECORD", "OFF" or not set`);
 }
 
-var mypath = Constants.MONGOOSE_RECORD_REPLAY_FOLDER; // require().resolve('mgnlq_testmodel_replay');
+var mypath = Constants.MONGOOSE_RECORD_REPLAY_FOLDER;
 
 var mongooseMock = mongoose_record_replay.instrumentMongoose(mongoose,
   mypath, // 'node_modules/mgnlq_testmodel_replay/mgrecrep/',
